@@ -11,7 +11,7 @@ def hello_world(name='New Student'):
     Prints Hello World with a default name
     or with a name passed to the function.
     """
-    print(f"{name.title()}, Hello World from Python!")
+    print(f"{name.title()}, Hello World from ITP-150!")
 
 
 hello_world("jackie")
