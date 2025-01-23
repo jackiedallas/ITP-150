@@ -13,7 +13,7 @@ income = float(input("How much money do you want to make annually?\n"))
 
 # print the information
 print(f"""
-Name: {name}\n
+Name: {name.title()}\n
 Age: {age}\n
 Desired Income: ${income.__format__(',.2f')}
 """)
