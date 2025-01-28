@@ -6,7 +6,8 @@ then display it to the user.
 """
 
 # Get number of seconds from user
-total_seconds = float(input("Enter a number of seconds: "))
+# print("\n")
+total_seconds = float(input("\nEnter a number of seconds: "))
 
 # Get the number of hours
 hours = total_seconds // 3600
@@ -17,6 +18,7 @@ minutes = (total_seconds // 60) % 60
 # Get the number of remaining minutes
 seconds = total_seconds % 60
 
-print(f"Hours: {hours}")
+# Display the results
+print(f"\nHours: {hours}")
 print(f"Minutes: {minutes}")
-print(f"Seconds: {seconds}")
+print(f"Seconds: {seconds}\n")
