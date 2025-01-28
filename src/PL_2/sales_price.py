@@ -14,4 +14,5 @@ discount_amount = regular_price * discount_percent / 100
 sale_price = regular_price - discount_amount
 print(f"\nRegular price: {regular_price.__format__(',.2f')}")
 print(f"Discount Amount: {discount_amount.__format__(',.2f')}")
-print(f"Sale Price: {sale_price.__format__(',.2f')}")
+print(f"Sale Price: ${sale_price.__format__(',.2f')}", end=', ')
+print("Thank you for your business!")
