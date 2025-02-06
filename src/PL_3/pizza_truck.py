@@ -51,14 +51,18 @@ match pizza_type:
                 price = quantity * l_pie
 
 if age >= 62:
-    price = price - (price * .10)
+    age_discount = price * .10
     print("Hurray! You qualify for a senior citizen discount of 10%!")
+else:
+    age_discount = 0
 
-
+price_after_discount = price - age_discount
 print(f"""
 Receipt:
     Size - {pizza_size}
     Type - {pizza_type.title()}
     Quantity - {quantity}
-    Price - ${price.__format__('.2f')}
+    Age: - {age}
+    Price Before Discount: - ${price.__format__('.2f')}
+    Price After Discount:  - ${price_after_discount.__format__('.2f')}
 """)
