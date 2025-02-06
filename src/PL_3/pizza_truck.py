@@ -31,7 +31,7 @@ quantity = int(
     input("Please enter the quantity (1 for pie, 1-8 for slices.): "))
 age = int(input("Please enter your age: "))
 
-# set the price using a nested switch cases 
+# set the price using a nested switch cases
 match pizza_type:
     case 'slice':
         match pizza_size:
