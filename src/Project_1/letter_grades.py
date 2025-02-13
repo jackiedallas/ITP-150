@@ -1,4 +1,6 @@
 """
+letter_grades.py
+@author: Jackie Johnson-Dallas
 This script will create average grade for a student after entering a desired
 amount of grades.
 """
