@@ -12,7 +12,7 @@ class ClassAverage:
         self.assignments = assignments
 
     def _convert_to_letter(self, grade):
-        """Convert to letter grade"""
+        """Helper method to convert to letter grade"""
 
         if grade >= 90:
             return 'A'
