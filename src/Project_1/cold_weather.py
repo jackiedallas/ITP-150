@@ -1,6 +1,6 @@
 """
 cold_weather.py
-@auhthor: Jackie Johnson
+@author: Jackie Johnson-Dallas
 """
 
 
@@ -17,11 +17,36 @@ class WeatherReport:
 
     def get_wind_chill(self):
         """method to get the wind chill"""
-        wind_chill = 35.74 + (0.6215 * self.air_temp) - \
+        return 35.74 + (0.6215 * self.air_temp) - \
             (35.75 * (self.wind_speed**0.16)) + \
             ((0.4275 * self.air_temp) * (self.wind_speed**0.16))
-        formatted_wind_chill = float(wind_chill).__format__('.2f')
+
+    def format_wind_chill(self):
+        formatted_wind_chill = float(self.get_wind_chill()).__format__('.2f')
         return f"{formatted_wind_chill}°F"
+
+    def get_advisory(self):
+        """Issue an advisory based on wind chill and air temperature."""
+        if self.region == 'e':
+            if (self.air_temp <= 0
+                    and self.air_temp >= -9) or \
+                    (float(self.get_wind_chill()) <= 0
+                        and float(self.get_wind_chill()) >= -9):
+                return "Cold Weather Advisory Issued East of Blue Ridge"
+            elif self.air_temp < -10 or float(self.get_wind_chill()) < -10:
+                return "Extreme Cold Weather Advisory Issued East of Blue Ridge"
+            else:
+                return "No Advisory Issued"
+        if self.region == 'w':
+            if (self.air_temp <= -10
+                and self.air_temp >= -19) or \
+                (float(self.get_wind_chill()) <= -10
+                    and float(self.get_wind_chill()) > -19):
+                return "Cold Weather Advisory Issued West of Blue Ridge"
+            elif self.air_temp < -20 or float(self.get_wind_chill()) < -20:
+                return "Extreme Cold Weather Advisory Issued West of Blue Ridge"
+            else:
+                return "No Advisory Issued"
 
 
 report_prompt = "Please enter a number of reports: "
@@ -115,4 +140,11 @@ if valid_reports:
 
 
 for key, instance in instances.items():
-    print(f"{key} Wind Chill: {instance.get_wind_chill()}")
+    report = textwrap.dedent(f"""
+                    {key}\n
+    {instance.get_advisory()}
+    Temperature: {instance.air_temp}°F
+    Wind Speed: {instance.wind_speed} MPH
+    Wind Chill: {instance.format_wind_chill()}
+    """)
+    print(report)
