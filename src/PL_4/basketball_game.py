@@ -42,7 +42,8 @@ class BasketballGame:
 
         for quarter in range(1, 5):
             print('-' * 28, f'Quarter {quarter}', '-' * 28)
-            print(f'{" "}{self.player1.name.title():^30}{self.player2.name.title():^40}')
+            print(
+                f'{" "}{self.player1.name.title():^30}{self.player2.name.title():^40}')
 
             # processing for the quarters are below
             print(f'{"Shot #":8s}{"Shot":15s}{"Score":15s}{"Shot":15s}{"Score":15s}')
@@ -54,7 +55,8 @@ class BasketballGame:
                 self.counter += 1
                 player1_shot, player1_score = self.player1.player_shot()
                 player2_shot, player2_score = self.player2.player_shot()
-                print(f'{self.counter:<8d}{player1_shot:<15s}{player1_score:<15d}{player2_shot:<15s}{player2_score:<15d}')
+                print(
+                    f'{self.counter:<8d}{player1_shot:<15s}{player1_score:<15d}{player2_shot:<15s}{player2_score:<15d}')
 
         self.display_winner()
 

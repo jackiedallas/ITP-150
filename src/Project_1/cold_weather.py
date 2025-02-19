@@ -34,19 +34,25 @@ class WeatherReport:
                         and float(self.get_wind_chill()) >= -9):
                 return "Cold Weather Advisory Issued East of Blue Ridge"
             elif self.air_temp < -10 or float(self.get_wind_chill()) < -10:
-                return "Extreme Cold Weather Advisory Issued East of Blue Ridge"
+                return textwrap.dedent("""
+                    Extreme Cold Weather Advisory Issued East of Blue Ridge
+                    """)
             else:
-                return "No Advisory Issued"
+                return "No Cold Weather Advisory or Extreme Weather Warning"
         if self.region == 'w':
             if (self.air_temp <= -10
                 and self.air_temp >= -19) or \
                 (float(self.get_wind_chill()) <= -10
                     and float(self.get_wind_chill()) > -19):
-                return "Cold Weather Advisory Issued West of Blue Ridge"
+                return textwrap.dedent("""
+                    Cold Weather Advisory Issued Blue Ridge and West
+                    """)
             elif self.air_temp < -20 or float(self.get_wind_chill()) < -20:
-                return "Extreme Cold Weather Advisory Issued West of Blue Ridge"
+                return textwrap.dedent("""
+                    Extreme Cold Weather Advisory Issued Blue Ridge and West
+                    """)
             else:
-                return "No Advisory Issued"
+                return "No Cold Weather Advisory or Extreme Weather Warning"
 
 
 report_prompt = "Please enter a number of reports: "
