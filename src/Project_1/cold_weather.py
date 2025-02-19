@@ -34,9 +34,7 @@ class WeatherReport:
                         and float(self.get_wind_chill()) >= -9):
                 return "Cold Weather Advisory Issued East of Blue Ridge"
             elif self.air_temp < -10 or float(self.get_wind_chill()) < -10:
-                return textwrap.dedent("""
-                    Extreme Cold Weather Advisory Issued East of Blue Ridge
-                    """)
+                return "Extreme Cold Weather Advisory Issued East of Blue Ridge"
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
         if self.region == 'w':
@@ -44,13 +42,9 @@ class WeatherReport:
                 and self.air_temp >= -19) or \
                 (float(self.get_wind_chill()) <= -10
                     and float(self.get_wind_chill()) > -19):
-                return textwrap.dedent("""
-                    Cold Weather Advisory Issued Blue Ridge and West
-                    """)
+                return "Cold Weather Advisory Issued Blue Ridge and West"
             elif self.air_temp < -20 or float(self.get_wind_chill()) < -20:
-                return textwrap.dedent("""
-                    Extreme Cold Weather Advisory Issued Blue Ridge and West
-                    """)
+                return "Extreme Cold Weather Advisory Issued Blue Ridge and West"
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
 
@@ -146,8 +140,10 @@ if valid_reports:
 
 
 for key, instance in instances.items():
+    report_name = key[:14]
+    report_id = key[15:]
     report = textwrap.dedent(f"""
-                    {key}\n
+    {report_name:^10}{report_id:^10}
     {instance.get_advisory()}
     Temperature: {instance.air_temp}°F
     Wind Speed: {instance.wind_speed} MPH
