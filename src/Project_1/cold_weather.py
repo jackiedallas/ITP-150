@@ -152,8 +152,24 @@ if valid_reports:
             # check if all info is valid
             if valid_region and valid_air_temp and valid_reports and valid_ws:
                 valid_info = True
-                instances[f'Weather Report {i+1}'] = WeatherReport(
+                report_key = f"Weather Report {i+1}"
+                instances[report_key] = WeatherReport(
                     air_temp, wind_speed, region)
+
+                # print current report only
+                instance = instances[report_key]
+                width = 39
+                id_width = 40
+                report_name = report_key[:14]
+                report_id = report_key[15:]
+                report = textwrap.dedent(f"""
+                {report_name:<{width}}{report_id:>{id_width}}
+                {instance.get_advisory()}
+                {'Temperature':<{width}} {instance.format_air_temp():>{width}}
+                {'Wind Speed':<{width}} {instance.format_wind_speed():>{width}}
+                {'Wind Chill':<{width}} {instance.format_wind_chill():>{width}}
+                """)
+                print(report)
 
             else:
                 if not valid_region:
@@ -162,18 +178,3 @@ if valid_reports:
                     print("Air Temperature wasn't valid must be 50°F or less.")
                 if not valid_ws:
                     print("Wind Speed wasn't valid, must be 3 mph or more.")
-
-
-for key, instance in instances.items():
-    width = 39
-    id_width = 40
-    report_name = key[:14]
-    report_id = key[15:]
-    report = textwrap.dedent(f"""
-    {report_name:<{width}}{report_id:>{id_width}}
-    {instance.get_advisory()}
-    {'Temperature':<{width}} {instance.format_air_temp():>{width}}
-    {'Wind Speed':<{width}} {instance.format_wind_speed():>{width}}
-    {'Wind Chill':<{width}} {instance.format_wind_chill():>{width}}
-    """)
-    print(report)
