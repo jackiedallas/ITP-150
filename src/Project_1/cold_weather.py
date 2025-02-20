@@ -45,10 +45,10 @@ class WeatherReport:
         width = 50
         x_width = 42
         if self.region == 'e':
-            if (self.air_temp <= 0
-                    and self.air_temp >= -9) or \
-                    (float(self.get_wind_chill()) <= 0
-                        and float(self.get_wind_chill()) >= -9):
+            if (self.air_temp < 0
+                    and self.air_temp > -9) or \
+                    (float(self.get_wind_chill()) < 0
+                        and float(self.get_wind_chill()) > -9):
                 section_1 = cold_eb[:29]
                 section_2 = cold_eb[29:]
                 return f"{section_1}{section_2:>{width}}"
@@ -59,9 +59,9 @@ class WeatherReport:
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
         if self.region == 'w':
-            if (self.air_temp <= -10
-                and self.air_temp >= -19) or \
-                (float(self.get_wind_chill()) <= -10
+            if (self.air_temp < -10
+                and self.air_temp > -19) or \
+                (float(self.get_wind_chill()) < -10
                     and float(self.get_wind_chill()) > -19):
                 section_1 = cold_bw[:29]
                 section_2 = cold_bw[29:]
@@ -173,10 +173,10 @@ if valid_reports:
             # get width of report to create border
             report_lines = report.split("\n")
             max_length = max(len(line) for line in report_lines)
-            border = "*" * (max_length + 4)
+            border = "*" * (max_length)
 
             # print bordered report
             print(border)
             for line in report_lines:
-                print(f"* {line.ljust(max_length)} *")
+                print(f"{line.ljust(max_length)}")
             print(border)
