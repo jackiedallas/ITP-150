@@ -69,7 +69,7 @@ class WeatherReport:
             elif self.air_temp < -20 or float(self.get_wind_chill()) < -20:
                 section_1 = xcold_bw[:37]
                 section_2 = xcold_bw[37:]
-                return f"{section_1}{section_2:>{width}}"
+                return f"{section_1}{section_2:>{x_width}}"
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
 
@@ -81,19 +81,16 @@ report_prompt = "Please enter a number of reports: "
 valid_reports = False
 while not valid_reports:
 
-    reports = int(input(report_prompt))
-    report_check = False
+    try:
+        reports = int(input(report_prompt))
+        if reports > 0:
+            valid_reports = True
+        else:
+            print("Number of reports must be greater than zero.")
 
-    if reports > 0:
-        report_check = True
-    else:
-        report_check = False
+    except ValueError:
+        print("❌ Invalid input! You must enter an integer.")
 
-    if report_check:
-        valid_reports = True
-    else:
-        if not report_check:
-            print("Number of reports must be greater than 0.")
 
 # if the reports are valid use a for loop to create as many objects as reports
 if valid_reports:
@@ -110,71 +107,76 @@ if valid_reports:
         W for West of the Blue Ridge Mountains:\n
         """)
         air_temp_prompt = textwrap.dedent(f"""
-        Please enter the air temperature for Report {i+1}, 50 or less:\n
+        Please enter the air temperature for Report {i+1}, 50 or less:
         """)
         wind_speed_prompt = textwrap.dedent(f"""
-        Please enter the wind speed for Report {i+1}, should be at least 3:\n
+        Please enter the wind speed for Report {i+1}, should be at least 3:
         """)
 
         # create while loop to make sure information entered is valid
         valid_info = False
         while not valid_info:
+            # Initialize variables
+            air_temp = None
+            wind_speed = None
+            region = None
 
-            # call input function with prompts
-            air_temp = int(input(air_temp_prompt))
-            wind_speed = int(input(wind_speed_prompt))
-            region = input(region_prompt).lower()
+            # Validate air temperature
+            while air_temp is None:
+                try:
+                    air_temp = int(input(air_temp_prompt))
+                    if air_temp > 50:
+                        print("Air Temperature must be 50°F or less.")
+                        air_temp = None  # Reset to force prompt again
+                except ValueError:
+                    print("❌ Invalid input! "
+                          "Please enter an integer for air temperature.")
 
-            # flags for validating information entered
-            valid_air_temp = False
-            valid_ws = False
-            # valid_reports = False
-            valid_region = False
+            # Validate wind speed
+            while wind_speed is None:
+                try:
+                    wind_speed = int(input(wind_speed_prompt))
+                    if wind_speed < 3:
+                        print("Wind Speed must be at least 3 mph.")
+                        wind_speed = None  # Reset to force prompt again
+                except ValueError:
+                    print("❌ Invalid input! "
+                          "Please enter an integer for wind speed.")
 
-            # check for valid air temperature
-            if air_temp <= 50:
-                valid_air_temp = True
-            else:
-                valid_air_temp = False
+            # Validate region
+            while region is None:
+                region_input = input(region_prompt).strip().lower()
+                if region_input in ('e', 'w'):
+                    region = region_input
+                else:
+                    print("❌ Region must be 'E' or 'W'.")
 
-            # check for valid wind speed
-            if wind_speed >= 3:
-                valid_ws = True
-            else:
-                valid_ws = False
+            # All inputs are now valid
+            valid_info = True
+            report_key = f"Weather Report {i+1}"
+            instances[report_key] = WeatherReport(air_temp, wind_speed, region)
 
-            # check for valid region
-            if region == 'e' or region == 'w':
-                valid_region = True
-            else:
-                valid_region = False
-
-            # check if all info is valid
-            if valid_region and valid_air_temp and valid_reports and valid_ws:
-                valid_info = True
-                report_key = f"Weather Report {i+1}"
-                instances[report_key] = WeatherReport(
-                    air_temp, wind_speed, region)
-
-                # print current report only
-                instance = instances[report_key]
-                width = 39
-                id_width = 40
-                report_name = report_key[:14]
-                report_id = report_key[15:]
-                report = textwrap.dedent(f"""
+            # store current report information in an instance
+            instance = instances[report_key]
+            width = 39
+            id_width = 40
+            report_name = report_key[:14]
+            report_id = report_key[15:]
+            report = textwrap.dedent(f"""
                 {report_name:<{width}}{report_id:>{id_width}}
                 {instance.get_advisory()}
                 {'Temperature':<{width}} {instance.format_air_temp():>{width}}
                 {'Wind Speed':<{width}} {instance.format_wind_speed():>{width}}
                 {'Wind Chill':<{width}} {instance.format_wind_chill():>{width}}
-                """)
-                print(report)
+            """).strip()
 
-            else:
-                if not valid_region:
-                    print("Region entered wasn't valid, must be 'E' or 'W'")
-                if not valid_air_temp:
-                    print("Air Temperature wasn't valid must be 50°F or less.")
-                if not valid_ws:
-                    print("Wind Speed wasn't valid, must be 3 mph or more.")
+            # get width of report to create border
+            report_lines = report.split("\n")
+            max_length = max(len(line) for line in report_lines)
+            border = "*" * (max_length + 4)
+
+            # print bordered report
+            print(border)
+            for line in report_lines:
+                print(f"* {line.ljust(max_length)} *")
+            print(border)
