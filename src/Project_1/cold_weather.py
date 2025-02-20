@@ -22,19 +22,38 @@ class WeatherReport:
             ((0.4275 * self.air_temp) * (self.wind_speed**0.16))
 
     def format_wind_chill(self):
-        formatted_wind_chill = float(self.get_wind_chill()).__format__('.2f')
+        """method to format wind chill"""
+        formatted_wind_chill = float(self.get_wind_chill()).__format__('.1f')
         return f"{formatted_wind_chill}°F"
+
+    def format_air_temp(self):
+        """method to format air temperature"""
+        formatted_air_temp = float(self.air_temp).__format__('.1f')
+        return f"{formatted_air_temp}°F"
+
+    def format_wind_speed(self):
+        """method to format wind speed"""
+        formatted_wind_speed = float(self.wind_speed).__format__('.1f')
+        return f"{formatted_wind_speed} mph"
 
     def get_advisory(self):
         """Issue an advisory based on wind chill and air temperature."""
+        cold_eb = "Cold Weather Advisory Issued East of Blue Ridge"
+        xcold_eb = "Extreme Cold Weather Advisory Issued East of Blue Ridge"
+        cold_bw = "Cold Weather Advisory Issued Blue Ridge and West"
+        xcold_bw = "Extreme Cold Weather Advisory Issued Blue Ridge and West"
         if self.region == 'e':
             if (self.air_temp <= 0
                     and self.air_temp >= -9) or \
                     (float(self.get_wind_chill()) <= 0
                         and float(self.get_wind_chill()) >= -9):
-                return "Cold Weather Advisory Issued East of Blue Ridge"
+                section_1 = cold_eb[:29]
+                section_2 = cold_eb[29:]
+                return f"{section_1}{section_2:^60}"
             elif self.air_temp < -10 or float(self.get_wind_chill()) < -10:
-                return "Extreme Cold Weather Advisory Issued East of Blue Ridge"
+                section_1 = xcold_eb[:37]
+                section_2 = xcold_eb[37:]
+                return f"{section_1}{section_2:^50}"
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
         if self.region == 'w':
@@ -42,9 +61,13 @@ class WeatherReport:
                 and self.air_temp >= -19) or \
                 (float(self.get_wind_chill()) <= -10
                     and float(self.get_wind_chill()) > -19):
-                return "Cold Weather Advisory Issued Blue Ridge and West"
+                section_1 = cold_bw[:29]
+                section_2 = cold_bw[29:]
+                return f"{section_1}{section_2:^60}"
             elif self.air_temp < -20 or float(self.get_wind_chill()) < -20:
-                return "Extreme Cold Weather Advisory Issued Blue Ridge and West"
+                section_1 = xcold_bw[:37]
+                section_2 = xcold_bw[37:]
+                return f"{section_1}{section_2:^50}"
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
 
@@ -143,10 +166,10 @@ for key, instance in instances.items():
     report_name = key[:14]
     report_id = key[15:]
     report = textwrap.dedent(f"""
-    {report_name:^10}{report_id:^10}
+    {report_name:^10}{report_id:^105}
     {instance.get_advisory()}
-    Temperature: {instance.air_temp}°F
-    Wind Speed: {instance.wind_speed} MPH
-    Wind Chill: {instance.format_wind_chill()}
+    Temperature: {instance.format_air_temp():^105}
+    Wind Speed: {instance.format_wind_speed():^105}
+    Wind Chill: {instance.format_wind_chill():^105}
     """)
     print(report)
