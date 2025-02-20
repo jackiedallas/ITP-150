@@ -42,6 +42,8 @@ class WeatherReport:
         xcold_eb = "Extreme Cold Weather Advisory Issued East of Blue Ridge"
         cold_bw = "Cold Weather Advisory Issued Blue Ridge and West"
         xcold_bw = "Extreme Cold Weather Advisory Issued Blue Ridge and West"
+        width = 50
+        x_width = 42
         if self.region == 'e':
             if (self.air_temp <= 0
                     and self.air_temp >= -9) or \
@@ -49,11 +51,11 @@ class WeatherReport:
                         and float(self.get_wind_chill()) >= -9):
                 section_1 = cold_eb[:29]
                 section_2 = cold_eb[29:]
-                return f"{section_1}{section_2:^60}"
+                return f"{section_1}{section_2:>{width}}"
             elif self.air_temp < -10 or float(self.get_wind_chill()) < -10:
                 section_1 = xcold_eb[:37]
                 section_2 = xcold_eb[37:]
-                return f"{section_1}{section_2:^50}"
+                return f"{section_1}{section_2:>{x_width}}"
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
         if self.region == 'w':
@@ -63,11 +65,11 @@ class WeatherReport:
                     and float(self.get_wind_chill()) > -19):
                 section_1 = cold_bw[:29]
                 section_2 = cold_bw[29:]
-                return f"{section_1}{section_2:^60}"
+                return f"{section_1}{section_2:>{width}}"
             elif self.air_temp < -20 or float(self.get_wind_chill()) < -20:
                 section_1 = xcold_bw[:37]
                 section_2 = xcold_bw[37:]
-                return f"{section_1}{section_2:^50}"
+                return f"{section_1}{section_2:>{width}}"
             else:
                 return "No Cold Weather Advisory or Extreme Weather Warning"
 
@@ -163,13 +165,15 @@ if valid_reports:
 
 
 for key, instance in instances.items():
+    width = 39
+    id_width = 40
     report_name = key[:14]
     report_id = key[15:]
     report = textwrap.dedent(f"""
-    {report_name:^10}{report_id:^105}
+    {report_name:<{width}}{report_id:>{id_width}}
     {instance.get_advisory()}
-    Temperature: {instance.format_air_temp():^105}
-    Wind Speed: {instance.format_wind_speed():^105}
-    Wind Chill: {instance.format_wind_chill():^105}
+    {'Temperature':<{width}} {instance.format_air_temp():>{width}}
+    {'Wind Speed':<{width}} {instance.format_wind_speed():>{width}}
+    {'Wind Chill':<{width}} {instance.format_wind_chill():>{width}}
     """)
     print(report)
