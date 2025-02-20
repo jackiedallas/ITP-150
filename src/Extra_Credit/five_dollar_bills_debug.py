@@ -75,7 +75,7 @@ while counter <= tries:
     amount = int(input())
     if amount % 5 == 0:
         amount_of_bills = int(amount / 5)
-        print(f"You can have {amount_of_bills} $5 dollar bill(s)!")
+        print(f"You can have ({amount_of_bills}) $5 dollar bill(s)!")
         print("Thanks for making change!")
         break
     else:
