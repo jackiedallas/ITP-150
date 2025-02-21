@@ -13,6 +13,8 @@ weight, and shipping cost for each package processed within the loop.
 """
 
 import textwrap
+
+# import regex library
 import re
 
 # store shipping prompt in variable
@@ -54,7 +56,7 @@ if valid_packages:
 
                 try:
                     package_num = input(package_num_prompt)
-                    pattern = r"^[A-Za-z]\d*$"
+                    pattern = r"^[A-Za-z]\d*$" # Regex pattern
                     if not bool(re.match(pattern, package_num)):
                         print("Package number not valid (ex. A1, B2)")
                         package_num = None
@@ -76,7 +78,6 @@ if valid_packages:
             if valid_info:
 
                 # use match case for each weight condition
-                # w = package_weight
                 match package_weight:
                     case w if w >= 0 and w <= 15:
                         shipping_cost = 10.00
