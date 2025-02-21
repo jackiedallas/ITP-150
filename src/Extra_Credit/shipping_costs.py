@@ -76,6 +76,7 @@ if valid_packages:
             if valid_info:
 
                 # use match case for each weight condition
+                # w = package_weight
                 match package_weight:
                     case w if w >= 0 and w <= 15:
                         shipping_cost = 10.00
@@ -87,7 +88,8 @@ if valid_packages:
                         shipping_cost = w * 1.00
 
                 report = textwrap.dedent(f"""
+                Package Number: {package_num.upper()}
                 Shipping Weight: {package_weight.__format__('.1f')}
-                Shipping Cost: {shipping_cost.__format__('.1')}
+                Shipping Cost: ${float(shipping_cost).__format__('.2f')}
                 """)
                 print(report)
