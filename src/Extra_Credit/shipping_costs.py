@@ -12,7 +12,8 @@ weight as input. Validate the weight with a loop to ensure that it is at least
 weight, and shipping cost for each package processed within the loop.
 """
 
-# import textwrap
+import textwrap
+import re
 
 # store shipping prompt in variable
 shipping_prompt = "Please enter the number of packages you want to ship: "
@@ -31,5 +32,62 @@ while not valid_packages:
     except ValueError:
         print("Invalid input! You must enter an integer.")
 
+# check if package count entered was valid and start loop
 if valid_packages:
-    print("made it to valid packages.")
+
+    # create loop for total packages to ship
+    for i in range(packages):
+        print(f"Shipping Report {i+1}")
+        package_num_prompt = "Please enter the package number (ex. A1, B2): "
+        package_weight_prompt = "Please enter weight for Package: "
+
+        # create loop to validate inputs
+        valid_info = False
+        while not valid_info:
+
+            # initialize variables
+            package_num = None
+            package_weight = None
+
+            # validate package number
+            while package_num is None:
+
+                try:
+                    package_num = input(package_num_prompt)
+                    pattern = r"^[A-Za-z]\d*$"
+                    if not bool(re.match(pattern, package_num)):
+                        print("Package number not valid (ex. A1, B2)")
+                        package_num = None
+                except ValueError:
+                    print("Invalid input! Please enter a string.")
+
+            while package_weight is None:
+
+                try:
+                    package_weight = int(input(package_weight_prompt))
+                    if package_weight < 0:
+                        print("Package weight must be at least 0.")
+                        package_weight = None
+                except ValueError:
+                    print("Invalid input! Please enter an integer.")
+
+            # move to next step if all inputs are valid
+            valid_info = True
+            if valid_info:
+
+                # use match case for each weight condition
+                match package_weight:
+                    case w if w >= 0 and w <= 15:
+                        shipping_cost = 10.00
+                    case w if w >= 16 and w <= 35:
+                        shipping_cost = 35.00
+                    case w if w >= 36 and w <= 75:
+                        shipping_cost = 75.00
+                    case w if w > 75:
+                        shipping_cost = w * 1.00
+
+                report = textwrap.dedent(f"""
+                Shipping Weight: {package_weight.__format__('.1f')}
+                Shipping Cost: {shipping_cost.__format__('.1')}
+                """)
+                print(report)
