@@ -61,23 +61,24 @@ left before using up all attempts.
 
 
 tries = 3
-counter = 1 # reinitialized the counter to start at 1
+counter = 4
 
+      
+      
 print("This program will convert cups into gallons for a given amount of cups.")
 print("You are allowed 3 tries to enter an amount evenly divisible by 16")
 
-while counter <= tries: # while conditions were wrong, counter needs to be less than or equal to tries
+while tries < counter:
 
-    print(f"Attempt {counter}: Please enter cups to change into gallons:")
+    print("Attempt ", (counter - tries), ": Please enter cups to change into gallons:")
     print("As an example, for 32 cups, enter 32.")
-    cups = int(input())
-    if cups % 16 == 0: # operator was wrong, you have to use 2 equal signs to compare
-        gallons = cups / 16
-        print(f"{str(cups)} cups converts to {gallons.__format__('.1f')} gallons!") # the print statement was printing the conversion
+    cups = input
+    if cups % 16 = 0:
+        print((cups /16), " cups converts to ", (cups / 16),  " gallons!")
         break
-    else: # else statement was nested under the if statement making it fail
-        print(f"Invalid. {tries-counter} more attempt(s)!") # the attempts left counter was confusing. refactored.
-    print(str(cups) + " cups will not divide evenly into gallons.\n")
-    counter += 1 # tries was being incremented instead of the counter to end the loop after reach total attempts
+        else:
+            print("Invalid. ",  (tries - (counter - 1)), " more attempt(s)!")
+        print(cups " cups will not divide evenly into gallons.\n")
+        tries = tries + 1
 
     print("Thanks for converting cups to gallons.")
