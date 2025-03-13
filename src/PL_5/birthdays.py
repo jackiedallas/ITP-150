@@ -29,11 +29,31 @@ MENU = textwrap.dedent(f"""
 """)
 
 while choice != QUIT:
-    print("Friends and their Birthdays.")
+    print("\nFriends and their Birthdays.")
     print('-' * 28)
     print(MENU)
-    choice = int(input("\nPlease enter your choice from the menu above:\n"))
     
-    while choice < 1 or choice > 7:
-        choice = int(input("Invalid. Please enter a choice from 1 to 7:\n"))
+    # Keep prompting until a valid integer is entered
+    while True:
+        try:
+            choice = int(input("\nPlease enter your choice from the menu above: "))
+            if 1 <= choice <= 7:  # Ensuring choice is within the valid range
+                break
+            else:
+                print("Invalid choice. Please enter a number between 1 and 7.")
+        except ValueError:
+            print("Invalid input. Please enter an integer.")
+
+    if choice == LOOK_UP:
+        name = input("Enter a friend's name: ")
+        print(birthdays.get(name.lower(), 'Not found.'))
+    elif choice == ADD:
+        name = input("Enter a name: ")
+        birthday = input("Enter a birthday: ")
+        birthdays.update({name.lower(): birthday})
+    
+    elif choice == QUIT:
+        print("Thanks for using the birthday program, goodbye!")
+        break
+
 
