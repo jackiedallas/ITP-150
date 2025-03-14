@@ -15,9 +15,9 @@ def load_birthdays(file="birthdays_refactored.csv"):
     try:
         with open(file, "r", newline="") as f:
             reader = csv.reader(f)
-            next(reader, None)  # ✅ Skip the header row
+            next(reader, None)  #  Skip the header row
             return {row[0].lower(): datetime.strptime(row[1], "%B %d, %Y").strftime("%Y-%m-%d")
-                    for row in reader if len(row) == 2}  # ✅ Ensure valid rows
+                    for row in reader if len(row) == 2}  # Ensure valid rows
     except FileNotFoundError:
         return {}
 
@@ -26,7 +26,7 @@ def save_birthdays(birthdays, file="birthdays_refactored.csv"):
     """Saves the birthday dictionary to a CSV file."""
     with open(file, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["Name", "Birthday"])  # ✅ Ensure header is added
+        writer.writerow(["Name", "Birthday"])  # Ensure header is added
         writer.writerows([[name.title(), datetime.strptime(bd, "%Y-%m-%d").strftime("%B %d, %Y")]
                         for name, bd in birthdays.items()])
     print(f"Birthdays saved to {file}.")
@@ -70,7 +70,7 @@ def print_all_birthdays(birthdays):
 
 # Main program
 birthdays = load_birthdays()
-print("\n🎉 Welcome to the Birthday Manager! 🎉")
+print("\nWelcome to the Birthday Manager!")
 print("Keep track of your friends' birthdays with ease.\n")
 while (choice := input("\n1) Look Up  2) Add  3) Change  4) Delete  5) Print  6) Save  7) Print All  8) Quit\nChoice: ").strip()) != "8":
     match choice:
