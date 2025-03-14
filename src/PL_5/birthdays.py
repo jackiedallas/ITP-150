@@ -5,6 +5,8 @@ birthdays.py
 
 import csv
 import textwrap
+import re
+from datetime import datetime
 
 # constants that represent menu choices
 LOOK_UP = 1
@@ -28,29 +30,72 @@ MENU = textwrap.dedent(f"""
 7. Quit the program
 """)
 
+def get_valid_name(prompt="Enter a name: "):
+    while True:
+        user_input = input(prompt).strip()
+        if user_input.replace(" ", "").isalpha():
+            return user_input
+        print("Invalid input, please enter a name with letters only.")
+
+def get_valid_birthday(prompt="Enter birthday: "):
+    date_formats = [
+        "%m/%d/%Y",  # MM/DD/YYYY
+        "%d/%m/%Y",  # DD/MM/YYYY
+        "%Y-%m-%d",  # YYYY-MM-DD
+        "%B %d, %Y", # Month DD, YYYY (e.g., December 25, 1990)
+        "%b %d, %Y", # Abbreviated Month DD, YYYY (e.g., Dec 25, 1990)
+    ]
+    
+    while True:
+        user_input = input(prompt).strip()
+        for format in date_formats:
+            try:
+                valid_date = datetime.strptime(user_input, format)
+                return valid_date.strftime("%Y-%m-%d")
+            except ValueError:
+                continue
+        print("Invalid date format. Please enter a valid birthday in one of these formats:")
+        print("MM/DD/YYYY, DD/MM/YYYY, YYYY-MM-DD, Month DD, YYYY")
+
+def get_valid_integer(min=1, max=7, prompt="Please enter  your choice from the menu: "):
+    while True:
+        try:
+            choice = int(input(prompt))
+            if min <= choice <= max:
+                return choice  # Return valid input
+            else:
+                print(f"Invalid choice. Please enter a number between {min} and {max}.")
+        except ValueError:
+            print("Invalid input. Please enter an integer.")
+
+def add_birthday(name, birthday, dictionary):
+    dictionary.update({name: birthday})
+
+def print_birthday(name, dictionary):
+    if name.lower() in dictionary:
+        print(f"{name.title()}'s birthday is {dictionary[name]}.")
+
 while choice != QUIT:
     print("\nFriends and their Birthdays.")
     print('-' * 28)
     print(MENU)
     
-    # Keep prompting until a valid integer is entered
-    while True:
-        try:
-            choice = int(input("\nPlease enter your choice from the menu above: "))
-            if 1 <= choice <= 7:  # Ensuring choice is within the valid range
-                break
-            else:
-                print("Invalid choice. Please enter a number between 1 and 7.")
-        except ValueError:
-            print("Invalid input. Please enter an integer.")
+    choice = get_valid_integer()
 
     if choice == LOOK_UP:
-        name = input("Enter a friend's name: ")
+        name = get_valid_name()
         print(birthdays.get(name.lower(), 'Not found.'))
     elif choice == ADD:
-        name = input("Enter a name: ")
-        birthday = input("Enter a birthday: ")
-        birthdays.update({name.lower(): birthday})
+        add_birthday(get_valid_name().lower(), get_valid_birthday(), birthdays)
+    elif choice == CHANGE:
+        check_name = get_valid_name()
+        if check_name in birthdays:
+            add_birthday(check_name, get_valid_birthday(), birthdays)
+            print(f"{check_name.title()}'s new birthday is {birthdays[check_name]}.")
+            
+    elif choice == PRINT:
+        print_birthday(get_valid_name(), birthdays)    
+        
     
     elif choice == QUIT:
         print("Thanks for using the birthday program, goodbye!")
