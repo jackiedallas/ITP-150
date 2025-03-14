@@ -17,8 +17,8 @@ SAVE = 6
 PRINT_ALL = 7
 QUIT = 8
 
-choice = 0
-birthdays = {}  # Initializing empty birthday dictionary
+# Load existing birthdays at startup
+birthdays = {}
 
 MENU = textwrap.dedent("""
 1. Look up a birthday
@@ -37,7 +37,7 @@ def get_valid_name(prompt="Enter a name: "):
     while True:
         user_input = input(prompt).strip()
         if user_input.replace(" ", "").isalpha():
-            return user_input.lower()  # Standardized to lowercase for consistency
+            return user_input.lower()  # Standardized to lowercase
         print("Invalid input, please enter a name with letters only.")
 
 
@@ -77,8 +77,9 @@ def get_valid_integer(min_val=1, max_val=8, prompt="Please enter your choice fro
 
 
 def add_birthday(name, birthday, dictionary):
-    """Adds or updates a birthday in the dictionary."""
+    """Adds or updates a birthday in the dictionary and auto-saves."""
     dictionary[name] = birthday
+    save_birthdays(dictionary)
 
 
 def format_birthday(birthday):
@@ -108,63 +109,106 @@ def print_all_birthdays(dictionary):
         print(f"{name.title()}'s birthday is {format_birthday(birthday)}.")
 
 
-def save_birthdays(dictionary, file_name="birthdays.csv"):
-    """Saves the birthday dictionary to a CSV file."""
+def load_birthdays(file_name="birthdays.csv"):
+    """Loads birthdays from a CSV file into a dictionary at startup."""
+    birthdays = {}
+
     try:
-        with open(file_name, mode='w', newline="") as file:
+        with open(file_name, mode="r", newline="") as file:
+            reader = csv.reader(file)
+            next(reader, None)  # Skip header row if it exists
+
+            for row in reader:
+                if len(row) == 2:  # Ensure there are exactly two columns
+                    name = row[0].strip().lower()
+                    birthday = row[1].strip()
+
+                    # Convert back to YYYY-MM-DD
+                    try:
+                        parsed_date = datetime.strptime(birthday, "%B %d, %Y")
+                        birthdays[name] = parsed_date.strftime("%Y-%m-%d")
+                    except ValueError:
+                        print(f"Skipping invalid birthday format for {name.title()}: {birthday}")
+                else:
+                    print(f"Skipping malformed entry: {row}")
+
+        print(f"Loaded {len(birthdays)} birthdays from {file_name}.")
+    except FileNotFoundError:
+        print(f"No existing birthday file ({file_name}) found. Starting fresh.")
+    
+    return birthdays
+
+
+def save_birthdays(dictionary, file_name="birthdays.csv"):
+    """Saves the birthday dictionary to a CSV file without duplicates."""
+    
+    try:
+        with open(file_name, mode="w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Name", "Birthday"])
+            writer.writerow(["Name", "Birthday"])  # Write header
+
             for name, birthday in dictionary.items():
                 writer.writerow([name.title(), format_birthday(birthday)])
+
         print(f"Birthdays saved to {file_name}.")
     except Exception as e:
         print(f"Error saving file: {e}")
 
 
-while choice != QUIT:
-    print("\nFriends and Their Birthdays")
-    print('-' * 28)
-    print(MENU)
+# **Load birthdays at startup**
+birthdays = load_birthdays()
 
-    choice = get_valid_integer()
+try:
+    while True:
+        print("\nFriends and Their Birthdays")
+        print('-' * 28)
+        print(MENU)
 
-    if choice == LOOK_UP:
-        name = get_valid_name()
-        print_birthday(name, birthdays)
+        choice = get_valid_integer()
 
-    elif choice == ADD:
-        name = get_valid_name()
-        if name in birthdays:
-            print(f"{name.title()} already exists. Use the change option instead.")
-        else:
-            add_birthday(name, get_valid_birthday(), birthdays)
-            print(f"Added {name.title()}'s birthday.")
+        if choice == LOOK_UP:
+            name = get_valid_name()
+            print_birthday(name, birthdays)
 
-    elif choice == CHANGE:
-        name = get_valid_name(prompt="Enter the name you want to change: ")
-        if name in birthdays:
-            birthdays[name] = get_valid_birthday()
-            print(f"{name.title()}'s new birthday is {format_birthday(birthdays[name])}.")
-        else:
-            print(f"{name.title()} not found in the birthday list.")
+        elif choice == ADD:
+            name = get_valid_name()
+            if name in birthdays:
+                print(f"{name.title()} already exists. Use the change option instead.")
+            else:
+                add_birthday(name, get_valid_birthday(), birthdays)
 
-    elif choice == DELETE:
-        name = get_valid_name(prompt="Enter the name you want to delete: ")
-        if name in birthdays:
-            del birthdays[name]
-            print(f"{name.title()}'s birthday has been deleted.")
-        else:
-            print(f"{name.title()} not found in the birthday list.")
+        elif choice == CHANGE:
+            name = get_valid_name(prompt="Enter the name you want to change: ")
+            if name in birthdays:
+                birthdays[name] = get_valid_birthday()
+                save_birthdays(birthdays)
+            else:
+                print(f"{name.title()} not found in the birthday list.")
 
-    elif choice == PRINT:
-        print_birthday(get_valid_name(prompt="Enter the name you want to print: "), birthdays)
+        elif choice == DELETE:
+            name = get_valid_name(prompt="Enter the name you want to delete: ")
+            if name in birthdays:
+                del birthdays[name]
+                print(f"{name.title()} has been removed.")
+                save_birthdays(birthdays)
+            else:
+                print(f"{name.title()} not found in the birthday list.")
 
-    elif choice == SAVE:
-        save_birthdays(birthdays)
+        elif choice == PRINT:
+            print_birthday(get_valid_name(prompt="Enter the name you want to print: "), birthdays)
 
-    elif choice == PRINT_ALL:
-        print_all_birthdays(birthdays)
+        elif choice == SAVE:
+            save_birthdays(birthdays)
 
-    elif choice == QUIT:
-        print("Thanks for using the birthday program, goodbye!")
-        break
+        elif choice == PRINT_ALL:
+            print_all_birthdays(birthdays)
+
+        elif choice == QUIT:
+            print("Auto-Saving your birthdays!")
+            save_birthdays(birthdays)
+            print("Thanks for using the birthday program, goodbye!")
+            break
+finally:
+    print("\nAuto-saving birthdays before exiting...")
+    save_birthdays(birthdays)
+    print("All birthdays saved successfully!")
