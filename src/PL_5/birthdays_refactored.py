@@ -28,7 +28,7 @@ def save_birthdays(birthdays, file="birthdays_refactored.csv"):
         writer = csv.writer(f)
         writer.writerow(["Name", "Birthday"])  # ✅ Ensure header is added
         writer.writerows([[name.title(), datetime.strptime(bd, "%Y-%m-%d").strftime("%B %d, %Y")]
-                          for name, bd in birthdays.items()])
+                        for name, bd in birthdays.items()])
     print(f"Birthdays saved to {file}.")
 
 # Get valid input functions
@@ -72,7 +72,7 @@ def print_all_birthdays(birthdays):
 birthdays = load_birthdays()
 print("\n🎉 Welcome to the Birthday Manager! 🎉")
 print("Keep track of your friends' birthdays with ease.\n")
-while (choice := input("\n1.Look Up  2.Add  3.Change  4.Delete  5.Print  6.Save  7.Print All  8.Quit\nChoice: ").strip()) != "8":
+while (choice := input("\n1) Look Up  2) Add  3) Change  4) Delete  5) Print  6) Save  7) Print All  8) Quit\nChoice: ").strip()) != "8":
     match choice:
         case "1": print_birthday(get_valid_name(), birthdays)
         case "2": birthdays.setdefault(get_valid_name(), get_valid_birthday())
