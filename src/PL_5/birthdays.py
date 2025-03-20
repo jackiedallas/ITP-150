@@ -12,10 +12,11 @@ LOOK_UP = 1
 ADD = 2
 CHANGE = 3
 DELETE = 4
-PRINT = 5
-SAVE = 6
-PRINT_ALL = 7
-QUIT = 8
+DELETE_ALL = 5
+PRINT = 6
+SAVE = 7
+PRINT_ALL = 8
+QUIT = 9
 
 # Load existing birthdays at startup
 birthdays = {}
@@ -25,10 +26,11 @@ MENU = textwrap.dedent("""
 2. Add a new birthday
 3. Change a birthday
 4. Delete a birthday
-5. Print a birthday
-6. Save birthdays
-7. Print all birthdays
-8. Quit the program
+5. Delete all birthdays
+6. Print a birthday
+7. Save birthdays
+8. Print all birthdays
+9. Quit the program
 """)
 
 
@@ -63,7 +65,7 @@ def get_valid_birthday(prompt="Enter birthday: "):
         print("MM/DD/YYYY, DD/MM/YYYY, YYYY-MM-DD, Month DD, YYYY")
 
 
-def get_valid_integer(min_val=1, max_val=8, prompt="Please enter your choice from the menu: "):
+def get_valid_integer(min_val=1, max_val=9, prompt="Please enter your choice from the menu: "):
     """Ensures user input is a valid integer within a specified range."""
     while True:
         try:
@@ -154,6 +156,18 @@ def save_birthdays(dictionary, file_name="birthdays.csv"):
     except Exception as e:
         print(f"Error saving file: {e}")
 
+def delete_all(dictionary, file_name="birthdays.csv"):
+    """Deletes all birthdays from the dictionary and clears the CSV file."""
+    
+    if dictionary:
+        dictionary.clear()  #  Remove all entries
+        with open(file_name, mode="w", newline="") as file:
+            writer = csv.writer(file)
+            writer.writerow(["Name", "Birthday"])  #  Keep only the header row
+        
+        print("All birthdays have been deleted.")
+    else:
+        print("No birthdays to delete.")
 
 # **Load birthdays at startup**
 birthdays = load_birthdays()
@@ -194,6 +208,9 @@ try:
             else:
                 print(f"{name.title()} not found in the birthday list.")
 
+        elif choice == DELETE_ALL:
+            delete_all(birthdays)
+        
         elif choice == PRINT:
             print_birthday(get_valid_name(prompt="Enter the name you want to print: "), birthdays)
 
