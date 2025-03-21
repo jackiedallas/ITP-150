@@ -45,3 +45,10 @@ print('Contents of list1', list1)
 print('Object ID of list1', id(list1))
 
 print('\n')
+
+print('Task 7. Append an item to the list')
+list1.append(30)
+print('Contents of list1', list1)
+print('Object ID of list1', id(list1))
+
+print('\n')
