@@ -52,3 +52,18 @@ print('Contents of list1', list1)
 print('Object ID of list1', id(list1))
 
 print('\n')
+
+print('Task 8. Create a new tuple1 from the list1')
+tuple1 = tuple(list1)
+print('Contents of tuple1', tuple1)
+print('Object ID for tuple1', id(tuple1))
+
+print('\n')
+
+print('Task 9. Count the repeated items which 2.4 in tuple1')
+count_2point4 = tuple1.count(2.4)
+print('Count of repeated item 2.4 in tuple1:', count_2point4)
+
+print('\n')
+
+print('The object id shows what we mean by mutable aka changeable as compared to immutable aka unchangeable. Mutable data types or objects keep the object')
