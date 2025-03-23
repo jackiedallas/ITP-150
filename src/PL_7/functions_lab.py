@@ -27,4 +27,11 @@ def empty_function():
     """This function is empty but has this line of documentation."""
     pass # You can put in the keyword pass for an incomplete function
 empty_function()
-help(empty_function)
+# help(empty_function)
+
+print('\nTask 5. Positional Arguments require same qty of arguments and \
+    parameters in the same order representing the same data types.')
+def water(qty, h2o, price):
+    print(f'{qty} {h2o} cost ${price:.2f}')
+print('Call 1:')
+water(1, 'Smart Water', 2.69)
