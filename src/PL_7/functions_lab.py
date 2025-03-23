@@ -12,3 +12,10 @@ print(f'A random integer between 1 and 100 is {integer}.')
 print('\nTask 2. See the help.')
 print("If you want to see a function's documentation, enter help followed by the function name.")
 # help(random) # comment this out after running it the first time
+
+print('\nTask 3. Basic function without parameters and arguments.')
+def basic_function():
+    location = 'We are inside my basic function.'
+    print(location)
+
+print()
