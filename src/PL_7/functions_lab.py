@@ -18,4 +18,6 @@ def basic_function():
     location = 'We are inside my basic function.'
     print(location)
 
-print()
+print('Before calling basic_function.')
+basic_function()
+print('After calling basic_function.')
