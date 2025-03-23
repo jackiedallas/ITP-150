@@ -21,3 +21,10 @@ def basic_function():
 print('Before calling basic_function.')
 basic_function()
 print('After calling basic_function.')
+
+print('\nTask 4. Basic function that has a docstring & the keyword pass.')
+def empty_function():
+    """This function is empty but has this line of documentation."""
+    pass # You can put in the keyword pass for an incomplete function
+empty_function()
+help(empty_function)
