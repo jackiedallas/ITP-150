@@ -35,3 +35,5 @@ def water(qty, h2o, price):
     print(f'{qty} {h2o} cost ${price:.2f}')
 print('Call 1:')
 water(1, 'Smart Water', 2.69)
+print('Call 2 throws an error because we passed only 2 arguments.')
+# water(1, 'Dasani') # comment out after the first run
