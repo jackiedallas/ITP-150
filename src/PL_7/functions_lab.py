@@ -121,3 +121,38 @@ def avg_args(*args):
 
 print(avg_args(2, 4, 6, 8, 10))
 print(avg_args(1, 3, 5))
+
+print("\nTask 10. Argument Tuple Unpacking")
+print("This works with tuples, lists, and sets. Example is tuple.")
+
+
+def unpack_args(a, b, c):
+    print("a is ", a)
+    print("b is ", b)
+    print("c is ", c)
+
+
+stuff = (1, "Perrier", 5.00)
+print(type(stuff))
+unpack_args(*stuff)
+
+print("\nTask 11. Argument Tuple Packing and Unpacking.")
+print("This works with tuples, lists, and sets. Example is a tuple.")
+
+
+def packing(*args):
+    print(type(args), args)
+
+
+stuff = (1, "Perrier", 5.00)
+packing(*stuff)
+
+print('\nTask 12. Arbitrary Keyword Arguments, **kwargs"')
+print('If you do not know how many keyword arguments that will be passed into \
+your function, add two asterisk: ** before the parameter name in the \
+function definition.') 
+def pets_function(**pets): 
+    print("My dog's name is " + pets["dog"]) 
+    print("My cat's name is " + pets["cat"]) 
+
+pets_function(cat = "Miss Kitty", dog = "Buddy")
