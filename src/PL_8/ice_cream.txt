@@ -2,5 +2,3 @@ vanilla bean
 4
 mango sorbet
 5
-strawberry
-2
