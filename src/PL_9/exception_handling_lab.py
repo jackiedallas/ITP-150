@@ -18,24 +18,10 @@ def main():
             \nEnter 99 to Quit.'
     valid_choices = [1, 2, 3, 99]
     pop_list = []
-
-    # print('Task 1. Check if a file exists and process a file.')
     process_the_file()
-
-    # print('Task 2. Open and process a file with a context handler')
     pop_list = read_the_file(pop_list)
-    # print(pop_list)
-
-    # print('Task 3. Check input for ValueError in datatype and range')
     choice = input_menu_choice(menu_string, valid_choices, pop_list)
-    # print(choice)
 
-    # print('Task 4. Check for IndexError, raise TypeError, print the list.')
-    # display_list(pop_list)
-
-    # pop_list = []
-    # print('Task 5. Calculate an average. Check for ZeroDivisionError.')
-    # calc_average(pop_list)
 
 def process_the_file():
     found_file = False  # comment out to see unreachable code
@@ -61,6 +47,7 @@ def process_the_file():
         if found_file:
             file.close()
 
+
 def read_the_file(pop_list):
     try:
         # 1st run, IOError catch a FileNotFound by name to us_population_csv
@@ -81,6 +68,7 @@ def read_the_file(pop_list):
     except Exception:
         print('An error occurred.')
 
+
 def input_menu_choice(menu_string, valid_choices, pop_list):
     while True:
         # 1st run enter a to raise ValueError
@@ -94,9 +82,9 @@ def input_menu_choice(menu_string, valid_choices, pop_list):
             if choice in valid_choices:
                 # display_list(pop_list)
                 if choice == 1:
-                    display_list(pop_list) # type: ignore
+                    display_list(pop_list)  # type: ignore
                 elif choice == 2:
-                    calc_average(pop_list) # type: ignore
+                    calc_average(pop_list)  # type: ignore
                 elif choice == 3:
                     print('Saving the statistics.')
                 elif choice == 99:
@@ -108,6 +96,7 @@ def input_menu_choice(menu_string, valid_choices, pop_list):
             print('Invalid value. Please enter 1, 2, 3, or 99: \U0001F600')
         except Exception as err:  # throws on anything else
             print('Error on input. Please try again.', err)
+
 
 def display_list(pop_list):
     # run 1. normal
@@ -125,6 +114,7 @@ def display_list(pop_list):
     except Exception as err:
         print('An error occurred.', err)
 
+
 def calc_average(pop_list):
     sum_pop = 0
     try:
@@ -133,8 +123,10 @@ def calc_average(pop_list):
         # 3rd run subtract 1 from len(pop_list)  for mathematical accuracy
         for row in range(1, len(pop_list)):  # start with 1 please
             sum_pop = sum_pop + pop_list[row][1]
-        average_pop = (sum_pop / len(pop_list)) - 1  # subtract 1 for accuracy after
-        print(f'Average Population {pop_list[1][0]} - {pop_list[-1][0]}: {average_pop:,.0f}')
+        average_pop = (sum_pop / len(pop_list)) - \
+            1  # subtract 1 for accuracy after
+        print(
+            f'Average Population {pop_list[1][0]} - {pop_list[-1][0]}: {average_pop:,.0f}')
         return average_pop
     except IndexError as ierr:
         print('Index is out of range', ierr)
@@ -142,6 +134,7 @@ def calc_average(pop_list):
         print('A Zero Division Error occurred.')
     except Exception:
         print('An error occurred.')
+
 
 if __name__ == '__main__':
     main()
