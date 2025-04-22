@@ -4,13 +4,6 @@ import csv
 from collections import Counter
 
 # Constants
-DISPLAY_LIST = 1
-STATS = 2
-FTP_ANALYSIS = 3
-TELNET_SSH_ANALYSIS = 4
-DHCP_BOOTP_ANALYSIS = 5
-PACKET_COUNT = 6
-SAVE_STATS = 7
 QUIT = 99
 DATA_FILE = 'FirewallFile.txt'
 OUTPUT_FILE = 'firewall_stats.csv'
@@ -60,9 +53,11 @@ def main():
             firewall_stats = analyze_telnet_ssh_traffic(port_list, firewall_stats)
             display_stats(firewall_stats)
         elif choice == 4:
-            analyze_dhcp_bootp_traffic(port_list)
+            firewall_stats = analyze_dhcp_bootp_traffic(port_list, firewall_stats)
+            display_stats(firewall_stats)
         elif choice == 5:
-            count_packets_by_port(port_list)
+            firewall_stats = count_packets_by_port(port_list, firewall_stats)
+            display_stats(firewall_stats)
         elif choice == 6:
             save_stats(firewall_stats)
         elif choice == 99:
@@ -127,9 +122,6 @@ def calc_descriptive_stats(data: List[List[Union[int, str]]]) -> dict:
     stats['Least Bytes'] = least_bytes
     stats['Average Bytes'] = avg_bytes
 
-    # Uncomment for debugging:
-    # print(stats)
-
     return stats
 
 def analyze_ftp_traffic(data: List[List[Union[int, str]]], firewall_stats: dict) -> dict:
@@ -160,9 +152,6 @@ def analyze_ftp_traffic(data: List[List[Union[int, str]]], firewall_stats: dict)
     firewall_stats['Count FTP'] = row_counter
     firewall_stats['Percent FTP'] = percent_ftp
 
-    # Uncomment to debug
-    # print(firewall_stats)
-
     return firewall_stats
 
 def analyze_telnet_ssh_traffic(data: List[List[Union[int, str]]], firewall_stats: dict) -> dict:
@@ -189,10 +178,76 @@ def analyze_telnet_ssh_traffic(data: List[List[Union[int, str]]], firewall_stats
     firewall_stats['Count Telnet or SSH'] = match_count
     firewall_stats['Percent Telnet or SSH'] = percent_telnet_ssh
 
-    # Uncomment to debug
-    # print(firewall_stats)
+    return firewall_stats
+
+def analyze_dhcp_bootp_traffic(data: List[List[Union[int, str]]], firewall_stats: dict) -> dict:
+    bootp_dhcp_ports = {67, 68}
+    match_count = 0
+
+    print("\nRow    Source  Dest.  Action  Bytes  Packets")
+
+    for i, row in enumerate(data, start=1):
+        src, dst = row[0], row[1]
+        if isinstance(src, int) and isinstance(dst, int) and (src in bootp_dhcp_ports or dst in bootp_dhcp_ports):
+            match_count += 1
+            action = row[2]
+            bytes_val = row[3]
+            packets = row[4]
+            print(f"{i:<6} {src:<7} {dst:<6} {action:<7} {bytes_val:<6} {packets:<7}")
+
+    total_rows = len(data)
+    percent_bootp_dhcp = (match_count / total_rows * 100) if total_rows > 0 else 0
+
+    print(f"\n{'Count Bootp or DHCP':<25}{match_count}")
+    print(f"{'Percent Bootp or DHCP':<25}{percent_bootp_dhcp:.5f}")
+
+    firewall_stats['Count Bootp or DHCP'] = match_count
+    firewall_stats['Percent Bootp or DHCP'] = percent_bootp_dhcp
 
     return firewall_stats
+
+def count_packets_by_port(data: List[List[Union[int, str]]], firewall_stats: dict) -> dict:
+    dest_ports_set = set()
+
+    # Step 1: Collect unique destination ports
+    for row in data:
+        if isinstance(row[1], int):
+            dest_ports_set.add(row[1])
+
+    # Step 2: Create dictionary with each port and initialize count to 0
+    port_count_dict = dict.fromkeys(dest_ports_set, 0)
+
+    # Step 3: Count how many rows each destination port appears in
+    for key in port_count_dict:
+        count = 0
+        for row in data:
+            if row[1] == key:
+                count += 1
+        port_count_dict[key] = count
+
+    # Step 4: Print result
+    print(f"\n{'Port #':<10} {'Traffic Count'}")
+    total_count = 0
+    for port, count in sorted(port_count_dict.items()):
+        print(f"{port:<10} {count}")
+        total_count += count
+
+    print(f"\nTotal Packet Count: {total_count}")
+
+    # Optional: Store total in stats
+    firewall_stats['Total Packet Rows'] = total_count
+
+    return firewall_stats
+
+def save_stats(stats: dict):
+    try:
+        with open(OUTPUT_FILE, 'w', newline='') as f:
+            writer = csv.writer(f)
+            for key, val in stats.items():
+                writer.writerow([key, val])
+        print(f'Statistics saved to {OUTPUT_FILE}')
+    except Exception as e:
+        print(f'Error writing to file: {e}')
 
 
 def display_stats(stats: dict):
