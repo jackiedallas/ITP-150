@@ -10,6 +10,7 @@ HIGHEST_SALES = 2
 LOWEST_SALES = 3
 CALC_AVERAGE = 4
 SAVE_STATS = 5
+QUIT = 99
 
 def main():
     
@@ -20,7 +21,7 @@ def main():
     
     makeup_list = read_csv(DATA_FILE) # initialize makeup list
     makeup_dictionary = {} # initialize makeup dictionary
-    print(makeup_list)
+    # print(makeup_list)
     
     # Menu Choices
     menu = (
@@ -33,6 +34,28 @@ def main():
         "99. Quit"
     )
     
+    # Main Loop
+    choice = 0
+    while choice != QUIT:
+        choice = input_menu_choice(menu, [PRINT_LIST, HIGHEST_SALES, LOWEST_SALES, CALC_AVERAGE, SAVE_STATS, QUIT])
+        
+        if choice == PRINT_LIST:
+            display_list(makeup_list)
+        elif choice == HIGHEST_SALES:
+            highest_sales = calc_highest_sales(makeup_list)
+            print(f'Highest Sales: {highest_sales}')
+        elif choice == LOWEST_SALES:
+            lowest_sales = calc_lowest_sales(makeup_list)
+            print(f'Lowest Sales: {lowest_sales}')
+        elif choice == CALC_AVERAGE:
+            average_sales = calc_average_sales(makeup_list)
+            print(f'Average Sales: {average_sales}')
+        elif choice == SAVE_STATS:
+            save_stats(makeup_list)
+        elif choice == QUIT:
+            print("Exiting the program.")
+            break
+    
     pass
 
 def read_csv(file: str) -> List[List[int]]:
@@ -44,7 +67,19 @@ def read_csv(file: str) -> List[List[int]]:
         print(f'Error reading CSV: {e}')
         return []
     
-            
+def input_menu_choice(menu: str, valid_choices: List[int]) -> int:
+    while True:
+        print('-' * 50)
+        print(menu)
+        print('-' * 50)
+        try:
+            choice = int(input('Enter your choice: '))
+            if choice in valid_choices:
+                return choice
+            else:
+                print(f'Invalid choice. Please choose from {valid_choices}.')
+        except ValueError:
+            print('Invalid input. Please enter a number.')           
 
 if __name__ == "__main__":
     main()
