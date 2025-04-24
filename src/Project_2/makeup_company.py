@@ -95,41 +95,31 @@ def input_menu_choice(menu: str, valid_choices: List[int]) -> int:
             print('Invalid input. Please enter a number.')           
 
 def print_list(data: Dict[str, List]):
-    """
-    Prints the data in a tabular format.
-    """
+    
     print(f'{"Transaction":<15} {"Name":<15} {"Date":<15} {"Product":<15} {"Bulk":<10} {"Price":<10} {"Location":<15}')
     for i in range(len(data["Transaction"])):
         print(f'{data["Transaction"][i]:<15} {data["Name"][i]:<15} {data["Date"][i]:<15} {data["Product"][i]:<15} '
               f'{data["Bulk"][i]:<10d} {data["Price"][i]:<10.2f} {data["Location"][i]:<15}')
 
 def highest_sales(data: Dict[str, List]) -> Tuple[float, str]:
-    """
-    Finds the highest sales value and the name of the person in that row.
-    """
+    
     max_index = data["Price"].index(max(data["Price"]))  # Find the index of the max price
     return data["Price"][max_index], data["Name"][max_index]  # Return the price and name
 
 def lowest_sales(data: Dict[str, List]) -> Tuple[float, str]:
-    """
-    Finds the lowest sales value and the name of the person in that row.
-    """
+    
     min_index = data["Price"].index(min(data["Price"]))  # Find the index of the min price
     return data["Price"][min_index], data["Name"][min_index]  # Return the price and name
 
 def calc_average(data: Dict[str, List]) -> float:
-    """
-    Calculates the average sales value.
-    """
+    
     if data["Price"]:
         return sum(data["Price"]) / len(data["Price"])
     else:
         return 0
 
 def save_stats(data: Dict[str, List]):
-    """
-    Saves the highest, lowest, and average sales statistics to a CSV file.
-    """
+
     try:
         # Calculate highest, lowest, and average sales
         highest_value, highest_name = highest_sales(data)
