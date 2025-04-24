@@ -1,0 +1,1892 @@
+﻿Transaction Number,Name,Date,Product,Bulk,Dollars,Location
+1,Betsy,4/1/22,lip gloss,45,222.2713845,south
+2,Hallagan,3/10/22,foundation,50,246.251831,midwest
+3,Ashley,2/25/23,lipstick,9,46.52556265,midwest
+4,Hallagan,5/22/24,lip gloss,55,270.6620225,west
+5,Zaret,6/17/22,lip gloss,43,211.5766534,midwest
+6,Colleen,11/27/23,eye liner,58,285.105378,midwest
+7,Cristina,3/21/22,eye liner,8,41.79712133,midwest
+8,Colleen,12/17/24,lip gloss,72,352.9002393,midwest
+9,Ashley,7/5/24,eye liner,75,367.1605695,south
+10,Betsy,8/7/24,lip gloss,24,119.0737943,east
+11,Ashley,11/29/22,mascara,43,211.9532969,east
+12,Ashley,11/18/22,lip gloss,23,115.0756757,west
+13,Emilee,8/31/23,lip gloss,49,242.340331,west
+14,Hallagan,1/1/23,eye liner,18,91.48463875,south
+15,Zaret,9/20/24,foundation,8,35.62873244,east
+16,Emilee,4/12/22,mascara,45,222.572409,east
+17,Colleen,4/30/24,mascara,66,323.4400223,south
+18,Jen,8/31/23,lip gloss,88,429.6038334,midwest
+19,Jen,10/27/22,eye liner,78,382.5581042,south
+20,Zaret,11/27/23,lip gloss,57,280.4467773,midwest
+21,Zaret,6/2/24,mascara,12,61.69192585,west
+22,Betsy,9/24/22,eye liner,28,140.1506966,midwest
+23,Colleen,2/1/24,mascara,25,125.2375857,midwest
+24,Emilee,12/6/24,lip gloss,24,120.8883438,west
+25,Jen,4/12/22,lipstick,38,187.895987,midwest
+26,Cristina,9/22/23,foundation,77,377.5481097,midwest
+27,Cristina,3/28/24,lip gloss,53,261.5716028,midwest
+28,Cici,6/17/22,mascara,41,202.9370045,west
+29,Zaret,9/9/24,mascara,19,95.8293159,west
+30,Cici,2/23/24,foundation,9,39.89371702,west
+31,Hallagan,6/24/24,foundation,38,187.2466272,south
+32,Emilee,2/6/22,eye liner,25,124.0305953,south
+33,Emilee,4/10/23,mascara,19,96.20005397,midwest
+34,Betsy,4/1/22,foundation,86,420.9731503,west
+35,Colleen,6/6/22,lip gloss,55,270.730534,midwest
+36,Emilee,9/20/24,lip gloss,2,12.71434326,east
+37,Ashley,8/9/23,mascara,93,454.7137154,east
+38,Zaret,9/24/22,eye liner,14,71.16911692,west
+39,Emilee,5/24/23,eye liner,37,183.1165542,south
+40,Betsy,11/18/22,foundation,63,308.9260791,west
+41,Zaret,11/18/22,lip gloss,1,9.071521743,west
+42,Zaret,6/15/23,eye liner,24,119.2308218,midwest
+43,Hallagan,1/4/22,eye liner,83,405.5390361,midwest
+44,Cici,7/7/23,eye liner,49,240.5806876,midwest
+45,Cristina,4/10/23,lip gloss,26,129.9206177,west
+46,Jen,5/22/24,lip gloss,35,174.94809,west
+47,Cristina,4/12/22,lip gloss,8,43.59322764,south
+48,Cici,6/28/22,mascara,49,241.0201129,midwest
+49,Cristina,4/12/22,foundation,34,168.6318863,east
+50,Cristina,12/8/23,lip gloss,8,42.50323402,midwest
+51,Jen,10/27/22,mascara,89,435.9271773,east
+52,Colleen,11/16/23,foundation,62,306.5917374,midwest
+53,Emilee,8/11/22,foundation,23,115.5274032,south
+54,Cici,6/17/22,eye liner,95,466.1725234,midwest
+55,Emilee,5/11/24,eye liner,41,202.5003052,south
+56,Ashley,4/10/23,lip gloss,6,25.82743508,midwest
+57,Betsy,1/1/23,mascara,84,411.4648009,south
+58,Hallagan,11/5/23,foundation,63,310.0147651,south
+59,Zaret,7/16/24,lip gloss,0,3.836537605,west
+60,Cristina,1/23/23,eye liner,73,358.679138,east
+61,Emilee,12/21/22,eye liner,95,465.026185,midwest
+62,Ashley,11/16/23,lipstick,93,454.8441358,west
+63,Zaret,6/17/22,lipstick,54,265.4630076,south
+64,Cristina,6/26/23,foundation,33,164.2146441,south
+65,Ashley,4/12/22,mascara,48,236.2544386,west
+66,Jen,1/23/23,eye liner,7,30.02095617,midwest
+67,Colleen,3/6/24,foundation,2,6.385216325,west
+68,Cristina,1/15/22,mascara,27,134.9312737,east
+69,Emilee,12/17/24,foundation,56,275.7852409,south
+70,Cristina,2/14/23,mascara,70,343.9137255,south
+71,Jen,3/30/23,mascara,16,80.12138632,west
+72,Jen,1/10/24,lip gloss,69,338.0699099,east
+73,Colleen,7/29/23,foundation,67,328.8831406,midwest
+74,Cici,11/7/22,foundation,82,401.9197447,west
+75,Ashley,10/1/24,eye liner,73,358.7914917,west
+76,Cici,2/17/22,foundation,80,390.845073,south
+77,Jen,8/9/23,eye liner,2,6.865463708,east
+78,Emilee,8/31/23,eye liner,5,27.58221403,east
+79,Zaret,12/19/23,eye liner,26,130.0807585,south
+80,Cici,3/19/23,foundation,1,8.116433301,midwest
+81,Cici,6/13/24,lipstick,3,12.33644885,south
+82,Betsy,8/18/24,eye liner,83,406.9172791,south
+83,Jen,5/26/22,mascara,33,162.5312828,midwest
+84,Zaret,4/12/22,foundation,62,304.6646771,west
+85,Colleen,5/11/24,eye liner,58,285.8825261,midwest
+86,Emilee,8/20/23,foundation,28,138.5817016,south
+87,Jen,12/17/24,lip gloss,33,163.1115182,west
+88,Cristina,11/25/24,foundation,92,450.6181284,south
+89,Jen,4/12/22,lip gloss,92,449.6143879,east
+90,Colleen,1/21/24,lip gloss,75,367.3184328,south
+91,Betsy,10/3/23,eye liner,74,363.258221,west
+92,Zaret,1/15/22,foundation,67,327.9691501,west
+93,Cristina,8/11/22,foundation,16,80.10902998,south
+94,Hallagan,5/13/23,foundation,90,441.1906638,west
+95,Jen,3/17/24,lipstick,8,35.81423802,west
+96,Cristina,9/13/22,lipstick,51,251.583066,midwest
+97,Jen,3/30/23,foundation,7,31.64329287,south
+98,Emilee,3/21/22,lip gloss,9,47.43007106,midwest
+99,Cici,8/31/23,lip gloss,10,46.01893222,east
+100,Ashley,7/16/24,foundation,10,52.02339176,south
+101,Ashley,3/8/23,mascara,35,174.2911089,midwest
+102,Cici,10/5/22,mascara,81,396.0268095,west
+103,Cici,11/18/22,mascara,38,187.7010944,south
+104,Emilee,12/6/24,mascara,26,130.391605,west
+105,Betsy,9/22/23,lipstick,77,377.9962713,east
+106,Emilee,1/21/24,foundation,39,192.1758395,south
+107,Zaret,6/24/24,eye liner,22,110.274475,east
+108,Zaret,6/2/24,foundation,68,333.3421512,midwest
+109,Cici,5/24/23,foundation,59,289.5151928,midwest
+110,Colleen,5/22/24,eye liner,20,101.0338372,east
+111,Hallagan,10/25/23,mascara,61,298.9912064,south
+112,Zaret,3/6/24,foundation,30,149.7437644,south
+113,Jen,7/27/24,mascara,10,52.32393867,west
+114,Zaret,4/30/24,eye liner,72,352.2736956,south
+115,Ashley,1/10/24,eye liner,57,280.8493026,west
+116,Hallagan,11/16/23,lip gloss,41,201.508691,midwest
+117,Zaret,4/23/22,eye liner,54,265.2677944,west
+118,Emilee,7/7/23,lipstick,9,47.40111847,midwest
+119,Cici,5/13/23,lip gloss,1,8.110139069,south
+120,Zaret,2/12/24,mascara,10,46.7995328,west
+121,Ashley,11/14/24,foundation,9,40.59673227,west
+122,Jen,11/29/22,mascara,56,273.5669721,east
+123,Cici,3/21/22,lipstick,28,138.6730103,midwest
+124,Betsy,7/9/22,mascara,11,55.75615331,east
+125,Cristina,12/17/24,lip gloss,11,56.55434044,south
+126,Cristina,2/14/23,eye liner,67,328.6430526,west
+127,Colleen,3/30/23,lip gloss,10,50.91989631,west
+128,Emilee,10/27/22,foundation,40,197.5545554,west
+129,Colleen,7/7/23,mascara,77,377.5893338,west
+130,Betsy,5/24/23,lipstick,50,246.3099601,south
+131,Jen,6/28/22,eye liner,80,392.8427107,east
+132,Jen,12/28/24,eye liner,83,406.2872625,south
+133,Betsy,2/1/24,lip gloss,4,15.38940508,west
+134,Colleen,2/3/23,foundation,46,226.4032572,south
+135,Ashley,10/23/24,mascara,55,270.8529482,south
+136,Cici,9/24/22,mascara,89,436.4355581,east
+137,Emilee,7/7/23,eye liner,59,290.1677581,west
+138,Emilee,3/8/23,lipstick,90,440.240114,east
+139,Ashley,11/3/24,lipstick,17,86.93873212,midwest
+140,Cici,3/8/23,lipstick,37,184.1125073,east
+141,Cristina,3/17/24,foundation,4,15.26693302,south
+142,Emilee,7/7/23,lip gloss,8,36.24974639,west
+143,Zaret,9/2/22,lipstick,6,32.92099504,midwest
+144,Cici,10/16/22,lipstick,63,310.5215368,west
+145,Jen,8/11/22,lipstick,16,80.9088366,south
+146,Betsy,2/3/23,mascara,22,109.8592425,south
+147,Emilee,12/30/23,foundation,81,396.8492434,west
+148,Emilee,9/11/23,lip gloss,85,415.6222819,south
+149,Jen,5/15/22,foundation,3,11.47470007,midwest
+150,Emilee,1/23/23,lip gloss,51,250.2698414,south
+151,Cici,1/1/23,lip gloss,72,352.2274836,south
+152,Cristina,2/17/22,lip gloss,46,226.6865934,midwest
+153,Hallagan,2/25/23,mascara,10,45.35383647,south
+154,Cici,8/9/23,foundation,5,19.75952643,south
+155,Hallagan,10/12/24,eye liner,16,80.86654808,east
+156,Hallagan,12/19/23,foundation,25,124.7187762,east
+157,Emilee,3/30/23,eye liner,49,241.2295322,midwest
+158,Betsy,3/21/22,lip gloss,21,104.2091877,west
+159,Cristina,5/22/24,lip gloss,29,144.1543416,south
+160,Ashley,2/17/22,lip gloss,63,309.6048092,east
+161,Jen,6/13/24,lip gloss,21,104.6567964,south
+162,Betsy,10/14/23,foundation,93,453.8798862,west
+163,Colleen,2/28/22,foundation,55,271.437734,south
+164,Emilee,7/16/24,foundation,14,71.11345913,south
+165,Jen,3/10/22,lipstick,91,445.8965696,south
+166,Emilee,4/23/22,eye liner,80,392.7667255,south
+167,Betsy,11/27/23,eye liner,70,343.043475,south
+168,Cici,7/20/22,mascara,54,266.1740461,west
+169,Ashley,12/19/23,mascara,19,94.54789531,east
+170,Hallagan,9/22/23,foundation,38,187.6426377,south
+171,Colleen,5/26/22,lipstick,60,294.876116,east
+172,Hallagan,10/14/23,lipstick,51,252.295373,midwest
+173,Ashley,5/4/22,lip gloss,78,382.5504201,midwest
+174,Hallagan,11/29/22,foundation,17,85.0001335,west
+175,Jen,8/22/22,eye liner,13,66.10927219,midwest
+176,Emilee,7/7/23,mascara,2,13.01840676,south
+177,Betsy,11/25/24,mascara,74,362.6820888,east
+178,Colleen,3/17/24,foundation,57,280.1372271,south
+179,Jen,5/4/22,mascara,79,387.7377437,west
+180,Colleen,6/15/23,foundation,82,400.8880747,west
+181,Cici,10/1/24,lip gloss,28,139.2507053,south
+182,Jen,2/6/22,mascara,63,309.4690755,midwest
+183,Cristina,10/3/23,foundation,72,352.5004633,west
+184,Cristina,1/10/24,lipstick,68,333.6109795,midwest
+185,Emilee,1/21/24,eye liner,8,42.34475739,west
+186,Hallagan,12/10/22,lipstick,62,305.3964745,midwest
+187,Jen,3/19/23,eye liner,5,26.48445212,east
+188,Colleen,2/6/22,mascara,5,20.89485896,east
+189,Colleen,5/22/24,mascara,4,16.19710547,west
+190,Cristina,11/25/24,mascara,81,396.3832879,west
+191,Cristina,3/17/24,eye liner,21,104.8852855,south
+192,Cici,6/26/23,eye liner,21,105.0783716,east
+193,Hallagan,12/30/23,foundation,3,11.58961915,south
+194,Cici,12/28/24,lip gloss,57,281.3040109,west
+195,Cici,8/18/24,lip gloss,86,420.0817258,west
+196,Jen,4/19/24,foundation,14,71.50520612,west
+197,Hallagan,12/6/24,lipstick,20,100.3685274,midwest
+198,Colleen,2/6/22,mascara,60,294.7418708,east
+199,Jen,7/5/24,eye liner,45,222.1912269,west
+200,Jen,4/1/22,eye liner,7,37.25611171,midwest
+201,Betsy,3/6/24,lip gloss,6,26.46184572,midwest
+202,Jen,4/30/24,lip gloss,35,173.177712,south
+203,Colleen,5/11/24,foundation,31,154.1138416,east
+204,Jen,11/16/23,lip gloss,19,95.7027003,west
+205,Zaret,2/12/24,eye liner,35,172.7623066,west
+206,Betsy,1/1/23,lipstick,51,250.4482996,east
+207,Hallagan,2/23/24,mascara,1,8.72647662,east
+208,Cici,9/24/22,foundation,67,329.4417859,midwest
+209,Cici,3/30/23,mascara,23,115.688408,midwest
+210,Colleen,2/3/23,foundation,41,202.8803022,east
+211,Ashley,1/15/22,mascara,27,134.7760788,west
+212,Cristina,9/20/24,foundation,56,275.6837034,midwest
+213,Ashley,7/20/22,mascara,67,329.4320536,west
+214,Betsy,9/13/22,foundation,94,459.6610965,west
+215,Cristina,10/5/22,eye liner,52,256.4416778,west
+216,Zaret,2/6/22,lipstick,24,120.2751171,west
+217,Jen,6/6/22,lip gloss,1,1.486686584,south
+218,Hallagan,1/21/24,eye liner,37,182.2849629,south
+219,Betsy,2/23/24,foundation,63,310.1558677,south
+220,Cici,4/12/22,lip gloss,13,66.43676189,west
+221,Hallagan,11/25/24,lip gloss,7,36.18250132,west
+222,Zaret,3/21/22,lip gloss,64,314.0188447,west
+223,Ashley,6/6/22,lip gloss,63,309.2688328,midwest
+224,Emilee,8/11/22,mascara,57,281.2161584,midwest
+225,Emilee,11/7/22,mascara,59,289.8611734,east
+226,Jen,12/21/22,foundation,3,11.76729079,midwest
+227,Cici,10/1/24,lip gloss,86,421.7330937,south
+228,Cristina,9/24/22,eye liner,4,16.19020235,east
+229,Ashley,1/1/23,lip gloss,7,38.32001876,west
+230,Cici,10/1/24,lip gloss,43,213.3178625,east
+231,Emilee,11/5/23,lip gloss,2,12.36844854,south
+232,Emilee,5/2/23,mascara,85,416.1449037,midwest
+233,Emilee,4/21/23,eye liner,52,256.263008,midwest
+234,Colleen,7/9/22,lipstick,3,11.9799341,south
+235,Cristina,2/25/23,eye liner,8,41.38563626,east
+236,Cici,7/9/22,mascara,5,27.86222703,east
+237,Hallagan,8/29/24,mascara,90,440.7999011,south
+238,Betsy,11/14/24,mascara,36,178.7466686,east
+239,Zaret,8/20/23,mascara,25,124.764139,west
+240,Betsy,3/19/23,mascara,7,37.47579191,east
+241,Colleen,11/3/24,mascara,64,314.691034,east
+242,Colleen,5/4/22,mascara,71,349.0988117,west
+243,Ashley,4/10/23,eye liner,41,202.1928857,east
+244,Ashley,9/24/22,foundation,84,410.323611,east
+245,Emilee,3/30/23,eye liner,3,17.33888495,east
+246,Ashley,4/1/22,foundation,15,75.7539159,west
+247,Hallagan,2/6/22,eye liner,1,7.908914849,south
+248,Hallagan,7/7/23,mascara,10,52.59880832,east
+249,Emilee,1/12/23,eye liner,77,378.1069223,west
+250,Colleen,2/14/23,lipstick,65,318.3194149,south
+251,Zaret,1/15/22,eye liner,25,125.273907,midwest
+252,Cici,7/16/24,mascara,1,3.127349842,south
+253,Jen,8/29/24,foundation,2,12.91289852,midwest
+254,Zaret,11/3/24,lip gloss,62,303.9438342,midwest
+255,Colleen,5/13/23,foundation,28,140.5967435,west
+256,Hallagan,7/18/23,eye liner,55,270.6222925,south
+257,Colleen,6/15/23,lip gloss,28,140.350413,south
+258,Cristina,7/29/23,foundation,5,27.00675964,south
+259,Cristina,11/7/22,eye liner,1,7.730991952,east
+260,Cristina,6/15/23,foundation,26,129.6194591,east
+261,Zaret,6/6/22,foundation,47,231.4105632,south
+262,Hallagan,5/2/23,eye liner,74,364.1020478,east
+263,Cici,5/11/24,lip gloss,22,111.3111834,midwest
+264,Ashley,6/24/24,lipstick,70,343.8650637,south
+265,Cici,11/27/23,foundation,83,407.1228897,midwest
+266,Hallagan,12/8/23,eye liner,59,290.6044563,west
+267,Cici,8/9/23,mascara,0,2.564640729,midwest
+268,Hallagan,1/12/23,eye liner,82,401.0836163,west
+269,Betsy,3/8/23,eye liner,29,144.2660689,west
+270,Cici,5/15/22,foundation,63,309.5599917,east
+271,Jen,10/1/24,lip gloss,67,329.0357202,east
+272,Cristina,7/29/23,eye liner,3,17.46478374,east
+273,Hallagan,12/10/22,eye liner,65,319.8006158,east
+274,Emilee,5/26/22,lipstick,75,368.4794964,west
+275,Emilee,8/22/22,lip gloss,79,388.6306585,west
+276,Jen,8/18/24,mascara,5,20.93195547,midwest
+277,Jen,3/30/23,foundation,31,154.7299547,south
+278,Ashley,12/17/24,mascara,21,105.8564268,south
+279,Ashley,9/11/23,lipstick,8,35.4983242,east
+280,Jen,7/7/23,lipstick,88,431.0040279,west
+281,Emilee,11/16/23,foundation,94,459.8317959,midwest
+282,Zaret,10/1/24,mascara,83,407.4274169,midwest
+283,Ashley,8/11/22,mascara,16,80.92797398,south
+284,Betsy,8/7/24,mascara,33,162.8384028,midwest
+285,Betsy,2/28/22,eye liner,1,1.471187265,midwest
+286,Betsy,7/27/24,mascara,94,460.3001676,west
+287,Jen,4/21/23,foundation,76,373.0140238,midwest
+288,Betsy,3/6/24,foundation,71,348.5534615,east
+289,Zaret,5/26/22,lipstick,56,274.0956926,south
+290,Hallagan,8/31/23,lip gloss,81,397.8489622,south
+291,Zaret,6/28/22,eye liner,3,18.08325327,south
+292,Zaret,4/21/23,lip gloss,60,295.1845651,east
+293,Jen,10/23/24,foundation,81,397.7785603,south
+294,Colleen,5/4/22,foundation,70,342.5218431,midwest
+295,Cici,5/22/24,mascara,18,91.16158618,midwest
+296,Hallagan,2/14/23,lipstick,73,358.2955157,west
+297,Zaret,2/25/23,foundation,7,30.4273592,east
+298,Zaret,8/20/23,foundation,55,269.9018693,midwest
+299,Cici,5/15/22,lip gloss,7,37.8875474,east
+300,Cici,11/18/22,eye liner,63,310.1478656,midwest
+301,Zaret,7/7/23,lip gloss,83,407.6395879,west
+302,Betsy,2/28/22,lip gloss,43,212.1744911,east
+303,Zaret,7/31/22,eye liner,67,329.3508402,south
+304,Colleen,12/30/23,eye liner,9,40.44528931,midwest
+305,Cici,6/28/22,foundation,1,2.389714453,midwest
+306,Betsy,1/12/23,foundation,21,105.6184901,south
+307,Cristina,11/5/23,mascara,6,32.56696295,east
+308,Cristina,1/15/22,eye liner,0,2.600433775,east
+309,Jen,10/16/22,eye liner,20,100.4315954,east
+310,Ashley,11/7/22,foundation,70,344.2542656,south
+311,Jen,5/15/22,eye liner,94,459.8883027,east
+312,Hallagan,10/16/22,lip gloss,9,46.70543068,west
+313,Jen,6/26/23,mascara,27,135.4970495,east
+314,Colleen,3/17/24,lipstick,43,212.1334301,south
+315,Emilee,9/20/24,foundation,84,412.1115439,east
+316,Hallagan,6/6/22,eye liner,83,407.6434463,midwest
+317,Hallagan,8/11/22,lipstick,89,435.2483635,midwest
+318,Emilee,10/12/24,lip gloss,7,36.72303519,south
+319,Hallagan,7/9/22,foundation,68,333.3254402,south
+320,Emilee,10/14/23,eye liner,38,188.1514697,west
+321,Cici,1/26/22,eye liner,90,439.5597995,midwest
+322,Cici,8/11/22,eye liner,10,51.4189028,west
+323,Cristina,11/3/24,foundation,13,65.09617521,east
+324,Jen,6/17/22,lip gloss,68,334.3333691,west
+325,Zaret,6/6/22,foundation,40,197.9166816,south
+326,Jen,6/4/23,foundation,17,85.1728216,west
+327,Cristina,11/29/22,foundation,6,31.15832245,west
+328,Cristina,5/11/24,foundation,27,135.7334601,west
+329,Zaret,7/27/24,foundation,80,392.3543853,midwest
+330,Colleen,8/11/22,mascara,1,1.501412734,west
+331,Hallagan,3/28/24,mascara,89,436.2068971,south
+332,Hallagan,3/30/23,eye liner,21,105.6631305,midwest
+333,Cristina,12/17/24,lip gloss,37,183.2487784,east
+334,Colleen,2/14/23,lipstick,15,75.55339616,east
+335,Ashley,5/26/22,mascara,94,459.4645581,midwest
+336,Cici,7/18/23,mascara,85,416.8021937,south
+337,Colleen,11/18/22,lip gloss,95,464.7197226,west
+338,Emilee,5/24/23,lipstick,25,123.7176726,south
+339,Hallagan,4/19/24,mascara,69,337.9435108,west
+340,Jen,8/31/23,foundation,72,354.2440203,midwest
+341,Zaret,2/12/24,lipstick,4,15.39655927,west
+342,Colleen,6/26/23,lipstick,21,105.0534991,west
+343,Colleen,1/12/23,eye liner,85,416.2881585,east
+344,Emilee,9/11/23,eye liner,85,416.4955007,south
+345,Ashley,10/14/23,lip gloss,79,388.4045525,south
+346,Jen,9/9/24,lip gloss,81,396.918267,south
+347,Ashley,8/29/24,eye liner,76,371.915665,east
+348,Ashley,6/15/23,lip gloss,31,154.5671774,east
+349,Zaret,9/22/23,eye liner,44,216.8233231,south
+350,Betsy,12/17/24,lipstick,44,216.929731,west
+351,Cristina,5/26/22,mascara,70,342.9311265,south
+352,Cristina,11/29/22,foundation,4,15.31403498,east
+353,Jen,11/16/23,lip gloss,28,139.8621139,midwest
+354,Ashley,10/12/24,mascara,83,405.9869666,south
+355,Cici,7/5/24,lip gloss,46,227.5774976,south
+356,Jen,5/22/24,lip gloss,88,431.489036,west
+357,Emilee,10/14/23,lip gloss,9,39.75068731,east
+358,Hallagan,8/9/23,foundation,8,35.3570793,west
+359,Colleen,7/5/24,foundation,37,183.0764579,midwest
+360,Hallagan,2/28/22,foundation,20,99.91964438,east
+361,Cristina,9/11/23,lip gloss,2,12.5565022,west
+362,Ashley,8/20/23,eye liner,36,179.1625736,south
+363,Ashley,10/3/23,mascara,34,168.3012346,west
+364,Cici,4/30/24,eye liner,84,411.3070174,midwest
+365,Hallagan,8/18/24,mascara,89,434.9310369,east
+366,Zaret,2/1/24,lip gloss,31,155.0027199,south
+367,Cici,3/21/22,lip gloss,7,36.52429847,west
+368,Hallagan,2/6/22,lip gloss,7,37.16149322,west
+369,Emilee,2/23/24,eye liner,76,372.4259959,east
+370,Zaret,7/31/22,foundation,6,31.68884804,west
+371,Cristina,10/23/24,lip gloss,43,211.0631614,west
+372,Cici,1/15/22,mascara,20,100.7360908,west
+373,Zaret,3/17/24,lipstick,11,56.8244463,south
+374,Jen,6/26/23,eye liner,35,173.426246,east
+375,Emilee,3/17/24,foundation,72,353.4033875,south
+376,Cici,5/26/22,foundation,49,241.2616262,west
+377,Jen,3/6/24,foundation,88,431.9670284,midwest
+378,Ashley,3/28/24,foundation,45,220.3318935,midwest
+379,Ashley,3/21/22,lip gloss,37,182.9449867,midwest
+380,Colleen,4/10/23,lip gloss,12,62.5617074,midwest
+381,Jen,5/15/22,mascara,18,90.6099498,midwest
+382,Hallagan,1/21/24,lip gloss,75,367.7367042,south
+383,Jen,2/25/23,foundation,8,42.62901181,south
+384,Betsy,4/1/22,lip gloss,37,182.3072548,east
+385,Ashley,12/21/22,lip gloss,6,26.58803263,south
+386,Betsy,5/15/22,lipstick,56,274.2257506,midwest
+387,Jen,12/10/22,eye liner,53,261.3472542,midwest
+388,Cristina,5/26/22,lip gloss,62,304.1062955,south
+389,Ashley,3/30/23,mascara,90,439.5144204,midwest
+390,Ashley,1/15/22,eye liner,30,149.5151851,midwest
+391,Colleen,2/14/23,foundation,36,178.8381382,east
+392,Cristina,3/8/23,eye liner,76,372.7929707,west
+393,Emilee,4/10/23,lip gloss,4,16.2742809,south
+394,Colleen,12/10/22,lipstick,26,129.7090045,midwest
+395,Cristina,5/13/23,lip gloss,5,20.73574569,west
+396,Zaret,5/4/22,foundation,44,216.950909,midwest
+397,Colleen,2/17/22,mascara,91,445.1942633,south
+398,Emilee,3/10/22,lip gloss,78,382.2972446,west
+399,Jen,5/22/24,lip gloss,69,337.9151971,midwest
+400,Betsy,10/16/22,mascara,74,362.9497487,east
+401,Zaret,7/29/23,foundation,71,348.5009208,south
+402,Betsy,9/9/24,lipstick,34,168.2360214,midwest
+403,Jen,6/4/23,mascara,93,455.4962816,south
+404,Hallagan,2/25/23,foundation,60,295.8275514,west
+405,Cici,4/23/22,foundation,37,182.1430431,midwest
+406,Jen,6/28/22,eye liner,26,129.460363,south
+407,Zaret,7/7/23,eye liner,2,13.83440397,east
+408,Cristina,10/3/23,foundation,9,41.99113509,east
+409,Betsy,2/23/24,foundation,46,226.2937996,west
+410,Cristina,3/10/22,mascara,0,3.802217363,midwest
+411,Hallagan,11/29/22,foundation,79,387.5377794,east
+412,Ashley,1/12/23,foundation,48,237.3413053,midwest
+413,Zaret,1/21/24,eye liner,77,377.5897475,west
+414,Jen,2/12/24,foundation,10,43.68805112,east
+415,Betsy,8/9/23,lipstick,45,222.3152514,west
+416,Colleen,1/23/23,foundation,17,86.77658498,east
+417,Jen,8/20/23,eye liner,4,16.78981497,south
+418,Zaret,12/17/24,mascara,43,211.9016706,west
+419,Colleen,10/5/22,eye liner,41,202.806788,west
+420,Jen,6/24/24,lipstick,4,15.99951631,midwest
+421,Emilee,9/13/22,foundation,6,33.02890881,south
+422,Ashley,5/11/24,foundation,8,40.70163458,east
+423,Hallagan,7/9/22,eye liner,43,212.5492851,west
+424,Betsy,6/6/22,eye liner,47,231.1303529,south
+425,Hallagan,8/18/24,lip gloss,13,66.97803676,south
+426,Jen,2/1/24,foundation,9,46.6628696,west
+427,Betsy,2/28/22,eye liner,22,109.3662776,east
+428,Zaret,3/17/24,eye liner,87,426.171412,south
+429,Cristina,10/23/24,foundation,15,75.00154847,west
+430,Cici,10/23/24,eye liner,27,135.1203359,west
+431,Colleen,4/30/24,lipstick,78,383.0397045,midwest
+432,Cici,3/19/23,mascara,27,134.4563992,south
+433,Cici,1/26/22,foundation,19,96.5874222,east
+434,Ashley,2/17/22,mascara,0,3.840242321,west
+435,Betsy,12/10/22,eye liner,30,148.990787,south
+436,Cristina,8/7/24,lipstick,17,85.76049885,midwest
+437,Hallagan,6/4/23,lip gloss,36,178.1213398,south
+438,Hallagan,1/21/24,foundation,4,16.59355988,south
+439,Cici,1/15/22,mascara,4,22.95601697,east
+440,Ashley,6/6/22,eye liner,81,396.8594978,east
+441,Cristina,12/21/22,eye liner,87,427.4052131,south
+442,Betsy,2/6/22,eye liner,13,65.62268748,south
+443,Zaret,5/4/22,lip gloss,48,236.2719949,east
+444,Betsy,10/3/23,lipstick,2,11.49897576,west
+445,Jen,6/17/22,lip gloss,32,159.3539697,east
+446,Ashley,8/31/23,lip gloss,13,66.69341332,west
+447,Cici,10/1/24,mascara,94,459.193073,west
+448,Jen,3/6/24,mascara,63,309.1563442,east
+449,Zaret,6/13/24,foundation,45,221.906671,west
+450,Colleen,4/10/23,mascara,71,347.9257602,south
+451,Colleen,4/23/22,mascara,74,363.1754693,east
+452,Ashley,1/26/22,mascara,48,235.9522118,west
+453,Cristina,2/28/22,lip gloss,63,309.7252346,east
+454,Colleen,4/21/23,lip gloss,48,236.0198655,west
+455,Hallagan,8/29/24,mascara,26,130.5953715,midwest
+456,Ashley,6/13/24,eye liner,58,285.5496248,south
+457,Zaret,2/12/24,lip gloss,2,14.17167804,midwest
+458,Colleen,8/7/24,lip gloss,36,177.6761082,midwest
+459,Cici,6/26/23,mascara,22,110.7352212,east
+460,Cici,8/9/23,lip gloss,92,449.8202245,midwest
+461,Betsy,10/5/22,foundation,29,143.7160149,east
+462,Ashley,10/12/24,lip gloss,42,207.6366165,south
+463,Cristina,4/23/22,lip gloss,25,125.2514446,south
+464,Colleen,3/19/23,foundation,40,198.5136363,midwest
+465,Cici,5/4/22,lip gloss,3,17.12483056,south
+466,Betsy,7/18/23,foundation,1,1.331299705,south
+467,Ashley,9/9/24,foundation,12,61.05148371,east
+468,Cici,6/17/22,eye liner,0,3.242203227,south
+469,Hallagan,2/12/24,lip gloss,35,172.1468228,south
+470,Emilee,5/24/23,foundation,2,12.4444314,east
+471,Zaret,5/22/24,lipstick,10,51.49195178,east
+472,Jen,10/14/23,eye liner,6,31.96834348,midwest
+473,Jen,3/10/22,lip gloss,4,22.84940207,west
+474,Cici,10/12/24,mascara,91,445.3709192,east
+475,Jen,7/5/24,lip gloss,12,61.36110679,east
+476,Zaret,11/7/22,foundation,21,105.7559055,west
+477,Jen,3/30/23,mascara,44,217.5895692,west
+478,Betsy,1/23/23,eye liner,75,367.8998493,west
+479,Betsy,7/20/22,eye liner,37,183.0550142,south
+480,Zaret,7/27/24,eye liner,58,285.2269036,midwest
+481,Jen,2/12/24,eye liner,74,362.2462319,south
+482,Hallagan,6/6/22,foundation,64,313.5501444,south
+483,Betsy,11/27/23,lipstick,53,259.947034,south
+484,Ashley,4/23/22,eye liner,1,0.72905355,midwest
+485,Ashley,3/6/24,mascara,21,105.4060461,west
+486,Jen,2/23/24,mascara,90,439.5670812,east
+487,Jen,10/25/23,lipstick,61,299.4217238,midwest
+488,Betsy,5/13/23,mascara,64,314.2496321,east
+489,Zaret,3/6/24,eye liner,79,386.5465032,east
+490,Zaret,5/11/24,foundation,11,56.02016742,west
+491,Colleen,6/13/24,mascara,17,85.84732889,midwest
+492,Colleen,10/12/24,lip gloss,10,46.18204934,east
+493,Cristina,5/4/22,mascara,61,300.3180494,south
+494,Ashley,7/7/23,eye liner,81,397.2100423,west
+495,Colleen,12/21/22,mascara,86,420.6340029,east
+496,Cristina,6/28/22,eye liner,6,26.88909932,east
+497,Jen,9/22/23,lipstick,75,366.5915514,west
+498,Zaret,7/18/23,mascara,87,425.2444949,west
+499,Cici,7/16/24,foundation,15,76.37208588,west
+500,Jen,3/19/23,lipstick,6,32.46939783,east
+501,Zaret,2/28/22,eye liner,4,22.69990258,east
+502,Jen,4/8/24,eye liner,56,274.183019,west
+503,Betsy,5/4/22,foundation,76,372.8923472,south
+504,Hallagan,7/7/23,lipstick,27,133.8106132,south
+505,Betsy,12/19/23,foundation,58,284.7503422,south
+506,Jen,2/17/22,lipstick,67,328.2480632,east
+507,Colleen,9/11/23,lip gloss,79,386.8332319,south
+508,Cristina,9/13/22,mascara,38,189.0312996,south
+509,Betsy,4/1/22,mascara,4,22.09944908,south
+510,Zaret,3/17/24,eye liner,45,222.0513529,south
+511,Betsy,5/15/22,foundation,10,52.15573799,west
+512,Hallagan,11/5/23,foundation,86,421.8434295,midwest
+513,Cici,5/11/24,foundation,75,367.27739,west
+514,Emilee,3/19/23,eye liner,77,376.6440144,west
+515,Emilee,3/21/22,eye liner,10,51.54537406,west
+516,Cristina,10/5/22,foundation,62,305.1770294,west
+517,Betsy,1/26/22,lip gloss,73,358.4932806,east
+518,Jen,1/15/22,foundation,62,303.3183115,south
+519,Zaret,6/24/24,mascara,11,57.87165088,east
+520,Hallagan,12/19/23,mascara,28,139.4467218,south
+521,Hallagan,8/22/22,mascara,57,279.2265811,west
+522,Cici,12/10/22,eye liner,34,167.6598598,south
+523,Jen,10/14/23,eye liner,89,433.9399232,west
+524,Hallagan,9/24/22,lip gloss,32,158.5807448,midwest
+525,Zaret,11/25/24,eye liner,38,187.9922321,east
+526,Cristina,8/20/23,lip gloss,82,401.8362646,east
+527,Jen,5/26/22,foundation,29,144.6573935,south
+528,Emilee,10/1/24,lipstick,17,84.63883968,west
+529,Hallagan,8/11/22,eye liner,50,246.0217196,east
+530,Colleen,4/1/22,lipstick,7,37.19511585,east
+531,Ashley,3/19/23,lip gloss,50,245.2061549,east
+532,Cristina,2/25/23,lipstick,20,100.2434597,midwest
+533,Jen,2/25/23,foundation,37,182.7904866,east
+534,Zaret,9/2/22,mascara,58,286.1077324,east
+535,Colleen,1/21/24,foundation,25,124.6108587,south
+536,Hallagan,4/1/22,eye liner,34,167.1549722,midwest
+537,Betsy,10/23/24,foundation,3,18.76295816,midwest
+538,Betsy,10/1/24,lipstick,63,308.7480533,east
+539,Betsy,1/10/24,eye liner,44,216.4564336,midwest
+540,Cici,4/12/22,eye liner,87,426.3237888,midwest
+541,Jen,2/25/23,lipstick,4,22.98957396,south
+542,Ashley,4/19/24,foundation,93,455.4965766,midwest
+543,Cristina,11/29/22,lipstick,10,51.94544661,east
+544,Zaret,12/17/24,mascara,19,95.53484439,east
+545,Hallagan,7/18/23,eye liner,30,149.894762,south
+546,Ashley,11/14/24,mascara,1,2.070744372,south
+547,Jen,4/30/24,eye liner,46,225.8468349,east
+548,Cristina,9/2/22,foundation,44,216.2842194,midwest
+549,Betsy,10/27/22,eye liner,47,232.0037888,midwest
+550,Jen,9/9/24,eye liner,86,421.8343476,east
+551,Jen,7/27/24,foundation,76,372.5408372,midwest
+552,Zaret,4/1/22,mascara,55,270.5242842,west
+553,Ashley,5/26/22,eye liner,1,1.284494733,south
+554,Ashley,7/20/22,mascara,62,303.9664597,west
+555,Ashley,1/26/22,foundation,73,357.963556,midwest
+556,Hallagan,11/7/22,lipstick,12,62.27078142,west
+557,Emilee,8/22/22,mascara,0,2.591037776,west
+558,Cici,8/18/24,eye liner,23,115.6604787,west
+559,Cici,1/23/23,eye liner,73,357.7086113,midwest
+560,Jen,6/4/23,lip gloss,73,359.2854275,west
+561,Emilee,3/19/23,foundation,43,212.3141152,south
+562,Hallagan,7/27/24,lipstick,60,295.3137863,east
+563,Emilee,12/6/24,lip gloss,40,197.4229661,midwest
+564,Jen,7/29/23,lip gloss,7,30.64314714,midwest
+565,Betsy,9/24/22,foundation,39,191.7525525,midwest
+566,Colleen,1/1/23,mascara,84,411.1403413,west
+567,Jen,4/30/24,lipstick,92,450.0507643,west
+568,Hallagan,10/3/23,mascara,68,333.8547613,south
+569,Hallagan,11/7/22,lip gloss,7,37.5719849,east
+570,Zaret,10/12/24,eye liner,9,40.23470417,south
+571,Cici,10/14/23,mascara,51,250.1290551,midwest
+572,Hallagan,11/27/23,lip gloss,59,289.8136532,south
+573,Cristina,11/5/23,mascara,64,314.9952484,west
+574,Cici,11/16/23,lip gloss,0,4.076455465,east
+575,Jen,2/14/23,mascara,81,394.9817613,midwest
+576,Emilee,4/10/23,lipstick,93,454.8924548,midwest
+577,Cici,2/1/24,lip gloss,20,100.3872283,south
+578,Ashley,6/4/23,eye liner,39,194.2515423,east
+579,Cristina,10/27/22,foundation,6,32.42969781,south
+580,Cristina,2/17/22,foundation,34,167.9606745,south
+581,Hallagan,2/1/24,lip gloss,33,164.1238493,west
+582,Ashley,1/15/22,lipstick,10,46.11149511,west
+583,Cici,8/7/24,eye liner,47,229.9936787,midwest
+584,Emilee,1/15/22,foundation,94,461.0726724,east
+585,Hallagan,6/2/24,foundation,92,450.7267829,midwest
+586,Colleen,1/12/23,lip gloss,68,333.6536695,south
+587,Jen,3/21/22,lip gloss,37,182.819461,midwest
+588,Emilee,7/20/22,eye liner,78,381.3017332,south
+589,Hallagan,12/6/24,eye liner,14,70.88474129,east
+590,Cici,11/3/24,foundation,33,162.8903273,east
+591,Emilee,6/17/22,eye liner,64,314.5746487,west
+592,Zaret,8/7/24,lip gloss,6,32.77212019,south
+593,Cici,6/2/24,lipstick,65,319.9322906,west
+594,Betsy,1/15/22,mascara,24,120.338605,south
+595,Colleen,12/19/23,lipstick,89,435.7943938,midwest
+596,Colleen,10/3/23,mascara,94,460.4847979,east
+597,Zaret,12/8/23,foundation,67,330.0153074,south
+598,Colleen,8/11/22,mascara,7,37.96368407,south
+599,Colleen,9/24/22,foundation,58,285.1250431,east
+600,Jen,6/17/22,mascara,77,376.9225088,midwest
+601,Zaret,9/11/23,eye liner,50,244.8197088,east
+602,Betsy,8/7/24,lip gloss,10,52.06658321,south
+603,Hallagan,8/31/23,mascara,2,12.60442084,west
+604,Ashley,7/27/24,mascara,17,86.98126487,east
+605,Cristina,5/2/23,mascara,90,441.3105039,midwest
+606,Hallagan,11/25/24,foundation,58,284.4568423,south
+607,Cristina,1/21/24,mascara,66,323.8815893,midwest
+608,Jen,6/28/22,eye liner,6,32.79240123,midwest
+609,Colleen,4/19/24,lip gloss,90,441.5912412,south
+610,Colleen,5/22/24,lip gloss,38,187.689946,west
+611,Cristina,10/5/22,mascara,3,17.67040158,midwest
+612,Emilee,4/12/22,foundation,4,16.83529849,midwest
+613,Ashley,6/17/22,eye liner,8,41.95748185,west
+614,Colleen,4/1/22,mascara,8,36.01614049,west
+615,Hallagan,9/24/22,mascara,72,354.2742016,midwest
+616,Jen,1/21/24,eye liner,83,406.0787621,west
+617,Zaret,6/2/24,foundation,12,63.14369289,west
+618,Colleen,5/22/24,foundation,8,34.88388175,south
+619,Betsy,2/12/24,eye liner,22,110.3700188,west
+620,Cristina,11/3/24,mascara,2,6.203836613,west
+621,Hallagan,1/10/24,foundation,55,270.169124,south
+622,Jen,6/24/24,eye liner,40,198.5336952,west
+623,Betsy,6/26/23,foundation,61,298.0148244,midwest
+624,Hallagan,6/15/23,eye liner,40,198.5165479,south
+625,Jen,9/9/24,eye liner,31,153.3879592,midwest
+626,Betsy,4/23/22,mascara,6,33.13646376,midwest
+627,Hallagan,10/25/23,foundation,6,26.08306696,south
+628,Hallagan,7/7/23,eye liner,14,70.30187008,midwest
+629,Hallagan,7/31/22,mascara,94,459.8778085,east
+630,Jen,7/29/23,mascara,70,343.8751935,east
+631,Emilee,11/7/22,lip gloss,8,34.73565973,south
+632,Emilee,11/3/24,lip gloss,8,35.49228196,south
+633,Ashley,12/30/23,mascara,2,12.37939433,midwest
+634,Hallagan,1/4/22,lipstick,10,51.58434468,south
+635,Cici,5/2/23,eye liner,51,250.3414463,south
+636,Cici,4/1/22,eye liner,5,27.30314806,south
+637,Emilee,6/2/24,eye liner,39,193.5711277,south
+638,Ashley,3/21/22,eye liner,20,100.3205082,west
+639,Emilee,11/29/22,foundation,29,143.8403108,south
+640,Zaret,2/1/24,foundation,43,211.5647163,midwest
+641,Ashley,9/2/22,mascara,40,198.1936779,midwest
+642,Emilee,2/12/24,foundation,36,177.242973,south
+643,Emilee,1/23/23,eye liner,88,430.4390597,south
+644,Betsy,2/3/23,mascara,55,269.6194066,south
+645,Jen,12/21/22,eye liner,65,318.9209564,west
+646,Jen,7/7/23,lip gloss,6,31.57216856,west
+647,Cici,5/22/24,foundation,1,1.992552688,midwest
+648,Jen,9/20/24,foundation,32,158.4502042,south
+649,Hallagan,1/21/24,mascara,17,85.95884672,south
+650,Zaret,7/9/22,eye liner,25,123.733336,east
+651,Zaret,3/30/23,eye liner,11,57.92063823,east
+652,Zaret,2/17/22,mascara,51,251.1316491,south
+653,Emilee,11/3/24,lipstick,25,126.4708665,west
+654,Hallagan,11/14/24,eye liner,27,133.5703787,east
+655,Betsy,6/15/23,lip gloss,38,189.1974245,west
+656,Cristina,9/20/24,foundation,27,133.7629182,midwest
+657,Jen,6/13/24,eye liner,59,289.3840954,west
+658,Cici,2/12/24,foundation,73,357.1256426,west
+659,Colleen,8/31/23,eye liner,43,212.95706,midwest
+660,Cristina,7/5/24,mascara,51,250.7406752,west
+661,Betsy,9/13/22,lip gloss,32,158.7713199,midwest
+662,Zaret,4/8/24,lip gloss,89,435.1130357,midwest
+663,Jen,11/27/23,mascara,1,0.988973444,east
+664,Hallagan,3/17/24,eye liner,26,131.3599721,east
+665,Jen,2/25/23,foundation,56,275.8678639,midwest
+666,Betsy,8/22/22,lip gloss,10,52.5626804,midwest
+667,Hallagan,2/6/22,lipstick,8,41.53592044,east
+668,Colleen,5/2/23,eye liner,75,367.4380289,south
+669,Jen,2/3/23,foundation,79,387.9521545,east
+670,Colleen,5/13/23,foundation,25,123.029584,south
+671,Cristina,10/12/24,lip gloss,22,111.4793126,east
+672,Betsy,9/13/22,lipstick,88,430.339505,west
+673,Emilee,11/7/22,foundation,94,460.6129682,midwest
+674,Jen,10/3/23,mascara,58,286.2960204,south
+675,Emilee,6/4/23,lip gloss,66,324.3374463,south
+676,Jen,8/7/24,eye liner,82,401.6554463,west
+677,Hallagan,10/1/24,foundation,94,459.7002183,south
+678,Ashley,12/28/24,lip gloss,27,134.2707413,west
+679,Betsy,4/12/22,lipstick,56,275.3296704,midwest
+680,Emilee,4/19/24,mascara,82,401.4375375,south
+681,Emilee,9/11/23,mascara,7,37.36969718,south
+682,Betsy,1/10/24,lip gloss,25,125.3348899,west
+683,Ashley,12/28/24,foundation,15,75.83053163,south
+684,Jen,10/5/22,foundation,39,192.4895115,south
+685,Betsy,10/3/23,lip gloss,22,110.0318921,midwest
+686,Zaret,3/19/23,lipstick,0,2.560076364,west
+687,Betsy,7/20/22,mascara,47,231.0535806,south
+688,Jen,3/6/24,lipstick,36,178.6187951,east
+689,Jen,9/13/22,eye liner,46,226.0361232,west
+690,Emilee,4/30/24,eye liner,84,410.9657882,east
+691,Cristina,3/21/22,lip gloss,38,187.5393753,east
+692,Betsy,5/26/22,lip gloss,13,65.56708005,east
+693,Emilee,4/19/24,foundation,40,198.3233233,midwest
+694,Colleen,6/17/22,lipstick,46,225.8396997,midwest
+695,Cici,7/31/22,eye liner,11,56.87045983,east
+696,Ashley,6/15/23,lip gloss,1,1.455125951,west
+697,Ashley,3/10/22,lip gloss,32,159.7620502,east
+698,Cici,1/15/22,foundation,78,381.311491,midwest
+699,Ashley,1/23/23,lipstick,71,348.5322209,east
+700,Colleen,4/23/22,lip gloss,36,177.8750457,midwest
+701,Jen,8/22/22,mascara,79,386.7796834,west
+702,Ashley,8/9/23,lipstick,92,450.905767,west
+703,Hallagan,1/15/22,foundation,38,188.2476634,midwest
+704,Betsy,12/6/24,mascara,50,246.3771817,east
+705,Cristina,2/23/24,foundation,31,151.8492153,west
+706,Jen,6/13/24,lip gloss,9,47.60547984,east
+707,Hallagan,2/25/23,eye liner,24,118.7117954,west
+708,Ashley,1/12/23,lip gloss,50,247.1894586,west
+709,Jen,2/12/24,lipstick,32,159.0710139,west
+710,Cici,9/13/22,foundation,71,348.1830821,south
+711,Cristina,11/3/24,mascara,28,139.4936698,south
+712,Ashley,10/23/24,lip gloss,40,197.3669753,east
+713,Cristina,1/15/22,eye liner,75,367.7191274,east
+714,Zaret,8/22/22,lip gloss,30,149.0896136,midwest
+715,Jen,12/8/23,lip gloss,78,382.1534364,south
+716,Colleen,8/9/23,mascara,15,76.29879458,south
+717,Cristina,11/7/22,lipstick,30,148.7176037,west
+718,Zaret,10/3/23,foundation,27,135.3743568,west
+719,Hallagan,6/13/24,lip gloss,95,464.4284309,midwest
+720,Jen,2/17/22,foundation,62,305.693665,south
+721,Cristina,3/17/24,lip gloss,4,16.4452892,west
+722,Betsy,7/20/22,mascara,3,11.70672959,west
+723,Hallagan,7/7/23,mascara,62,304.0980524,midwest
+724,Betsy,8/11/22,lipstick,92,449.8360581,midwest
+725,Zaret,12/17/24,foundation,35,173.494223,south
+726,Betsy,5/2/23,eye liner,91,445.4396006,west
+727,Cristina,7/9/22,mascara,21,104.2014525,south
+728,Colleen,1/21/24,mascara,49,240.957069,south
+729,Zaret,3/19/23,foundation,34,167.4244637,midwest
+730,Hallagan,1/23/23,lip gloss,56,275.5964145,east
+731,Cristina,5/26/22,eye liner,81,396.6638273,west
+732,Betsy,4/12/22,eye liner,63,309.8194278,west
+733,Cristina,5/2/23,foundation,3,11.93257171,midwest
+734,Colleen,7/7/23,foundation,8,41.81328004,east
+735,Jen,4/1/22,lip gloss,46,226.1784595,west
+736,Colleen,2/14/23,lip gloss,3,17.62051802,south
+737,Colleen,5/22/24,foundation,68,333.4938442,west
+738,Betsy,4/19/24,foundation,83,406.7217862,east
+739,Cristina,2/14/23,eye liner,51,251.2999391,west
+740,Cici,4/19/24,foundation,16,81.32973277,west
+741,Cici,5/11/24,eye liner,2,6.339971709,south
+742,Cristina,11/29/22,lip gloss,6,33.00008692,south
+743,Colleen,10/25/23,lip gloss,5,20.36615688,east
+744,Betsy,1/21/24,eye liner,42,206.8921955,south
+745,Cristina,1/12/23,eye liner,47,232.2822332,midwest
+746,Hallagan,7/27/24,mascara,16,81.31405804,west
+747,Cici,5/15/22,lip gloss,11,57.27703818,west
+748,Betsy,11/29/22,eye liner,10,45.19275209,east
+749,Ashley,3/10/22,eye liner,21,105.9142968,south
+750,Cici,10/25/23,mascara,52,255.5160634,east
+751,Cristina,4/12/22,lipstick,5,27.54829449,south
+752,Cristina,7/29/23,eye liner,52,256.6638512,midwest
+753,Colleen,3/30/23,mascara,38,186.9300115,south
+754,Emilee,5/11/24,mascara,84,411.9047088,east
+755,Cici,12/6/24,lipstick,18,89.65635408,south
+756,Jen,5/4/22,lip gloss,6,25.50338422,west
+757,Cici,4/1/22,lip gloss,5,27.39993743,west
+758,Colleen,12/6/24,foundation,59,289.8114772,south
+759,Colleen,6/26/23,mascara,1,2.319393233,east
+760,Jen,1/23/23,lipstick,12,61.3242841,east
+761,Colleen,3/21/22,lipstick,25,124.4297025,east
+762,Cristina,6/26/23,mascara,33,164.3071766,east
+763,Betsy,2/28/22,mascara,12,61.37700164,west
+764,Emilee,8/9/23,eye liner,52,256.4585072,east
+765,Jen,3/30/23,eye liner,34,167.8695222,west
+766,Cristina,7/29/23,foundation,66,325.0672721,south
+767,Cristina,7/31/22,lipstick,10,51.60226058,south
+768,Cici,2/28/22,foundation,5,20.32715652,midwest
+769,Ashley,8/9/23,mascara,89,436.5724878,south
+770,Cici,4/10/23,foundation,5,27.24549431,south
+771,Jen,10/12/24,mascara,48,236.4959656,midwest
+772,Betsy,12/6/24,mascara,36,178.0768385,midwest
+773,Cristina,11/14/24,mascara,80,392.0358125,west
+774,Betsy,11/25/24,lip gloss,64,314.1035527,west
+775,Betsy,10/14/23,foundation,51,251.9097032,east
+776,Ashley,4/10/23,eye liner,92,450.9111303,east
+777,Cici,4/21/23,eye liner,93,454.9863273,midwest
+778,Jen,2/3/23,foundation,36,178.9794911,west
+779,Ashley,10/12/24,lip gloss,9,40.21958605,midwest
+780,Jen,5/24/23,lip gloss,48,236.8972497,west
+781,Cici,11/16/23,eye liner,11,55.96764307,east
+782,Cici,7/20/22,lipstick,8,41.23486248,west
+783,Colleen,4/12/22,foundation,36,178.3485849,east
+784,Cici,11/5/23,mascara,93,454.8632158,west
+785,Hallagan,4/12/22,lip gloss,39,193.1086021,east
+786,Hallagan,5/26/22,eye liner,72,353.2852077,south
+787,Emilee,3/6/24,lip gloss,3,16.8742058,midwest
+788,Zaret,1/1/23,mascara,47,231.3989591,east
+789,Cristina,12/28/24,mascara,72,352.0656112,west
+790,Colleen,12/6/24,mascara,26,129.1927145,midwest
+791,Zaret,10/5/22,eye liner,47,230.8298388,south
+792,Cristina,1/10/24,lip gloss,14,70.31419606,east
+793,Zaret,6/26/23,mascara,71,348.4228334,south
+794,Hallagan,8/18/24,foundation,95,466.2317597,midwest
+795,Cici,3/6/24,mascara,37,182.7022998,south
+796,Hallagan,12/8/23,lip gloss,1,0.633703733,east
+797,Emilee,8/18/24,eye liner,26,129.9379155,midwest
+798,Zaret,1/4/22,eye liner,67,329.7396444,east
+799,Emilee,2/17/22,lip gloss,15,76.4613294,midwest
+800,Jen,2/23/24,lip gloss,73,358.5645201,south
+801,Jen,10/5/22,mascara,13,66.25779823,west
+802,Emilee,3/21/22,foundation,76,371.8841569,east
+803,Cici,6/6/22,eye liner,9,40.39159433,south
+804,Colleen,6/4/23,lipstick,36,177.4439172,west
+805,Ashley,5/26/22,foundation,11,57.54532426,south
+806,Colleen,1/21/24,lip gloss,73,357.2108067,east
+807,Jen,10/16/22,lipstick,93,454.0300272,south
+808,Betsy,4/8/24,foundation,69,339.0930694,east
+809,Hallagan,4/12/22,eye liner,86,420.3655977,midwest
+810,Betsy,6/2/24,mascara,54,266.2946114,south
+811,Cristina,4/21/23,mascara,2,6.545388959,midwest
+812,Zaret,9/20/24,foundation,83,405.2678449,west
+813,Cici,10/14/23,mascara,2,12.96197384,west
+814,Colleen,8/18/24,eye liner,54,265.9223984,midwest
+815,Hallagan,4/1/22,foundation,76,373.2794897,east
+816,Betsy,8/31/23,eye liner,10,52.2459195,midwest
+817,Jen,10/12/24,foundation,81,396.9637656,west
+818,Jen,9/20/24,eye liner,83,406.8477835,midwest
+819,Zaret,11/3/24,foundation,6,31.62623977,south
+820,Colleen,11/14/24,mascara,77,377.7132364,east
+821,Jen,3/28/24,mascara,41,202.9600345,west
+822,Ashley,12/6/24,lip gloss,80,391.5659212,south
+823,Zaret,5/22/24,eye liner,20,100.7803585,east
+824,Emilee,1/26/22,eye liner,31,154.4300586,midwest
+825,Hallagan,1/10/24,foundation,34,168.3123998,east
+826,Ashley,8/31/23,foundation,2,13.01548738,west
+827,Jen,2/12/24,foundation,17,86.39757824,south
+828,Emilee,6/2/24,eye liner,16,81.50364906,south
+829,Cristina,3/6/24,foundation,54,265.197206,west
+830,Zaret,2/17/22,lip gloss,9,40.37363988,east
+831,Zaret,4/30/24,eye liner,94,460.9479201,west
+832,Jen,9/2/22,foundation,3,12.06853247,midwest
+833,Cristina,11/7/22,mascara,9,46.70591211,west
+834,Hallagan,3/21/22,foundation,25,124.9152895,east
+835,Ashley,10/23/24,lip gloss,29,144.6830844,south
+836,Cici,8/22/22,eye liner,37,183.4054401,east
+837,Zaret,6/26/23,foundation,19,95.58609197,west
+838,Cristina,4/12/22,lip gloss,28,139.3931999,midwest
+839,Jen,6/6/22,eye liner,18,90.49085016,west
+840,Ashley,6/2/24,lipstick,84,411.5497007,south
+841,Emilee,10/16/22,foundation,79,386.9004522,west
+842,Cici,11/7/22,foundation,31,153.8561972,midwest
+843,Jen,7/27/24,lipstick,34,167.5057906,east
+844,Cici,11/16/23,mascara,66,326.0336961,south
+845,Emilee,5/22/24,mascara,44,217.808771,east
+846,Betsy,1/23/23,eye liner,94,460.7595008,south
+847,Colleen,4/12/22,foundation,11,57.18577432,east
+848,Hallagan,8/22/22,lip gloss,74,362.8388195,east
+849,Jen,12/6/24,mascara,28,140.1066152,west
+850,Cristina,6/4/23,lip gloss,40,197.5133281,west
+851,Cristina,2/6/22,lip gloss,34,168.7536429,south
+852,Betsy,9/11/23,eye liner,38,187.6799184,south
+853,Hallagan,6/15/23,mascara,69,338.8122495,midwest
+854,Ashley,8/20/23,eye liner,34,168.4323447,midwest
+855,Betsy,8/9/23,mascara,29,144.8019889,midwest
+856,Colleen,2/17/22,foundation,10,44.91440126,midwest
+857,Cici,10/27/22,lipstick,42,208.0545005,midwest
+858,Zaret,3/17/24,mascara,58,285.0782608,west
+859,Emilee,3/10/22,foundation,27,134.4869732,midwest
+860,Cici,7/5/24,eye liner,47,232.1042099,east
+861,Emilee,2/6/22,foundation,29,143.6886805,south
+862,Cici,5/11/24,mascara,28,139.6868019,south
+863,Betsy,9/20/24,eye liner,79,387.2735398,south
+864,Ashley,11/7/22,eye liner,41,202.2049398,east
+865,Emilee,7/7/23,lipstick,57,280.198254,midwest
+866,Cici,7/16/24,lip gloss,45,222.9444371,west
+867,Jen,3/17/24,mascara,91,445.3579295,west
+868,Emilee,1/23/23,mascara,49,241.4469272,west
+869,Betsy,9/24/22,lip gloss,68,333.9807844,west
+870,Colleen,2/14/23,lipstick,38,188.9645905,west
+871,Ashley,9/20/24,foundation,4,24.63314207,south
+872,Emilee,4/10/23,mascara,45,222.0288414,east
+873,Cristina,12/10/22,mascara,85,415.7861323,midwest
+874,Emilee,7/7/23,lipstick,57,280.3518053,midwest
+875,Zaret,11/16/23,mascara,3,10.30933353,east
+876,Cici,8/7/24,foundation,9,40.27104577,midwest
+877,Zaret,4/23/22,eye liner,86,421.675987,midwest
+878,Jen,3/8/23,foundation,11,56.76752866,east
+879,Colleen,1/15/22,mascara,87,425.6699832,midwest
+880,Colleen,7/31/22,eye liner,86,421.2148212,south
+881,Betsy,2/1/24,lip gloss,62,304.2527608,west
+882,Emilee,7/16/24,mascara,80,391.8118623,west
+883,Colleen,7/20/22,lipstick,11,56.34735003,south
+884,Colleen,12/8/23,lipstick,11,56.18293298,midwest
+885,Cici,11/5/23,eye liner,4,15.86045136,south
+886,Cristina,12/10/22,lipstick,42,207.4022918,west
+887,Cristina,6/28/22,lip gloss,51,250.6431717,south
+888,Colleen,7/20/22,foundation,91,445.1309058,south
+889,Emilee,8/18/24,lip gloss,24,118.9182178,west
+890,Emilee,1/26/22,eye liner,19,95.7788239,midwest
+891,Colleen,3/21/22,lip gloss,80,391.6305181,midwest
+892,Betsy,12/6/24,foundation,0,2.721097895,east
+893,Jen,10/1/24,foundation,69,338.8101035,east
+894,Emilee,7/16/24,mascara,84,411.1304253,midwest
+895,Hallagan,8/20/23,lipstick,31,153.4984724,west
+896,Zaret,8/31/23,eye liner,11,57.14475009,south
+897,Ashley,3/30/23,lip gloss,79,387.7381812,midwest
+898,Jen,6/24/24,eye liner,22,111.0494306,midwest
+899,Betsy,2/3/23,foundation,76,374.4303771,east
+900,Ashley,10/5/22,eye liner,0,4.445956256,midwest
+901,Emilee,3/19/23,lip gloss,94,459.3708662,west
+902,Zaret,11/7/22,foundation,14,71.67803767,south
+903,Emilee,7/5/24,mascara,57,279.7695327,west
+904,Jen,4/21/23,lip gloss,3,17.95421628,east
+905,Cici,7/5/24,lip gloss,50,246.1744707,west
+906,Ashley,6/13/24,eye liner,25,124.1317876,east
+907,Cristina,8/31/23,foundation,46,227.2433798,south
+908,Zaret,7/16/24,lip gloss,19,95.1516405,east
+909,Emilee,5/22/24,eye liner,6,32.56139914,west
+910,Jen,7/5/24,lipstick,8,42.25747748,midwest
+911,Emilee,1/10/24,mascara,2,6.044167652,midwest
+912,Zaret,4/10/23,lip gloss,80,389.9179705,east
+913,Jen,5/2/23,foundation,19,95.4246767,south
+914,Betsy,4/10/23,lipstick,27,134.4504332,south
+915,Ashley,2/6/22,mascara,79,387.9068883,west
+916,Jen,1/10/24,foundation,57,280.7941216,south
+917,Cici,12/19/23,lip gloss,47,232.6346753,east
+918,Cici,11/7/22,lip gloss,9,46.69988744,south
+919,Jen,11/27/23,lip gloss,65,318.9119912,midwest
+920,Zaret,3/10/22,foundation,58,283.8607201,west
+921,Cici,9/13/22,mascara,48,236.4194468,south
+922,Zaret,10/14/23,foundation,75,367.1114665,east
+923,Cici,1/21/24,foundation,59,290.5872361,west
+924,Jen,1/23/23,mascara,34,169.2009529,midwest
+925,Zaret,4/1/22,lipstick,57,280.3694568,east
+926,Emilee,3/28/24,lip gloss,62,304.3750678,south
+927,Cristina,7/5/24,lipstick,17,85.93885675,south
+928,Ashley,7/29/23,foundation,83,406.3355198,west
+929,Ashley,7/20/22,lip gloss,56,275.141404,east
+930,Hallagan,2/28/22,lip gloss,14,71.59481145,west
+931,Colleen,1/1/23,lipstick,9,39.79170722,west
+932,Betsy,7/18/23,foundation,44,217.8956541,south
+933,Zaret,2/6/22,eye liner,32,158.192646,east
+934,Jen,1/12/23,eye liner,85,416.2920004,east
+935,Betsy,9/24/22,lip gloss,2,6.031837106,west
+936,Emilee,2/3/23,lipstick,31,152.9922254,south
+937,Cici,8/22/22,eye liner,7,32.11174102,south
+938,Colleen,1/26/22,lipstick,1,0.465519712,midwest
+939,Ashley,11/25/24,lip gloss,6,33.04336002,east
+940,Cristina,6/6/22,foundation,13,67.76487535,west
+941,Ashley,10/27/22,lip gloss,70,344.1772748,south
+942,Colleen,6/17/22,foundation,15,77.354091,west
+943,Cristina,4/19/24,mascara,18,91.13768886,south
+944,Cristina,2/23/24,eye liner,30,149.3582971,south
+945,Zaret,11/3/24,mascara,17,85.97008434,east
+946,Zaret,1/12/23,eye liner,1,2.355592357,midwest
+947,Jen,3/19/23,foundation,50,246.7538606,south
+948,Ashley,12/30/23,lip gloss,83,406.7737327,east
+949,Emilee,5/4/22,mascara,54,265.8123595,midwest
+950,Ashley,4/21/23,lip gloss,16,80.94830196,south
+951,Emilee,9/20/24,lip gloss,53,260.7538169,east
+952,Cristina,1/10/24,eye liner,95,464.4851516,west
+953,Ashley,1/4/22,mascara,74,363.0978711,south
+954,Colleen,8/20/23,mascara,11,56.90494161,midwest
+955,Hallagan,9/20/24,foundation,63,309.4214906,west
+956,Betsy,8/31/23,eye liner,53,261.2050419,east
+957,Zaret,7/27/24,lip gloss,1,8.556328137,south
+958,Cristina,11/18/22,foundation,24,120.3778186,midwest
+959,Zaret,4/8/24,lipstick,5,26.60485505,west
+960,Betsy,2/25/23,lip gloss,35,173.8946554,east
+961,Betsy,5/22/24,eye liner,33,163.0023265,south
+962,Emilee,2/1/24,mascara,65,318.5508072,south
+963,Cici,2/12/24,mascara,52,256.5027973,east
+964,Cici,8/18/24,mascara,44,216.1484729,east
+965,Ashley,10/12/24,lipstick,72,353.2525891,east
+966,Emilee,9/13/22,mascara,13,66.64471401,east
+967,Zaret,9/9/24,foundation,16,81.25788164,south
+968,Cici,2/12/24,foundation,19,96.00980869,west
+969,Zaret,5/13/23,mascara,67,329.564663,west
+970,Emilee,2/12/24,lip gloss,2,13.46590474,midwest
+971,Zaret,6/2/24,mascara,28,138.97546,south
+972,Colleen,8/20/23,foundation,6,25.6843857,midwest
+973,Ashley,3/30/23,mascara,70,343.491485,midwest
+974,Hallagan,2/23/24,lip gloss,65,319.442342,south
+975,Emilee,12/28/24,foundation,39,192.8629162,east
+976,Hallagan,8/29/24,foundation,72,353.4715141,west
+977,Betsy,5/2/23,lipstick,47,230.9098452,west
+978,Emilee,5/11/24,lip gloss,94,459.3986851,east
+979,Betsy,5/13/23,lip gloss,58,284.8332699,west
+980,Jen,5/15/22,eye liner,6,28.00789095,east
+981,Colleen,2/17/22,eye liner,38,187.8578461,south
+982,Cristina,1/15/22,eye liner,1,1.645937518,midwest
+983,Jen,11/16/23,eye liner,34,169.418258,west
+984,Zaret,4/1/22,lip gloss,30,148.582067,west
+985,Colleen,5/26/22,foundation,62,303.6404643,south
+986,Betsy,2/12/24,lip gloss,24,120.2229052,east
+987,Colleen,9/13/22,eye liner,4,22.11978611,west
+988,Emilee,6/6/22,lip gloss,88,429.7724393,west
+989,Emilee,10/3/23,eye liner,78,381.8235733,east
+990,Ashley,10/14/23,eye liner,82,401.9551382,west
+991,Cristina,5/13/23,lip gloss,68,335.1301837,east
+992,Cristina,2/17/22,foundation,20,99.78922437,midwest
+993,Colleen,10/5/22,lip gloss,10,45.88833585,south
+994,Zaret,9/24/22,eye liner,94,460.0591228,south
+995,Zaret,4/8/24,foundation,62,304.5641035,east
+996,Emilee,7/9/22,mascara,71,348.3364719,west
+997,Ashley,3/21/22,lipstick,70,342.6663594,west
+998,Cici,4/12/22,foundation,17,84.25167432,east
+999,Ashley,12/8/23,eye liner,51,250.8826331,east
+1000,Betsy,4/30/24,mascara,70,343.7426867,midwest
+1001,Zaret,6/24/24,eye liner,94,459.9488898,west
+1002,Colleen,12/10/22,mascara,70,343.1972666,midwest
+1003,Ashley,5/13/23,lip gloss,89,436.0853866,west
+1004,Colleen,10/14/23,lip gloss,26,128.4846175,midwest
+1005,Cici,12/8/23,eye liner,8,42.27628561,midwest
+1006,Ashley,2/1/24,foundation,8,42.25282426,midwest
+1007,Cici,10/12/24,eye liner,62,304.0595839,east
+1008,Jen,8/18/24,eye liner,9,40.20780516,south
+1009,Zaret,8/22/22,foundation,55,270.2479361,east
+1010,Hallagan,9/2/22,lipstick,71,348.8724441,midwest
+1011,Emilee,3/17/24,mascara,5,28.23371242,south
+1012,Colleen,8/31/23,foundation,28,139.8417888,east
+1013,Emilee,5/11/24,lipstick,95,464.821333,south
+1014,Betsy,9/22/23,eye liner,56,274.8630277,south
+1015,Cici,10/25/23,foundation,79,386.7202923,south
+1016,Cici,7/29/23,eye liner,10,52.23066223,south
+1017,Hallagan,9/24/22,lipstick,69,337.9584347,west
+1018,Colleen,3/17/24,lip gloss,15,75.7713373,midwest
+1019,Cici,2/1/24,eye liner,0,2.877216282,west
+1020,Cici,7/7/23,lipstick,78,382.484899,east
+1021,Hallagan,5/24/23,mascara,89,434.8910718,south
+1022,Cici,2/14/23,mascara,94,460.2610657,east
+1023,Betsy,2/17/22,mascara,5,21.20700276,west
+1024,Hallagan,12/6/24,lip gloss,42,207.2817155,midwest
+1025,Emilee,9/20/24,eye liner,9,47.02421474,west
+1026,Emilee,4/10/23,foundation,8,42.76706923,east
+1027,Betsy,8/11/22,foundation,69,338.8160942,south
+1028,Cristina,10/12/24,mascara,2,12.51785915,south
+1029,Cici,9/24/22,eye liner,3,16.98967718,midwest
+1030,Emilee,6/15/23,lipstick,76,372.8289811,midwest
+1031,Cristina,6/28/22,eye liner,7,29.86415255,west
+1032,Colleen,7/5/24,mascara,24,119.9453557,west
+1033,Jen,9/9/24,foundation,35,172.8045089,west
+1034,Cici,3/21/22,foundation,23,115.1812113,west
+1035,Zaret,4/30/24,eye liner,32,158.7318116,east
+1036,Cristina,9/2/22,mascara,46,226.511703,midwest
+1037,Cici,2/6/22,lip gloss,28,139.1800108,midwest
+1038,Cici,2/3/23,lipstick,58,285.7398501,south
+1039,Emilee,11/16/23,lip gloss,19,95.71602853,south
+1040,Colleen,8/11/22,lip gloss,79,386.590611,east
+1041,Betsy,12/10/22,mascara,31,152.4817681,midwest
+1042,Cici,11/16/23,eye liner,4,23.15433304,south
+1043,Colleen,3/28/24,foundation,91,446.3252657,midwest
+1044,Hallagan,6/15/23,lip gloss,51,250.6890213,south
+1045,Emilee,1/15/22,eye liner,2,13.51777381,south
+1046,Jen,7/7/23,lipstick,42,206.8481233,west
+1047,Betsy,11/18/22,lip gloss,57,280.4218154,east
+1048,Colleen,9/24/22,foundation,63,308.1393146,east
+1049,Betsy,5/4/22,mascara,37,183.0128597,midwest
+1050,Betsy,3/10/22,lip gloss,30,150.0316019,south
+1051,Hallagan,3/28/24,foundation,31,154.257759,east
+1052,Cristina,3/10/22,eye liner,55,271.0671555,east
+1053,Jen,12/19/23,eye liner,5,20.48308793,south
+1054,Zaret,4/23/22,lip gloss,28,138.4466656,east
+1055,Emilee,8/20/23,eye liner,93,453.8435242,midwest
+1056,Jen,10/14/23,lipstick,13,66.37044901,midwest
+1057,Betsy,3/6/24,foundation,94,459.9183486,east
+1058,Jen,3/19/23,foundation,1,7.868129692,east
+1059,Cici,10/3/23,foundation,5,26.71876985,west
+1060,Colleen,6/2/24,mascara,60,293.7539576,south
+1061,Hallagan,7/20/22,lip gloss,67,328.8937864,south
+1062,Hallagan,12/10/22,foundation,87,426.9012599,south
+1063,Hallagan,11/18/22,mascara,53,260.9321926,west
+1064,Jen,8/9/23,lip gloss,74,363.1996552,south
+1065,Betsy,11/14/24,lip gloss,83,407.2697051,east
+1066,Cici,10/14/23,mascara,45,221.6054811,midwest
+1067,Jen,6/28/22,lip gloss,36,178.1355535,east
+1068,Hallagan,12/19/23,foundation,82,402.0783585,midwest
+1069,Ashley,8/29/24,foundation,18,91.53819835,east
+1070,Emilee,4/12/22,foundation,21,104.5995108,south
+1071,Colleen,6/26/23,foundation,56,275.6677071,south
+1072,Cici,4/30/24,eye liner,51,251.0415282,east
+1073,Cristina,3/6/24,foundation,88,431.1710415,west
+1074,Emilee,4/21/23,eye liner,93,455.1517308,east
+1075,Ashley,9/24/22,lip gloss,4,15.86805192,west
+1076,Colleen,4/21/23,eye liner,30,148.7784017,south
+1077,Jen,12/19/23,foundation,81,397.9016365,south
+1078,Colleen,4/21/23,foundation,58,284.7854813,midwest
+1079,Ashley,1/4/22,mascara,50,246.1781294,midwest
+1080,Zaret,6/28/22,lip gloss,92,449.7886422,south
+1081,Ashley,11/14/24,foundation,27,133.0423448,south
+1082,Zaret,8/22/22,foundation,61,298.8153244,south
+1083,Colleen,7/27/24,mascara,7,37.5812012,south
+1084,Betsy,12/10/22,lip gloss,25,123.9591254,midwest
+1085,Ashley,8/22/22,lip gloss,84,411.8252345,south
+1086,Betsy,4/1/22,eye liner,66,323.8777181,west
+1087,Emilee,5/4/22,eye liner,89,436.1602428,east
+1088,Cristina,5/13/23,foundation,32,158.5709631,midwest
+1089,Cristina,7/5/24,lip gloss,78,382.7417275,midwest
+1090,Emilee,3/17/24,lipstick,56,275.3783983,west
+1091,Colleen,12/28/24,foundation,80,391.2913456,midwest
+1092,Cici,2/3/23,mascara,72,353.6929235,midwest
+1093,Zaret,11/16/23,lip gloss,23,115.5038723,east
+1094,Cici,3/6/24,mascara,2,5.975546652,west
+1095,Colleen,10/5/22,lip gloss,81,397.497097,south
+1096,Emilee,11/5/23,lipstick,4,17.21509021,west
+1097,Betsy,1/1/23,mascara,81,397.6626814,south
+1098,Colleen,3/10/22,lipstick,9,40.34060459,midwest
+1099,Hallagan,3/8/23,eye liner,67,329.4896317,west
+1100,Betsy,2/3/23,mascara,27,134.8806334,west
+1101,Colleen,3/6/24,mascara,1,2.346813475,east
+1102,Ashley,8/31/23,mascara,24,120.6064768,east
+1103,Hallagan,2/1/24,eye liner,80,391.9883418,east
+1104,Zaret,10/5/22,lip gloss,82,402.0988639,south
+1105,Jen,12/30/23,foundation,1,8.994016996,east
+1106,Cristina,4/12/22,foundation,11,57.14962757,west
+1107,Betsy,7/16/24,mascara,12,60.47684987,east
+1108,Cici,12/10/22,eye liner,54,266.2983794,east
+1109,Jen,11/3/24,mascara,78,383.3830322,west
+1110,Cici,2/6/22,mascara,8,35.26740006,west
+1111,Betsy,2/17/22,eye liner,6,32.14776356,south
+1112,Zaret,10/5/22,foundation,30,148.6321544,west
+1113,Colleen,2/1/24,lip gloss,55,270.2394742,south
+1114,Cici,3/28/24,eye liner,53,261.2109127,east
+1115,Ashley,2/14/23,mascara,29,144.0682782,east
+1116,Betsy,4/12/22,lip gloss,75,367.8013687,midwest
+1117,Ashley,11/29/22,foundation,78,381.8029632,south
+1118,Zaret,9/20/24,foundation,6,33.02552431,south
+1119,Colleen,7/29/23,lip gloss,57,279.7248626,west
+1120,Hallagan,4/10/23,eye liner,35,172.575076,south
+1121,Cici,11/14/24,eye liner,72,352.1318214,midwest
+1122,Jen,6/17/22,mascara,79,386.0710545,south
+1123,Cici,4/21/23,lip gloss,89,435.8101595,west
+1124,Jen,5/2/23,eye liner,84,409.1876186,east
+1125,Cristina,9/9/24,mascara,43,211.6613458,west
+1126,Emilee,1/21/24,lip gloss,4,16.14361597,midwest
+1127,Emilee,1/12/23,foundation,51,250.5497024,west
+1128,Betsy,5/22/24,lip gloss,17,85.97757449,west
+1129,Hallagan,11/14/24,mascara,51,251.4820719,west
+1130,Jen,3/6/24,eye liner,14,71.59695567,west
+1131,Ashley,12/17/24,lip gloss,60,294.6335967,east
+1132,Cici,11/18/22,mascara,8,35.61030428,west
+1133,Colleen,6/26/23,foundation,95,464.3919721,south
+1134,Zaret,2/1/24,foundation,66,323.3420554,east
+1135,Zaret,12/21/22,lip gloss,77,376.8543631,midwest
+1136,Hallagan,12/10/22,eye liner,65,319.6761553,east
+1137,Hallagan,4/21/23,mascara,29,144.4784815,midwest
+1138,Zaret,7/9/22,lipstick,8,42.26283122,east
+1139,Ashley,1/10/24,lipstick,42,207.1471005,east
+1140,Betsy,2/28/22,foundation,93,454.7683238,midwest
+1141,Zaret,6/6/22,foundation,69,338.8288776,south
+1142,Colleen,7/5/24,mascara,91,445.1832434,south
+1143,Hallagan,2/3/23,eye liner,11,55.92401783,south
+1144,Hallagan,1/1/23,lip gloss,1,2.531904779,midwest
+1145,Jen,12/21/22,mascara,52,256.3013581,south
+1146,Betsy,3/6/24,lipstick,10,46.3887233,south
+1147,Zaret,11/25/24,mascara,33,162.8212878,south
+1148,Betsy,10/5/22,lipstick,1,1.807245608,west
+1149,Colleen,8/29/24,mascara,24,119.1372571,west
+1150,Jen,5/15/22,foundation,71,347.8191228,midwest
+1151,Hallagan,11/18/22,lip gloss,88,430.7010246,south
+1152,Betsy,7/29/23,lip gloss,16,80.98461293,west
+1153,Cici,6/15/23,foundation,7,37.57128413,east
+1154,Emilee,9/24/22,mascara,46,227.5761542,south
+1155,Ashley,11/29/22,foundation,10,44.68652935,midwest
+1156,Hallagan,6/24/24,lip gloss,83,406.8358425,west
+1157,Jen,3/17/24,lip gloss,85,415.0853566,south
+1158,Zaret,9/11/23,eye liner,18,91.07931094,midwest
+1159,Cristina,9/24/22,lipstick,83,407.2740778,midwest
+1160,Cici,11/25/24,lip gloss,71,347.847012,south
+1161,Emilee,9/2/22,eye liner,2,12.85062641,east
+1162,Betsy,11/14/24,foundation,71,348.3499948,west
+1163,Zaret,9/22/23,lipstick,68,334.0535432,south
+1164,Emilee,11/7/22,eye liner,30,149.5779361,east
+1165,Hallagan,2/1/24,lipstick,72,352.8476541,west
+1166,Jen,8/22/22,eye liner,73,358.6137723,east
+1167,Betsy,1/21/24,lip gloss,28,140.0788422,east
+1168,Cici,3/17/24,mascara,40,198.6710135,midwest
+1169,Emilee,12/6/24,foundation,8,36.11873372,west
+1170,Ashley,4/10/23,lipstick,70,342.9401563,east
+1171,Betsy,12/19/23,eye liner,3,17.36928577,midwest
+1172,Betsy,12/10/22,eye liner,33,163.1057849,midwest
+1173,Colleen,8/22/22,lip gloss,88,430.5112144,east
+1174,Emilee,1/1/23,mascara,39,193.049098,east
+1175,Cici,6/26/23,lipstick,64,313.6925131,midwest
+1176,Jen,6/24/24,lip gloss,0,3.453535927,east
+1177,Cristina,3/21/22,lipstick,26,130.2055022,south
+1178,Ashley,3/10/22,lip gloss,0,2.41067098,west
+1179,Betsy,6/13/24,foundation,76,372.2312695,east
+1180,Emilee,10/27/22,eye liner,75,368.7437127,midwest
+1181,Emilee,6/17/22,lip gloss,61,298.8491943,south
+1182,Cici,7/18/23,eye liner,2,6.934576657,midwest
+1183,Hallagan,2/6/22,lipstick,40,198.5336211,east
+1184,Colleen,2/14/23,eye liner,5,28.16208388,west
+1185,Colleen,9/20/24,eye liner,57,279.4874769,south
+1186,Jen,3/28/24,eye liner,86,420.9026737,midwest
+1187,Betsy,6/17/22,lipstick,15,75.37715963,east
+1188,Cici,9/9/24,eye liner,39,192.5212381,east
+1189,Betsy,5/4/22,foundation,94,460.5385923,midwest
+1190,Betsy,3/28/24,lip gloss,78,382.2375356,south
+1191,Cici,1/21/24,eye liner,65,319.0545248,east
+1192,Ashley,12/17/24,eye liner,66,323.8286453,south
+1193,Emilee,5/13/23,mascara,84,411.6382058,east
+1194,Betsy,3/17/24,mascara,35,174.0241314,south
+1195,Cristina,6/6/22,mascara,94,460.8083528,west
+1196,Colleen,4/10/23,lip gloss,26,129.6144308,midwest
+1197,Jen,7/27/24,eye liner,80,393.1571603,east
+1198,Cristina,5/26/22,lip gloss,7,36.85351733,west
+1199,Hallagan,7/27/24,mascara,47,230.7737522,midwest
+1200,Colleen,9/13/22,lip gloss,32,159.8434667,west
+1201,Hallagan,11/27/23,lip gloss,8,41.14343392,west
+1202,Ashley,7/31/22,mascara,33,163.4715398,midwest
+1203,Jen,9/2/22,eye liner,22,110.8780919,east
+1204,Cici,10/25/23,lip gloss,81,396.4180349,south
+1205,Cici,6/13/24,lipstick,81,396.6956382,midwest
+1206,Ashley,7/31/22,foundation,30,148.6169271,south
+1207,Zaret,9/13/22,lip gloss,1,1.855178468,west
+1208,Hallagan,5/22/24,mascara,35,173.104133,midwest
+1209,Cici,3/17/24,mascara,78,382.2560564,west
+1210,Betsy,8/7/24,lip gloss,15,76.50676743,south
+1211,Jen,1/23/23,mascara,75,367.5414328,east
+1212,Emilee,10/12/24,eye liner,12,61.79172278,south
+1213,Cristina,11/16/23,mascara,30,149.0130063,midwest
+1214,Cristina,5/13/23,eye liner,42,207.4336984,west
+1215,Emilee,1/4/22,eye liner,8,35.87802522,east
+1216,Jen,4/12/22,lipstick,93,454.7941737,west
+1217,Hallagan,8/29/24,eye liner,55,271.4718974,east
+1218,Ashley,2/25/23,lip gloss,53,261.0914617,south
+1219,Emilee,7/5/24,eye liner,20,100.0693824,west
+1220,Zaret,4/21/23,lipstick,19,95.12784307,midwest
+1221,Cici,1/23/23,mascara,23,114.8053833,south
+1222,Betsy,3/6/24,foundation,68,333.5726431,south
+1223,Colleen,1/21/24,lipstick,52,255.7364603,east
+1224,Ashley,7/18/23,eye liner,40,197.5688258,south
+1225,Colleen,2/23/24,mascara,22,109.6876033,west
+1226,Colleen,4/10/23,lipstick,5,27.52396382,west
+1227,Colleen,4/8/24,mascara,30,149.4997149,south
+1228,Colleen,4/1/22,eye liner,6,32.7968306,west
+1229,Jen,9/24/22,lipstick,92,449.7607651,east
+1230,Zaret,5/22/24,mascara,5,20.14063439,midwest
+1231,Cristina,5/11/24,lip gloss,20,100.1819993,west
+1232,Emilee,12/28/24,mascara,54,264.1991375,midwest
+1233,Colleen,4/10/23,eye liner,9,47.31442367,east
+1234,Zaret,5/13/23,eye liner,6,32.33167074,south
+1235,Emilee,5/4/22,lip gloss,47,231.3836282,east
+1236,Ashley,11/16/23,mascara,10,43.88783734,south
+1237,Cici,5/15/22,mascara,90,441.1914871,midwest
+1238,Betsy,2/6/22,foundation,48,237.2240686,midwest
+1239,Emilee,4/10/23,foundation,55,271.0669417,south
+1240,Betsy,6/24/24,mascara,42,208.1354788,east
+1241,Cici,2/1/24,eye liner,39,193.4694433,west
+1242,Colleen,11/16/23,mascara,26,129.018593,south
+1243,Betsy,2/12/24,mascara,26,128.7889013,east
+1244,Betsy,12/19/23,eye liner,52,256.4179197,east
+1245,Colleen,11/18/22,foundation,19,95.20664673,south
+1246,Ashley,8/11/22,mascara,18,90.20765835,east
+1247,Hallagan,11/25/24,mascara,87,426.1270575,east
+1248,Colleen,10/16/22,eye liner,46,226.7023009,midwest
+1249,Betsy,7/16/24,mascara,54,265.1837085,midwest
+1250,Zaret,2/28/22,mascara,21,104.8169221,south
+1251,Colleen,2/6/22,foundation,6,26.30417246,west
+1252,Cristina,11/18/22,foundation,47,230.70908,east
+1253,Jen,4/23/22,foundation,14,71.66333564,west
+1254,Jen,10/1/24,foundation,73,357.2100207,west
+1255,Jen,12/17/24,lip gloss,14,71.96801383,south
+1256,Hallagan,4/8/24,lip gloss,95,464.5463192,midwest
+1257,Cristina,2/17/22,eye liner,64,313.2556449,south
+1258,Cici,10/5/22,eye liner,47,231.8918911,midwest
+1259,Cristina,11/29/22,foundation,20,100.3392172,west
+1260,Zaret,12/21/22,lip gloss,71,348.8320732,west
+1261,Cristina,10/14/23,eye liner,66,323.18567,west
+1262,Hallagan,10/5/22,foundation,79,387.8862035,west
+1263,Hallagan,10/25/23,mascara,7,29.81005558,east
+1264,Betsy,10/3/23,foundation,72,352.1119974,west
+1265,Hallagan,10/5/22,lipstick,91,446.0965473,midwest
+1266,Colleen,3/10/22,mascara,57,281.0340627,south
+1267,Cici,9/24/22,foundation,8,35.36054174,south
+1268,Cristina,9/11/23,foundation,45,221.8687113,east
+1269,Zaret,10/27/22,eye liner,92,450.4332851,south
+1270,Colleen,9/2/22,mascara,28,140.0612433,midwest
+1271,Betsy,1/23/23,lipstick,79,387.1580673,west
+1272,Jen,1/23/23,foundation,92,449.61144,west
+1273,Cristina,4/23/22,mascara,11,55.82097499,midwest
+1274,Colleen,1/23/23,eye liner,23,114.528518,east
+1275,Betsy,4/19/24,eye liner,2,14.25985125,midwest
+1276,Emilee,1/1/23,eye liner,2,5.587923774,east
+1277,Hallagan,6/4/23,lip gloss,33,163.111605,west
+1278,Emilee,6/24/24,mascara,10,50.70751526,midwest
+1279,Ashley,11/29/22,lipstick,84,411.6733827,east
+1280,Hallagan,12/21/22,mascara,88,431.5572114,midwest
+1281,Betsy,7/7/23,eye liner,95,464.3056602,east
+1282,Zaret,2/14/23,mascara,3,19.28428907,midwest
+1283,Betsy,4/30/24,lip gloss,72,352.4817302,west
+1284,Cici,3/8/23,eye liner,58,286.1793834,midwest
+1285,Ashley,6/6/22,eye liner,19,96.62223847,west
+1286,Betsy,4/21/23,mascara,35,172.5414846,south
+1287,Hallagan,11/29/22,foundation,80,393.0659538,west
+1288,Cristina,1/26/22,eye liner,26,129.6787072,south
+1289,Zaret,7/7/23,lip gloss,93,455.1102011,west
+1290,Colleen,11/5/23,eye liner,29,145.8924638,midwest
+1291,Colleen,4/23/22,foundation,88,431.5181897,midwest
+1292,Jen,8/18/24,eye liner,5,27.33620655,east
+1293,Colleen,8/9/23,mascara,64,314.323997,west
+1294,Emilee,12/30/23,lip gloss,38,187.9650592,east
+1295,Jen,10/16/22,foundation,21,106.2786658,west
+1296,Hallagan,7/18/23,eye liner,61,298.7958665,west
+1297,Zaret,5/4/22,eye liner,53,260.48894,west
+1298,Betsy,2/1/24,mascara,28,139.8430393,east
+1299,Zaret,8/29/24,mascara,39,193.5763159,east
+1300,Zaret,11/3/24,lip gloss,89,435.3270586,west
+1301,Betsy,4/23/22,foundation,72,353.4157049,south
+1302,Colleen,8/22/22,lip gloss,63,309.5490763,south
+1303,Cristina,12/28/24,foundation,47,230.2782716,west
+1304,Ashley,7/7/23,mascara,8,41.50439642,midwest
+1305,Betsy,11/7/22,lip gloss,88,430.2188177,east
+1306,Ashley,8/22/22,lip gloss,12,61.2662614,midwest
+1307,Jen,11/27/23,mascara,79,387.4638188,midwest
+1308,Colleen,6/17/22,lipstick,39,192.6907128,south
+1309,Jen,2/12/24,mascara,61,299.7909384,west
+1310,Jen,9/20/24,lip gloss,12,62.00587815,west
+1311,Zaret,11/7/22,mascara,25,124.1748926,east
+1312,Cici,11/27/23,foundation,82,402.1828318,south
+1313,Ashley,12/21/22,mascara,4,23.46189945,west
+1314,Ashley,12/17/24,lipstick,22,110.5275042,south
+1315,Ashley,10/1/24,mascara,81,396.2914284,midwest
+1316,Zaret,2/25/23,eye liner,34,168.2397995,south
+1317,Ashley,11/18/22,mascara,89,436.9865583,east
+1318,Zaret,2/3/23,mascara,6,32.90169785,midwest
+1319,Jen,6/26/23,eye liner,78,382.3133256,south
+1320,Cici,5/13/23,lip gloss,9,46.74139225,south
+1321,Cristina,12/28/24,mascara,9,48.14335133,east
+1322,Cristina,4/19/24,foundation,73,358.3172687,east
+1323,Betsy,1/15/22,lip gloss,13,67.91654293,midwest
+1324,Colleen,3/8/23,eye liner,14,71.27807014,midwest
+1325,Betsy,5/24/23,lipstick,33,162.505363,midwest
+1326,Betsy,4/1/22,foundation,17,86.0594535,east
+1327,Hallagan,7/5/24,lip gloss,9,47.79186655,south
+1328,Jen,2/23/24,mascara,15,76.64466821,midwest
+1329,Ashley,9/9/24,lipstick,50,246.7425105,east
+1330,Jen,11/7/22,lipstick,13,65.70519099,west
+1331,Hallagan,9/13/22,lip gloss,24,121.0644424,west
+1332,Betsy,12/30/23,lip gloss,77,377.2862647,south
+1333,Hallagan,5/11/24,mascara,21,105.6476339,east
+1334,Cici,7/7/23,mascara,80,390.0348754,midwest
+1335,Hallagan,11/7/22,mascara,56,276.2246111,south
+1336,Cristina,4/10/23,foundation,28,139.3243712,west
+1337,Jen,11/27/23,lipstick,50,245.5419338,midwest
+1338,Cristina,4/10/23,eye liner,23,115.6765909,east
+1339,Jen,6/6/22,lip gloss,77,377.2178099,midwest
+1340,Betsy,2/17/22,mascara,56,275.8255752,east
+1341,Cici,4/19/24,lip gloss,26,129.2113547,east
+1342,Ashley,2/17/22,foundation,18,90.60936491,south
+1343,Cristina,2/17/22,lip gloss,40,196.1867389,south
+1344,Hallagan,2/17/22,mascara,75,367.8475919,south
+1345,Colleen,2/25/23,lipstick,61,299.3013742,midwest
+1346,Ashley,12/21/22,lipstick,35,172.9119824,west
+1347,Cici,7/29/23,foundation,42,206.9436165,west
+1348,Hallagan,11/18/22,eye liner,47,230.9899832,south
+1349,Ashley,10/16/22,mascara,74,364.531194,south
+1350,Ashley,5/24/23,mascara,55,269.3277475,west
+1351,Zaret,9/22/23,lip gloss,87,426.2394127,west
+1352,Ashley,6/28/22,foundation,75,368.2732462,south
+1353,Emilee,6/13/24,foundation,91,444.8640654,west
+1354,Ashley,12/19/23,lip gloss,79,385.8933671,south
+1355,Cici,6/17/22,mascara,31,153.7628097,midwest
+1356,Hallagan,10/5/22,eye liner,36,177.9868072,midwest
+1357,Jen,6/28/22,mascara,80,392.1422857,south
+1358,Betsy,3/17/24,lip gloss,32,158.9314987,east
+1359,Zaret,6/28/22,lipstick,29,144.4599407,west
+1360,Hallagan,5/13/23,foundation,64,313.497156,west
+1361,Cristina,3/10/22,lip gloss,27,135.5429657,west
+1362,Cici,9/24/22,lip gloss,36,177.8910432,west
+1363,Betsy,12/6/24,mascara,36,177.3196559,west
+1364,Jen,10/23/24,mascara,32,157.6963079,south
+1365,Cristina,8/29/24,mascara,9,47.26031614,east
+1366,Zaret,5/22/24,foundation,78,381.7298463,east
+1367,Zaret,1/23/23,lipstick,55,271.6626651,west
+1368,Hallagan,8/22/22,mascara,79,387.598327,south
+1369,Hallagan,1/4/22,eye liner,9,47.57828558,south
+1370,Betsy,12/17/24,foundation,4,23.12765457,west
+1371,Hallagan,4/19/24,mascara,6,32.66769913,midwest
+1372,Cici,5/24/23,eye liner,18,90.58881157,midwest
+1373,Zaret,10/25/23,eye liner,14,72.07584245,west
+1374,Cristina,8/18/24,lip gloss,91,446.3172565,east
+1375,Zaret,12/8/23,eye liner,74,362.9964417,south
+1376,Betsy,7/31/22,lip gloss,47,233.0492539,west
+1377,Colleen,11/3/24,foundation,28,140.078629,south
+1378,Colleen,9/20/24,eye liner,21,104.9504166,west
+1379,Cristina,3/30/23,foundation,52,255.4646747,south
+1380,Zaret,6/28/22,lipstick,33,163.7634694,south
+1381,Colleen,2/6/22,mascara,7,31.48943682,east
+1382,Cristina,4/1/22,lip gloss,12,61.94570284,south
+1383,Zaret,2/28/22,eye liner,1,7.298055892,south
+1384,Betsy,1/26/22,mascara,56,275.0074775,south
+1385,Cristina,6/26/23,foundation,34,169.2528477,south
+1386,Cici,2/25/23,foundation,83,405.6313931,midwest
+1387,Colleen,3/19/23,eye liner,4,16.45211225,south
+1388,Cristina,2/3/23,foundation,9,48.11993604,south
+1389,Hallagan,5/15/22,eye liner,64,314.2650701,west
+1390,Cici,5/15/22,lip gloss,13,66.33482822,south
+1391,Zaret,4/23/22,lip gloss,9,46.467565,south
+1392,Emilee,9/20/24,lip gloss,6,31.66497594,west
+1393,Ashley,5/22/24,foundation,55,270.6892116,midwest
+1394,Jen,6/2/24,lipstick,64,315.6325531,south
+1395,Betsy,6/15/23,lip gloss,27,133.9006932,east
+1396,Jen,10/16/22,lip gloss,4,23.26055472,west
+1397,Cici,11/5/23,lip gloss,17,86.58936614,midwest
+1398,Ashley,8/18/24,lip gloss,24,120.3456162,east
+1399,Emilee,12/8/23,lip gloss,87,425.8665634,west
+1400,Zaret,11/18/22,mascara,10,51.44994901,east
+1401,Cristina,10/16/22,mascara,0,2.966436992,midwest
+1402,Cristina,1/23/23,lip gloss,73,358.0348712,midwest
+1403,Hallagan,3/21/22,lip gloss,66,324.1976116,midwest
+1404,Betsy,8/18/24,lip gloss,70,343.0404051,west
+1405,Zaret,12/10/22,foundation,78,382.1676556,east
+1406,Jen,11/5/23,mascara,22,108.4834066,east
+1407,Emilee,10/5/22,mascara,21,105.6522896,south
+1408,Betsy,10/16/22,lip gloss,8,41.83642366,east
+1409,Ashley,2/17/22,mascara,62,304.2378261,west
+1410,Colleen,5/11/24,mascara,81,396.1020934,east
+1411,Zaret,12/21/22,lip gloss,72,353.4397047,east
+1412,Hallagan,10/12/24,eye liner,13,66.99813835,west
+1413,Betsy,8/31/23,lipstick,52,255.0183463,south
+1414,Cristina,1/21/24,eye liner,49,239.9330056,west
+1415,Cristina,3/21/22,eye liner,82,402.0340336,south
+1416,Zaret,4/8/24,eye liner,5,27.56541832,midwest
+1417,Jen,9/22/23,mascara,45,221.7072205,west
+1418,Emilee,12/8/23,mascara,10,44.30846251,midwest
+1419,Ashley,12/6/24,eye liner,53,260.5796577,midwest
+1420,Hallagan,3/30/23,lipstick,24,119.2580244,east
+1421,Cristina,7/16/24,lip gloss,27,134.8360381,midwest
+1422,Jen,4/30/24,foundation,52,256.9806274,west
+1423,Zaret,10/23/24,foundation,0,2.886148048,east
+1424,Cristina,6/17/22,mascara,92,451.4158033,east
+1425,Emilee,10/23/24,mascara,22,109.6849923,east
+1426,Cici,4/30/24,eye liner,67,328.7040026,west
+1427,Zaret,10/14/23,mascara,7,37.3156103,west
+1428,Cici,5/15/22,eye liner,10,45.29962965,south
+1429,Colleen,8/18/24,mascara,10,51.30089307,midwest
+1430,Cristina,6/26/23,foundation,15,75.2936334,midwest
+1431,Ashley,6/26/23,lipstick,0,3.452067059,south
+1432,Zaret,3/17/24,foundation,93,455.0724406,east
+1433,Hallagan,1/21/24,foundation,57,279.6472833,west
+1434,Cristina,9/24/22,lip gloss,69,338.2001323,west
+1435,Cici,12/30/23,foundation,53,261.8700384,south
+1436,Ashley,10/23/24,lipstick,67,329.7761586,south
+1437,Cici,4/1/22,eye liner,23,114.5472075,east
+1438,Colleen,6/17/22,mascara,43,212.4795101,west
+1439,Jen,10/23/24,lip gloss,69,339.2201531,west
+1440,Hallagan,10/1/24,lipstick,45,221.135544,midwest
+1441,Zaret,11/5/23,eye liner,70,342.9555736,west
+1442,Colleen,10/23/24,mascara,91,444.6922705,east
+1443,Emilee,12/17/24,mascara,33,162.779876,midwest
+1444,Colleen,8/7/24,foundation,90,441.2196272,midwest
+1445,Colleen,12/21/22,mascara,17,85.07634215,east
+1446,Zaret,7/31/22,eye liner,7,30.64511555,east
+1447,Ashley,9/2/22,mascara,21,105.1584805,west
+1448,Jen,8/9/23,foundation,14,71.81106544,midwest
+1449,Zaret,4/19/24,lipstick,84,411.9211611,east
+1450,Cristina,1/21/24,lipstick,92,450.5688548,west
+1451,Zaret,10/23/24,lip gloss,1,0.208331085,west
+1452,Zaret,5/13/23,lip gloss,73,359.7805606,south
+1453,Cici,1/10/24,foundation,48,237.2021541,east
+1454,Cici,12/10/22,eye liner,72,351.6733747,south
+1455,Betsy,7/5/24,foundation,42,206.7261167,east
+1456,Zaret,12/21/22,foundation,80,392.3762248,west
+1457,Zaret,8/31/23,foundation,56,276.7860538,south
+1458,Jen,1/26/22,mascara,46,227.7345203,east
+1459,Betsy,6/2/24,eye liner,45,221.5709055,west
+1460,Ashley,6/4/23,foundation,53,259.8506542,east
+1461,Ashley,10/3/23,eye liner,51,251.1834757,west
+1462,Cristina,12/19/23,mascara,64,313.1444319,east
+1463,Betsy,11/7/22,eye liner,15,76.28039012,west
+1464,Zaret,4/1/22,lipstick,33,164.7538162,east
+1465,Emilee,5/11/24,eye liner,31,153.9820814,west
+1466,Ashley,12/19/23,lipstick,51,251.3992598,east
+1467,Cristina,8/18/24,foundation,7,30.19046046,east
+1468,Ashley,5/13/23,eye liner,37,181.5599837,east
+1469,Betsy,6/15/23,foundation,43,212.1775488,south
+1470,Cici,5/22/24,mascara,63,308.9211992,south
+1471,Colleen,7/9/22,eye liner,29,145.1342063,west
+1472,Cici,12/8/23,mascara,20,100.3494286,midwest
+1473,Emilee,3/28/24,eye liner,48,237.2364286,west
+1474,Betsy,7/29/23,eye liner,94,460.5765556,midwest
+1475,Betsy,9/9/24,foundation,41,202.3111653,midwest
+1476,Betsy,1/23/23,eye liner,45,222.8248562,south
+1477,Jen,5/13/23,lip gloss,69,337.9426286,west
+1478,Ashley,4/1/22,mascara,48,236.7910908,south
+1479,Cristina,1/23/23,mascara,38,187.4391754,west
+1480,Betsy,1/21/24,lip gloss,49,241.5590435,south
+1481,Colleen,9/2/22,foundation,79,387.4234542,west
+1482,Ashley,7/18/23,foundation,93,455.7729657,south
+1483,Colleen,12/21/22,foundation,67,327.9463496,west
+1484,Betsy,5/22/24,foundation,13,66.93640664,east
+1485,Ashley,10/14/23,lip gloss,71,348.8868059,west
+1486,Betsy,10/23/24,foundation,15,75.14621027,west
+1487,Zaret,9/11/23,eye liner,89,435.9803203,south
+1488,Zaret,10/25/23,mascara,65,319.9438425,midwest
+1489,Zaret,12/21/22,eye liner,16,80.96374683,midwest
+1490,Betsy,6/2/24,lip gloss,48,236.7296316,east
+1491,Hallagan,8/31/23,eye liner,78,382.2277278,midwest
+1492,Cici,1/26/22,lip gloss,5,27.84999969,west
+1493,Emilee,1/10/24,lip gloss,33,164.7651673,west
+1494,Ashley,3/28/24,foundation,73,357.413228,midwest
+1495,Betsy,7/20/22,mascara,93,454.996859,south
+1496,Betsy,12/30/23,foundation,37,183.4526238,east
+1497,Colleen,7/29/23,lip gloss,23,113.9477107,south
+1498,Colleen,11/27/23,lip gloss,3,11.67792582,west
+1499,Jen,2/23/24,eye liner,39,192.7077626,south
+1500,Betsy,4/30/24,eye liner,83,407.2740051,midwest
+1501,Emilee,8/29/24,foundation,65,320.4499664,south
+1502,Betsy,11/29/22,lip gloss,13,67.61784825,east
+1503,Emilee,11/16/23,foundation,9,46.74655726,east
+1504,Cristina,12/17/24,eye liner,4,16.77227377,south
+1505,Ashley,10/27/22,mascara,22,109.7473619,south
+1506,Hallagan,3/30/23,mascara,3,11.16506926,south
+1507,Colleen,7/31/22,mascara,58,285.4408402,south
+1508,Cristina,8/22/22,eye liner,65,318.555366,south
+1509,Colleen,6/28/22,eye liner,9,46.10368559,midwest
+1510,Emilee,10/23/24,lipstick,18,91.20639114,south
+1511,Hallagan,5/4/22,foundation,55,270.1805624,east
+1512,Cristina,1/12/23,eye liner,69,339.5005317,south
+1513,Zaret,4/12/22,eye liner,51,252.0065599,west
+1514,Ashley,1/21/24,lipstick,23,115.2630128,south
+1515,Betsy,4/19/24,lip gloss,38,187.6105149,west
+1516,Zaret,11/29/22,lipstick,8,36.10427831,midwest
+1517,Hallagan,10/23/24,eye liner,20,100.0877521,west
+1518,Cristina,7/7/23,lip gloss,25,124.4169437,west
+1519,Betsy,10/23/24,eye liner,6,26.09163275,west
+1520,Zaret,7/27/24,lip gloss,88,432.1708002,midwest
+1521,Jen,5/22/24,eye liner,62,303.817712,south
+1522,Hallagan,1/4/22,lipstick,80,392.299401,south
+1523,Cici,3/10/22,lipstick,66,323.5201028,west
+1524,Emilee,11/7/22,foundation,34,169.2078772,west
+1525,Hallagan,12/10/22,eye liner,49,242.7022683,midwest
+1526,Cici,7/20/22,lip gloss,45,221.8157763,south
+1527,Cristina,12/19/23,foundation,16,80.43330384,west
+1528,Jen,8/20/23,lipstick,45,221.3533449,west
+1529,Ashley,6/17/22,eye liner,1,9.276683695,midwest
+1530,Cici,7/29/23,mascara,33,163.5722963,south
+1531,Hallagan,8/31/23,lipstick,37,183.1236678,south
+1532,Ashley,7/7/23,eye liner,46,225.7260869,west
+1533,Betsy,2/6/22,foundation,71,348.8672722,south
+1534,Zaret,11/29/22,mascara,59,290.1696315,west
+1535,Zaret,4/21/23,lipstick,84,410.7365544,west
+1536,Zaret,6/24/24,eye liner,91,444.258376,west
+1537,Cristina,3/10/22,lip gloss,33,162.3705234,west
+1538,Cici,12/21/22,eye liner,34,168.5471154,east
+1539,Zaret,10/23/24,lip gloss,1,8.618260044,west
+1540,Hallagan,2/28/22,eye liner,42,208.538857,west
+1541,Cici,12/19/23,eye liner,45,223.4463121,east
+1542,Emilee,10/16/22,lip gloss,26,129.6511722,east
+1543,Ashley,1/26/22,eye liner,72,353.6918554,south
+1544,Zaret,7/27/24,eye liner,5,21.69294952,west
+1545,Colleen,3/21/22,foundation,31,153.3539218,south
+1546,Cici,1/4/22,lip gloss,48,236.3719288,south
+1547,Colleen,11/3/24,mascara,84,410.8273566,midwest
+1548,Zaret,2/23/24,eye liner,54,265.5108855,south
+1549,Colleen,1/15/22,mascara,44,217.3865903,west
+1550,Cristina,10/27/22,lip gloss,40,197.7263713,south
+1551,Betsy,8/31/23,lip gloss,25,124.5719497,west
+1552,Emilee,2/28/22,lip gloss,8,34.80078778,south
+1553,Cristina,5/11/24,eye liner,59,289.4952437,west
+1554,Zaret,12/21/22,eye liner,59,290.141,east
+1555,Emilee,11/16/23,foundation,34,168.0315998,midwest
+1556,Emilee,11/29/22,mascara,27,133.9428245,midwest
+1557,Cici,10/23/24,foundation,3,17.32600937,south
+1558,Hallagan,8/20/23,mascara,89,435.974013,west
+1559,Hallagan,5/13/23,eye liner,58,285.090192,south
+1560,Cici,1/12/23,lipstick,52,256.0340631,west
+1561,Cici,7/27/24,mascara,32,158.8369941,east
+1562,Cristina,9/11/23,mascara,3,17.14618481,south
+1563,Zaret,11/18/22,eye liner,45,222.0685537,west
+1564,Colleen,11/29/22,eye liner,91,446.4040451,east
+1565,Zaret,2/12/24,foundation,8,34.74700541,south
+1566,Betsy,3/19/23,mascara,7,31.00039467,midwest
+1567,Hallagan,11/5/23,foundation,33,163.4361247,west
+1568,Colleen,5/13/23,lip gloss,7,30.46760696,south
+1569,Colleen,10/12/24,foundation,82,402.4492003,east
+1570,Ashley,6/6/22,eye liner,87,425.8112643,east
+1571,Cici,2/14/23,mascara,93,456.0777,midwest
+1572,Cristina,10/14/23,foundation,72,353.4338706,south
+1573,Jen,10/16/22,mascara,11,56.88827954,east
+1574,Colleen,7/16/24,lip gloss,18,90.36380218,south
+1575,Betsy,8/18/24,foundation,93,455.6393531,east
+1576,Hallagan,8/20/23,foundation,56,276.089456,west
+1577,Ashley,9/24/22,lip gloss,66,323.5184479,midwest
+1578,Ashley,1/12/23,lip gloss,95,464.543588,west
+1579,Zaret,7/7/23,mascara,61,299.4393177,midwest
+1580,Colleen,7/16/24,lip gloss,26,128.5023962,east
+1581,Emilee,12/8/23,mascara,29,144.3686265,west
+1582,Emilee,2/14/23,lip gloss,61,299.3641639,east
+1583,Hallagan,6/13/24,mascara,3,11.35028083,south
+1584,Cici,1/10/24,foundation,40,197.7254408,south
+1585,Hallagan,7/16/24,foundation,86,421.7945395,west
+1586,Cici,6/4/23,lipstick,58,286.0579819,midwest
+1587,Hallagan,2/14/23,eye liner,13,66.67754411,west
+1588,Cici,12/28/24,eye liner,14,71.9824048,south
+1589,Emilee,4/21/23,mascara,85,415.8157289,south
+1590,Cristina,2/1/24,lip gloss,42,206.7121344,midwest
+1591,Cici,11/14/24,lipstick,11,57.39255621,west
+1592,Jen,1/26/22,lip gloss,32,159.4161466,south
+1593,Hallagan,1/23/23,lip gloss,79,387.608714,south
+1594,Emilee,6/17/22,lip gloss,25,124.8157302,west
+1595,Cristina,11/27/23,foundation,94,460.1777587,west
+1596,Colleen,11/14/24,eye liner,6,32.49267334,midwest
+1597,Zaret,6/15/23,lipstick,15,75.43864267,west
+1598,Cristina,6/28/22,eye liner,15,76.5490828,east
+1599,Emilee,3/10/22,foundation,81,396.4298867,east
+1600,Betsy,4/10/23,eye liner,94,459.2032342,east
+1601,Zaret,1/15/22,mascara,11,57.00347205,midwest
+1602,Colleen,4/1/22,eye liner,12,61.85646888,west
+1603,Hallagan,8/31/23,eye liner,85,416.5643452,midwest
+1604,Zaret,11/25/24,eye liner,39,192.8692438,south
+1605,Zaret,7/9/22,foundation,9,47.15582672,east
+1606,Zaret,2/3/23,mascara,25,125.618108,west
+1607,Jen,6/6/22,eye liner,79,388.6218635,midwest
+1608,Hallagan,5/26/22,eye liner,83,406.0071899,midwest
+1609,Hallagan,12/8/23,foundation,3,10.43952726,south
+1610,Cici,2/23/24,mascara,62,304.9427325,midwest
+1611,Cici,2/6/22,eye liner,6,31.29056747,east
+1612,Ashley,4/8/24,mascara,13,67.05949118,midwest
+1613,Emilee,9/22/23,eye liner,88,431.167973,west
+1614,Emilee,4/12/22,eye liner,35,172.8618332,west
+1615,Cristina,10/16/22,eye liner,61,300.3185622,midwest
+1616,Hallagan,7/29/23,eye liner,95,465.1905769,west
+1617,Emilee,1/1/23,eye liner,30,149.7155817,east
+1618,Emilee,7/16/24,eye liner,1,2.652049226,east
+1619,Betsy,1/1/23,lipstick,5,27.42349189,midwest
+1620,Betsy,3/8/23,foundation,42,206.2527623,east
+1621,Zaret,5/2/23,eye liner,14,72.15583795,midwest
+1622,Cristina,8/9/23,eye liner,4,16.20970537,south
+1623,Cici,1/21/24,foundation,27,133.2552784,south
+1624,Cici,5/4/22,mascara,5,27.71975228,east
+1625,Ashley,3/19/23,mascara,57,280.740248,south
+1626,Hallagan,10/5/22,lip gloss,78,381.6898631,west
+1627,Cici,9/9/24,mascara,11,57.19236205,midwest
+1628,Cristina,10/5/22,lip gloss,55,270.4324642,south
+1629,Ashley,10/5/22,mascara,15,76.12083277,east
+1630,Cristina,2/6/22,eye liner,53,261.4554293,midwest
+1631,Zaret,8/20/23,lip gloss,70,343.4576691,midwest
+1632,Cici,8/18/24,foundation,56,275.4511866,east
+1633,Zaret,5/22/24,eye liner,91,446.2647951,east
+1634,Jen,12/21/22,lipstick,55,271.8452336,midwest
+1635,Cristina,10/25/23,mascara,1,7.624959863,south
+1636,Cristina,2/3/23,eye liner,23,114.5927048,west
+1637,Hallagan,12/19/23,lip gloss,0,3.725772212,east
+1638,Cristina,12/21/22,mascara,86,421.1431619,west
+1639,Colleen,4/1/22,eye liner,13,66.40387401,midwest
+1640,Ashley,4/19/24,mascara,54,265.1754559,west
+1641,Colleen,3/10/22,mascara,82,401.2043744,east
+1642,Emilee,2/14/23,foundation,27,133.8871558,midwest
+1643,Zaret,10/12/24,lipstick,84,412.4251489,west
+1644,Ashley,5/4/22,eye liner,56,275.8038075,east
+1645,Betsy,2/28/22,lipstick,92,449.1763378,south
+1646,Betsy,1/15/22,lip gloss,25,125.6373481,west
+1647,Betsy,1/1/23,eye liner,67,328.8672204,east
+1648,Cici,4/12/22,lipstick,75,367.5203498,west
+1649,Emilee,9/22/23,eye liner,14,71.50764315,midwest
+1650,Cristina,12/19/23,lip gloss,48,236.214296,west
+1651,Colleen,5/15/22,foundation,73,358.2921669,west
+1652,Hallagan,6/4/23,foundation,28,138.7466631,east
+1653,Ashley,11/27/23,eye liner,12,62.44127696,west
+1654,Cici,5/2/23,lip gloss,50,246.4237165,south
+1655,Cristina,10/1/24,foundation,5,20.4784006,midwest
+1656,Hallagan,1/23/23,lip gloss,6,31.55149894,east
+1657,Hallagan,2/25/23,foundation,63,308.7211723,east
+1658,Emilee,6/13/24,foundation,33,163.2202557,midwest
+1659,Cici,9/24/22,eye liner,61,299.9679769,south
+1660,Colleen,12/10/22,foundation,16,82.1487039,east
+1661,Jen,6/2/24,eye liner,15,76.37125707,midwest
+1662,Colleen,7/27/24,eye liner,1,0.971182378,south
+1663,Hallagan,6/4/23,lip gloss,28,138.2818461,west
+1664,Jen,10/1/24,foundation,74,362.1281491,east
+1665,Emilee,4/12/22,lip gloss,60,295.697908,east
+1666,Cristina,5/2/23,mascara,26,129.0245564,midwest
+1667,Hallagan,2/28/22,foundation,41,202.1848519,east
+1668,Ashley,5/15/22,lip gloss,1,1.1805863,south
+1669,Ashley,7/5/24,lip gloss,89,435.3202514,east
+1670,Hallagan,6/6/22,mascara,12,61.61568526,east
+1671,Cristina,10/16/22,eye liner,21,106.7767862,south
+1672,Jen,6/24/24,mascara,23,115.8594373,west
+1673,Cici,3/30/23,foundation,7,30.19837678,south
+1674,Betsy,3/10/22,foundation,35,172.7745444,south
+1675,Ashley,9/13/22,mascara,94,459.748124,midwest
+1676,Ashley,11/5/23,eye liner,88,430.8576505,south
+1677,Ashley,3/10/22,lipstick,26,129.2733977,south
+1678,Cici,7/9/22,foundation,83,406.5989089,south
+1679,Emilee,6/2/24,mascara,11,56.17750823,west
+1680,Colleen,9/20/24,foundation,18,91.64367122,east
+1681,Zaret,3/19/23,eye liner,90,441.223016,east
+1682,Colleen,10/3/23,mascara,12,62.14087869,east
+1683,Colleen,1/26/22,lip gloss,39,192.1888449,midwest
+1684,Colleen,2/17/22,lipstick,45,223.090611,midwest
+1685,Zaret,12/6/24,foundation,74,361.6530406,east
+1686,Colleen,7/18/23,foundation,95,464.9066403,south
+1687,Hallagan,6/6/22,lip gloss,48,235.6766578,west
+1688,Betsy,10/16/22,mascara,3,11.43023147,midwest
+1689,Cristina,5/24/23,lipstick,92,451.1944641,midwest
+1690,Zaret,3/8/23,mascara,17,86.31173304,east
+1691,Hallagan,10/27/22,lip gloss,45,220.8259806,south
+1692,Cristina,10/12/24,lipstick,62,304.5147846,south
+1693,Zaret,10/27/22,foundation,52,256.0345921,midwest
+1694,Hallagan,5/26/22,lipstick,73,358.4080359,south
+1695,Cici,7/18/23,lipstick,38,188.7944946,south
+1696,Hallagan,12/19/23,eye liner,0,2.763674105,west
+1697,Jen,10/16/22,eye liner,70,343.1312754,south
+1698,Cici,5/13/23,foundation,8,35.9065383,midwest
+1699,Cici,4/30/24,eye liner,65,319.0584566,west
+1700,Cici,11/25/24,lip gloss,5,19.82097899,east
+1701,Cici,7/29/23,foundation,34,169.2276108,east
+1702,Colleen,3/28/24,lip gloss,72,352.9751122,west
+1703,Jen,2/3/23,eye liner,1,1.060205371,south
+1704,Emilee,12/8/23,lip gloss,40,197.8711493,west
+1705,Hallagan,9/9/24,mascara,65,318.6618858,east
+1706,Cici,7/5/24,lip gloss,77,376.5161965,midwest
+1707,Jen,4/19/24,mascara,51,251.1022637,south
+1708,Zaret,4/10/23,foundation,9,40.66730641,east
+1709,Jen,3/30/23,mascara,17,85.42725091,midwest
+1710,Ashley,4/10/23,eye liner,11,56.38697956,midwest
+1711,Emilee,6/24/24,lip gloss,40,197.0708909,east
+1712,Ashley,8/20/23,foundation,67,328.4142274,west
+1713,Cici,7/29/23,lipstick,79,387.5860816,south
+1714,Zaret,5/15/22,foundation,7,31.03897705,south
+1715,Zaret,5/24/23,mascara,72,353.2567091,east
+1716,Colleen,7/29/23,eye liner,53,260.4457936,west
+1717,Emilee,7/5/24,eye liner,35,174.0032163,east
+1718,Ashley,11/3/24,lip gloss,39,192.246273,midwest
+1719,Colleen,7/9/22,mascara,7,31.35360793,south
+1720,Cristina,6/17/22,eye liner,68,334.2776663,east
+1721,Emilee,10/27/22,eye liner,86,421.6698205,midwest
+1722,Betsy,8/31/23,lipstick,84,412.7376238,east
+1723,Cristina,11/25/24,mascara,6,32.34336537,west
+1724,Betsy,1/10/24,lipstick,5,20.69127852,south
+1725,Cristina,4/8/24,lip gloss,22,110.0575124,midwest
+1726,Betsy,12/8/23,eye liner,29,144.3657105,east
+1727,Cici,11/7/22,lip gloss,3,17.64153054,south
+1728,Ashley,3/28/24,eye liner,88,430.1508883,east
+1729,Emilee,2/25/23,eye liner,41,202.4825708,midwest
+1730,Jen,2/14/23,foundation,59,289.7147739,east
+1731,Jen,10/5/22,mascara,29,144.6038869,south
+1732,Ashley,2/17/22,mascara,43,211.0854414,west
+1733,Cici,4/19/24,lip gloss,75,368.5780679,east
+1734,Betsy,8/22/22,mascara,40,197.1671498,east
+1735,Cici,11/18/22,mascara,78,382.1362317,south
+1736,Zaret,3/19/23,eye liner,38,187.5921689,midwest
+1737,Emilee,6/4/23,mascara,3,10.29395106,west
+1738,Hallagan,4/23/22,foundation,34,168.3145449,west
+1739,Ashley,5/4/22,eye liner,85,415.4420521,east
+1740,Cristina,11/16/23,foundation,70,343.486939,west
+1741,Emilee,11/3/24,eye liner,86,420.8067916,midwest
+1742,Cici,12/17/24,foundation,47,231.5496874,east
+1743,Colleen,6/13/24,lipstick,20,101.4175141,south
+1744,Jen,5/15/22,mascara,33,164.2988873,west
+1745,Cristina,11/7/22,mascara,10,45.1420909,midwest
+1746,Cici,12/6/24,lip gloss,40,198.2874611,south
+1747,Emilee,7/20/22,foundation,13,65.51338675,south
+1748,Ashley,8/29/24,lip gloss,20,100.6989969,south
+1749,Emilee,2/28/22,eye liner,22,111.4214029,west
+1750,Zaret,9/11/23,foundation,91,446.4133264,midwest
+1751,Betsy,5/11/24,lip gloss,17,86.72920477,midwest
+1752,Zaret,11/7/22,lip gloss,77,377.1084631,south
+1753,Cristina,12/6/24,mascara,8,40.77545434,midwest
+1754,Ashley,8/20/23,eye liner,1,1.115826032,south
+1755,Hallagan,6/4/23,lip gloss,52,256.0804693,midwest
+1756,Cici,8/31/23,mascara,50,247.2087803,midwest
+1757,Cici,6/24/24,foundation,69,339.0248204,south
+1758,Emilee,6/2/24,mascara,10,46.05574887,midwest
+1759,Zaret,9/13/22,foundation,10,45.01563135,east
+1760,Jen,10/25/23,mascara,90,441.4053639,midwest
+1761,Ashley,11/14/24,foundation,4,15.8768427,south
+1762,Betsy,8/18/24,lip gloss,14,71.38804118,west
+1763,Emilee,12/19/23,lip gloss,13,67.47560631,east
+1764,Colleen,7/20/22,foundation,10,44.46739194,midwest
+1765,Cici,2/14/23,foundation,81,396.8385975,east
+1766,Betsy,1/1/23,foundation,91,443.9064598,west
+1767,Cristina,12/21/22,lip gloss,7,37.41568779,south
+1768,Betsy,12/19/23,eye liner,95,463.9827988,midwest
+1769,Colleen,3/17/24,mascara,7,38.00584549,east
+1770,Emilee,4/10/23,mascara,9,47.78466877,east
+1771,Emilee,5/4/22,foundation,16,81.52333601,south
+1772,Ashley,2/25/23,lip gloss,37,182.4806344,east
+1773,Cici,10/1/24,lip gloss,38,187.7044485,west
+1774,Betsy,9/20/24,lipstick,43,211.2165515,east
+1775,Cici,7/5/24,mascara,5,20.49252491,midwest
+1776,Emilee,11/14/24,eye liner,9,46.90076244,west
+1777,Betsy,1/10/24,lip gloss,9,39.93845052,east
+1778,Jen,8/31/23,lipstick,24,120.8701899,east
+1779,Cici,5/4/22,lip gloss,30,148.0194978,midwest
+1780,Cristina,12/8/23,lip gloss,83,406.3690313,west
+1781,Emilee,3/21/22,lip gloss,90,440.4304968,east
+1782,Colleen,3/30/23,eye liner,82,402.1291655,south
+1783,Hallagan,10/25/23,eye liner,51,251.4779344,midwest
+1784,Cici,1/4/22,lip gloss,66,324.2026852,west
+1785,Emilee,12/30/23,mascara,29,144.2065798,south
+1786,Ashley,10/3/23,lip gloss,93,455.0167881,east
+1787,Jen,10/12/24,eye liner,3,10.59801414,midwest
+1788,Ashley,9/9/24,lip gloss,2,5.889528108,south
+1789,Cristina,10/5/22,lipstick,79,387.5862625,midwest
+1790,Betsy,12/28/24,lip gloss,31,153.4487571,east
+1791,Hallagan,5/13/23,foundation,46,227.1485843,south
+1792,Emilee,12/28/24,foundation,93,456.4926863,west
+1793,Emilee,3/10/22,lip gloss,82,400.171075,midwest
+1794,Cici,12/6/24,lipstick,87,427.22208,south
+1795,Ashley,12/10/22,foundation,62,303.8596538,east
+1796,Cristina,12/21/22,foundation,31,153.2066286,south
+1797,Ashley,8/11/22,mascara,43,212.755966,east
+1798,Cristina,11/7/22,lip gloss,78,383.0334315,midwest
+1799,Cristina,7/31/22,lip gloss,1,0.715970686,south
+1800,Zaret,3/10/22,lipstick,5,28.30109146,south
+1801,Cristina,5/22/24,lipstick,30,149.54263,south
+1802,Hallagan,4/19/24,eye liner,65,319.4248859,west
+1803,Cici,5/11/24,mascara,14,70.94936236,south
+1804,Cici,11/27/23,foundation,10,50.64049163,west
+1805,Betsy,3/10/22,lipstick,31,153.4619212,midwest
+1806,Betsy,4/19/24,mascara,25,124.9070669,south
+1807,Betsy,3/19/23,lipstick,11,57.17893124,south
+1808,Betsy,1/15/22,foundation,62,303.7698067,west
+1809,Ashley,1/26/22,foundation,4,22.98209977,west
+1810,Zaret,9/9/24,eye liner,4,22.21643246,midwest
+1811,Cristina,11/27/23,lip gloss,71,348.4968158,east
+1812,Jen,5/22/24,lipstick,67,329.1541267,east
+1813,Emilee,4/21/23,lip gloss,19,96.31199486,west
+1814,Cici,6/26/23,lip gloss,12,60.96790183,south
+1815,Zaret,6/24/24,lip gloss,50,245.70244,midwest
+1816,Betsy,2/12/24,lipstick,73,358.3966792,east
+1817,Cici,8/18/24,lipstick,30,148.5326303,east
+1818,Ashley,9/13/22,mascara,19,95.74437633,south
+1819,Jen,6/4/23,eye liner,48,235.2523103,east
+1820,Hallagan,5/22/24,mascara,8,34.99626657,east
+1821,Cici,8/18/24,lip gloss,8,35.87252189,south
+1822,Cici,3/30/23,lip gloss,28,139.1689641,south
+1823,Zaret,9/22/23,mascara,81,397.2452472,west
+1824,Zaret,1/12/23,lip gloss,12,61.54690397,east
+1825,Zaret,3/6/24,eye liner,54,265.7346543,east
+1826,Zaret,5/24/23,foundation,70,343.9352671,south
+1827,Zaret,8/9/23,eye liner,89,435.8980839,east
+1828,Cristina,9/11/23,foundation,10,52.28054476,east
+1829,Betsy,1/4/22,foundation,52,256.2448266,east
+1830,Cristina,7/7/23,mascara,85,417.6630406,west
+1831,Ashley,6/26/23,foundation,31,152.2535972,south
+1832,Emilee,3/17/24,mascara,36,178.2484426,south
+1833,Colleen,4/12/22,lip gloss,80,391.7703334,midwest
+1834,Colleen,7/29/23,mascara,27,133.5783171,west
+1835,Cristina,5/4/22,foundation,46,227.4390275,south
+1836,Cristina,7/20/22,foundation,29,145.1155749,south
+1837,Jen,2/12/24,lip gloss,55,270.5983509,midwest
+1838,Emilee,9/13/22,mascara,2,11.85413057,south
+1839,Betsy,6/24/24,foundation,60,295.4759229,west
+1840,Zaret,7/29/23,lip gloss,12,61.3196961,east
+1841,Jen,5/15/22,mascara,52,255.7706198,south
+1842,Ashley,4/23/22,lip gloss,37,183.5037244,midwest
+1843,Ashley,9/24/22,lipstick,36,179.0407805,south
+1844,Cici,4/23/22,lip gloss,87,425.7572681,east
+1845,Cristina,2/1/24,mascara,16,81.45291067,midwest
+1846,Emilee,7/18/23,lip gloss,50,246.444016,east
+1847,Hallagan,2/1/24,mascara,53,260.2167852,south
+1848,Cici,5/26/22,foundation,61,299.3127197,midwest
+1849,Ashley,7/7/23,foundation,95,464.6569261,south
+1850,Colleen,8/22/22,lipstick,6,26.87481925,south
+1851,Emilee,8/11/22,lip gloss,9,40.11128689,east
+1852,Cristina,3/17/24,eye liner,74,362.6005691,midwest
+1853,Hallagan,12/8/23,lip gloss,18,89.94911779,south
+1854,Zaret,3/6/24,eye liner,73,357.4864283,east
+1855,Emilee,12/10/22,eye liner,62,305.2513866,west
+1856,Colleen,7/5/24,foundation,2,5.819749146,south
+1857,Cristina,10/1/24,foundation,7,30.68128278,south
+1858,Cristina,8/18/24,mascara,73,357.6542236,east
+1859,Hallagan,4/10/23,eye liner,24,119.2093023,south
+1860,Betsy,10/3/23,lipstick,18,90.85681699,east
+1861,Hallagan,11/25/24,mascara,49,242.0359999,west
+1862,Cici,1/1/23,mascara,21,104.7878737,midwest
+1863,Colleen,5/15/22,foundation,2,12.95002108,south
+1864,Cici,11/18/22,foundation,83,406.4181375,south
+1865,Colleen,1/1/23,lip gloss,63,309.6591229,south
+1866,Cristina,2/28/22,lipstick,54,265.4633823,midwest
+1867,Colleen,9/13/22,lip gloss,19,96.73872257,west
+1868,Cici,9/13/22,eye liner,66,322.9657873,east
+1869,Betsy,5/26/22,lip gloss,60,295.2947563,south
+1870,Ashley,8/18/24,eye liner,90,440.4003702,midwest
+1871,Emilee,12/17/24,lip gloss,59,289.4134897,south
+1872,Emilee,10/3/23,foundation,0,4.302831619,east
+1873,Jen,3/21/22,foundation,72,352.9982437,midwest
+1874,Betsy,7/20/22,lip gloss,6,25.4922547,east
+1875,Hallagan,5/22/24,lip gloss,89,436.4207556,west
+1876,Ashley,5/11/24,lip gloss,12,61.29709223,west
+1877,Cristina,8/9/23,mascara,89,436.0190194,south
+1878,Zaret,4/21/23,lip gloss,61,300.2099571,midwest
+1879,Colleen,7/18/23,eye liner,24,119.574066,west
+1880,Emilee,11/25/24,eye liner,76,372.4668492,west
+1881,Cici,6/15/23,foundation,16,80.60145959,east
+1882,Betsy,4/10/23,foundation,39,193.0859076,east
+1883,Cici,2/23/24,mascara,92,451.064556,west
+1884,Cici,7/31/22,foundation,20,100.3166491,midwest
+1885,Colleen,5/15/22,lip gloss,60,294.6299636,east
+1886,Emilee,11/27/23,eye liner,15,76.40085618,east
+1887,Ashley,2/14/23,foundation,36,177.9450106,east
+1888,Colleen,11/5/23,lip gloss,46,227.462417,west
+1889,Zaret,1/15/22,lipstick,72,352.8941357,west
+1890,Hallagan,11/3/24,eye liner,28,138.7640638,south
+1891,Cristina,6/13/24,eye liner,54,266.4694815,midwest
