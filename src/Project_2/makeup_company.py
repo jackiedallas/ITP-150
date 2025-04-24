@@ -1,7 +1,7 @@
 import csv
 import os
 from collections import Counter
-from typing import List, Dict
+from typing import List, Dict, Tuple
 
 DATA_FILE = 'YetAnotherMakeupCompany.csv'
 OUTPUT_FILE = 'makeup_stats.csv'
@@ -13,14 +13,12 @@ SAVE_STATS = 5
 QUIT = 99
 
 def main():
-    
     # Check if the data file exists
     if not os.path.isfile(DATA_FILE):
         print(f'Error: {DATA_FILE} file not found.')
         return
     
-    makeup_list = read_csv(DATA_FILE) # initialize makeup list
-    makeup_dictionary = {} # initialize makeup dictionary
+    makeup_data = read_csv(DATA_FILE)  # Initialize makeup data as a dictionary
     
     # Menu Choices
     menu = (
@@ -39,34 +37,48 @@ def main():
         choice = input_menu_choice(menu, [PRINT_LIST, HIGHEST_SALES, LOWEST_SALES, CALC_AVERAGE, SAVE_STATS, QUIT])
         
         if choice == PRINT_LIST:
-            print_list(makeup_list)
+            print_list(makeup_data)
         elif choice == HIGHEST_SALES:
-            value, name = highest_sales(makeup_list)
+            value, name = highest_sales(makeup_data)
             print(f'Person with Highest Sale: {name}')
             print(f'Highest Sale: ${value:.2f}')
         elif choice == LOWEST_SALES:
-            value, name = lowest_sales(makeup_list)
+            value, name = lowest_sales(makeup_data)
             print(f'Person with Lowest Sale: {name}')
             print(f'Lowest Sale: ${value:.2f}')
         elif choice == CALC_AVERAGE:
-            value = calc_average(makeup_list)
+            value = calc_average(makeup_data)
             print(f'Average Sales: ${value:.2f}')
         elif choice == SAVE_STATS:
-            save_stats(makeup_list)
+            save_stats(makeup_data)
         elif choice == QUIT:
             print("Exiting the program.")
             break
-    
-    pass
 
-def read_csv(file: str) -> List[List[int]]:
+def read_csv(file: str) -> Dict[str, List]:
+    """
+    Reads a CSV file and parses the data into a dictionary.
+    Each key is a column name, and the value is a list of column data.
+    """
     try:
-        with open(file, newline='') as f:
-            reader = list(csv.reader(f))
-            return [[int(trans), str(name), str(date), str(product), int(bulk), float(price), str(location)] for trans, name, date, product, bulk, price, location in reader[1:]]
+        with open(file, newline='', encoding='utf-8-sig') as f:
+            reader = csv.reader(f)
+            headers = next(reader)  # Get the column headers
+            data = {header: [] for header in headers}  # Initialize dictionary
+
+            for row in reader:
+                data["Transaction"].append(int(row[0]))
+                data["Name"].append(row[1])
+                data["Date"].append(row[2])
+                data["Product"].append(row[3])
+                data["Bulk"].append(int(row[4]))
+                data["Price"].append(float(row[5]))
+                data["Location"].append(row[6])
+
+            return data
     except Exception as e:
         print(f'Error reading CSV: {e}')
-        return []
+        return {}
     
 def input_menu_choice(menu: str, valid_choices: List[int]) -> int:
     while True:
@@ -82,28 +94,42 @@ def input_menu_choice(menu: str, valid_choices: List[int]) -> int:
         except ValueError:
             print('Invalid input. Please enter a number.')           
 
-def print_list(data):
+def print_list(data: Dict[str, List]):
+    """
+    Prints the data in a tabular format.
+    """
     print(f'{"Transaction":<15} {"Name":<15} {"Date":<15} {"Product":<15} {"Bulk":<10} {"Price":<10} {"Location":<15}')
-    for row in data:
-        print(f'{row[0]:<15} {row[1]:<15} {row[2]:<15} {row[3]:<15} {row[4]:<10d} {row[5]:<10.2f} {row[6]:<15}')
+    for i in range(len(data["Transaction"])):
+        print(f'{data["Transaction"][i]:<15} {data["Name"][i]:<15} {data["Date"][i]:<15} {data["Product"][i]:<15} '
+              f'{data["Bulk"][i]:<10d} {data["Price"][i]:<10.2f} {data["Location"][i]:<15}')
 
-def highest_sales(data: List[List[int]]) -> float:
-    highest = max(data, key=lambda x: x[5])
-    return highest[5], highest[1]
+def highest_sales(data: Dict[str, List]) -> Tuple[float, str]:
+    """
+    Finds the highest sales value and the name of the person in that row.
+    """
+    max_index = data["Price"].index(max(data["Price"]))  # Find the index of the max price
+    return data["Price"][max_index], data["Name"][max_index]  # Return the price and name
 
-def lowest_sales(data: List[List[int]]) -> float:
-    lowest = min(data, key=lambda x: x[5])
-    return lowest[5], lowest[1]
+def lowest_sales(data: Dict[str, List]) -> Tuple[float, str]:
+    """
+    Finds the lowest sales value and the name of the person in that row.
+    """
+    min_index = data["Price"].index(min(data["Price"]))  # Find the index of the min price
+    return data["Price"][min_index], data["Name"][min_index]  # Return the price and name
 
-def calc_average(data: List[List[int]]) -> float:
-    total_sales = sum(row[5] for row in data)
-    if data:
-        total_sales = sum(row[5] for row in data)
-        return total_sales / len(data)
-    else: 
+def calc_average(data: Dict[str, List]) -> float:
+    """
+    Calculates the average sales value.
+    """
+    if data["Price"]:
+        return sum(data["Price"]) / len(data["Price"])
+    else:
         return 0
 
-def save_stats(data: List[List[int]]):
+def save_stats(data: Dict[str, List]):
+    """
+    Saves the highest, lowest, and average sales statistics to a CSV file.
+    """
     try:
         # Calculate highest, lowest, and average sales
         highest_value, highest_name = highest_sales(data)

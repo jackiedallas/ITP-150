@@ -1,4 +1,4 @@
-﻿Transaction Number,Name,Date,Product,Bulk,Dollars,Location
+﻿Transaction,Name,Date,Product,Bulk,Price,Location
 1,Betsy,4/1/22,lip gloss,45,222.2713845,south
 2,Hallagan,3/10/22,foundation,50,246.251831,midwest
 3,Ashley,2/25/23,lipstick,9,46.52556265,midwest
