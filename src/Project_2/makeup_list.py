@@ -99,7 +99,7 @@ def print_list(data: Dict[str, List]):
     print(f'{"Transaction":<15} {"Name":<15} {"Date":<15} {"Product":<15} {"Bulk":<10} {"Price":<10} {"Location":<15}')
     for i in range(len(data["Transaction"])):
         print(f'{data["Transaction"][i]:<15} {data["Name"][i]:<15} {data["Date"][i]:<15} {data["Product"][i]:<15} '
-              f'{data["Bulk"][i]:<10d} {data["Price"][i]:<10.2f} {data["Location"][i]:<15}')
+            f'{data["Bulk"][i]:<10d} {data["Price"][i]:<10.2f} {data["Location"][i]:<15}')
 
 def highest_sales(data: Dict[str, List]) -> Tuple[float, str]:
     
