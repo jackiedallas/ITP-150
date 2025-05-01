@@ -6,9 +6,9 @@ gas_file_solution.py
 """
 
 import csv
-import textwrap
 
 DATA_FILE = 'gas_prices.csv'
+OUTPUT_FILE = 'GasStatistics.txt'
 
 def main():
     
@@ -39,15 +39,8 @@ def main():
     
     print(f'Change in gas price from January 2019 to October 2023: {change_in_percent(data).__format__(".2f")}%\n')
     
-    # Save the processed data to a new CSV file
-    # data_to_save = [average_price, lowest_price, highest_price]
-    # labels = ['Average Price', 'Lowest Price', 'Highest Price']
-    # save_data = [labels, data_to_save]
-    # save_stats(save_data)
-    
-    
-    
-    
+    # Save the processed data to a new text file
+    save_stats(OUTPUT_FILE, data)
 
 def process_data(data):
     try:
@@ -99,30 +92,31 @@ def get_lowest_price(data):
             lowest_price = data[row][5]
             lowest_month = data[row][0]
     return lowest_price, lowest_month
-    for row in data[1:]:
-        if float(row[1]) < lowest_price:
-            lowest_price = float(row[1])
-    return lowest_price
 
 def get_average_price(data):
     """
     Returns the average gas price from the data.
     """
     total_price = 0
-    for row in range(1, len(data), 1):
+    for row in range(1, len(data)):
         total_price += data[row][5]
     average_price = total_price / (len(data) - 1)
-    return average_price.__format__(".2f")   
+    return average_price
+    
 
-def save_stats(data):
+def save_stats(file_path, data):
     """
     Saves the processed data to a new CSV file.
     """
     try:
-        with open('processed_gas_prices.csv', 'w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerows(data)
-        print("Data saved successfully.")
+        output_file = open(file_path, 'w')
+        output_file.write(f'{"Lowest Month":<30s}{get_lowest_price(data)[1]:>15s}{"\n"}')
+        output_file.write(f'{"Lowest Price":<30s}{get_lowest_price(data)[0]:>15.2f}{"\n"}')
+        output_file.write(f'{"Highest Month":<30s}{get_highest_price(data)[1]:>15s}{"\n"}')
+        output_file.write(f'{"Highest Price":<30s}{get_highest_price(data)[0]:>15.2f}{"\n"}')
+        output_file.write(f'{"Average Price 2023":<30s}{get_average_price(data):>15.3f}{"\n"}')
+        output_file.write(f'{"Percent +/-":<30s}{change_in_percent(data):>15.3f}')
+        print(f'\nData saved to {file_path} successfully.')
     except IOError as ierr:
         print(f'An error occurred while writing to the file: {ierr}')
     except Exception as err:

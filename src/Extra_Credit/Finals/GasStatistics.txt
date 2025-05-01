@@ -1,0 +1,6 @@
+Lowest Month                              DEC
+Lowest Price                             3.26
+Highest Month                             SEP
+Highest Price                            3.96
+Average Price 2023                      3.634
+Percent +/-                            -5.457
