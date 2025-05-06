@@ -64,6 +64,7 @@ def read_csv(file: str) -> Dict[str, List]:
         with open(file, newline='', encoding='utf-8-sig') as f:
             reader = csv.reader(f)
             headers = next(reader)  # Get the column headers
+            print(f'Headers: {headers}')  # Print headers for debugging
             data = {header: [] for header in headers}  # Initialize dictionary
 
             for row in reader:
